@@ -24,21 +24,21 @@ except ImportError:
 DATA_FILE = Path(__file__).parent / "prices_all.json"
 
 SETS = [
-    {"id": "op01", "name": "OP-01 Romance Dawn",             "slug": "one-piece-romance-dawn",              "ebay": "One Piece Romance Dawn Booster Box english sealed"},
-    {"id": "op02", "name": "OP-02 Paramount War",            "slug": "one-piece-paramount-war",             "ebay": "One Piece Paramount War Booster Box english sealed"},
-    {"id": "op03", "name": "OP-03 Pillars of Strength",      "slug": "one-piece-pillars-of-strength",       "ebay": "One Piece Pillars of Strength Booster Box english sealed"},
-    {"id": "op04", "name": "OP-04 Kingdoms of Intrigue",     "slug": "one-piece-kingdoms-of-intrigue",      "ebay": "One Piece Kingdoms of Intrigue Booster Box english sealed"},
-    {"id": "op05", "name": "OP-05 Awakening of the New Era", "slug": "one-piece-awakening-of-the-new-era",  "ebay": "One Piece Awakening New Era Booster Box english sealed"},
-    {"id": "op06", "name": "OP-06 Wings of the Captain",     "slug": "one-piece-wings-of-the-captain",      "ebay": "One Piece Wings of the Captain Booster Box english sealed"},
-    {"id": "op07", "name": "OP-07 500 Years in the Future",  "slug": "one-piece-500-years-in-the-future",   "ebay": "One Piece 500 Years in the Future Booster Box english sealed"},
-    {"id": "op08", "name": "OP-08 Two Legends",              "slug": "one-piece-two-legends",               "ebay": "One Piece Two Legends Booster Box english sealed"},
-    {"id": "op09", "name": "OP-09 Emperors in the New World","slug": "one-piece-emperors-in-the-new-world",  "ebay": "One Piece Emperors in the New World Booster Box english sealed"},
-    {"id": "op10", "name": "OP-10 Royal Blood",              "slug": "one-piece-royal-blood",               "ebay": "One Piece Royal Blood Booster Box english sealed"},
-    {"id": "op11", "name": "OP-11 Fist of Divine Speed",     "slug": "one-piece-fist-of-divine-speed",      "ebay": "One Piece Fist of Divine Speed Booster Box english sealed"},
-    {"id": "op12", "name": "OP-12 Legacy of the Master",     "slug": "one-piece-legacy-of-the-master",      "ebay": "One Piece Legacy of the Master Booster Box english sealed"},
-    {"id": "op13", "name": "OP-13 Carrying On His Will",     "slug": "one-piece-carrying-on-his-will",      "ebay": "One Piece Carrying On His Will Booster Box english sealed"},
-    {"id": "op14", "name": "OP-14 Azure Sea's Seven",        "slug": "one-piece-azure-sea%27s-seven",       "ebay": "One Piece Azure Sea Seven OP-14 Booster Box english sealed"},
-    {"id": "op15", "name": "OP-15 Adventure on Kami's Island","slug": "one-piece-adventure-on-kami%27s-island","ebay": "One Piece Adventure Kami Island OP-15 Booster Box sealed"},
+    {"id": "op01", "name": "OP-01 Romance Dawn",             "slug": "one-piece-romance-dawn",              "console": "one-piece-romance-dawn",              "ebay": "One Piece Romance Dawn Booster Box english sealed"},
+    {"id": "op02", "name": "OP-02 Paramount War",            "slug": "one-piece-paramount-war",             "console": "one-piece-paramount-war",             "ebay": "One Piece Paramount War Booster Box english sealed"},
+    {"id": "op03", "name": "OP-03 Pillars of Strength",      "slug": "one-piece-pillars-of-strength",       "console": "one-piece-pillars-of-strength",       "ebay": "One Piece Pillars of Strength Booster Box english sealed"},
+    {"id": "op04", "name": "OP-04 Kingdoms of Intrigue",     "slug": "one-piece-kingdoms-of-intrigue",      "console": "one-piece-kingdoms-of-intrigue",      "ebay": "One Piece Kingdoms of Intrigue Booster Box english sealed"},
+    {"id": "op05", "name": "OP-05 Awakening of the New Era", "slug": "one-piece-awakening-of-the-new-era",  "console": "one-piece-awakening-of-the-new-era",  "ebay": "One Piece Awakening New Era Booster Box english sealed"},
+    {"id": "op06", "name": "OP-06 Wings of the Captain",     "slug": "one-piece-wings-of-the-captain",      "console": "one-piece-wings-of-the-captain",      "ebay": "One Piece Wings of the Captain Booster Box english sealed"},
+    {"id": "op07", "name": "OP-07 500 Years in the Future",  "slug": "one-piece-500-years-in-the-future",   "console": "one-piece-500-years-in-the-future",   "ebay": "One Piece 500 Years in the Future Booster Box english sealed"},
+    {"id": "op08", "name": "OP-08 Two Legends",              "slug": "one-piece-two-legends",               "console": "one-piece-two-legends",               "ebay": "One Piece Two Legends Booster Box english sealed"},
+    {"id": "op09", "name": "OP-09 Emperors in the New World","slug": "one-piece-emperors-in-the-new-world",  "console": "one-piece-emperors-in-the-new-world", "ebay": "One Piece Emperors in the New World Booster Box english sealed"},
+    {"id": "op10", "name": "OP-10 Royal Blood",              "slug": "one-piece-royal-blood",               "console": "one-piece-royal-blood",               "ebay": "One Piece Royal Blood Booster Box english sealed"},
+    {"id": "op11", "name": "OP-11 Fist of Divine Speed",     "slug": "one-piece-fist-of-divine-speed",      "console": "one-piece-fist-of-divine-speed",      "ebay": "One Piece Fist of Divine Speed Booster Box english sealed"},
+    {"id": "op12", "name": "OP-12 Legacy of the Master",     "slug": "one-piece-legacy-of-the-master",      "console": "one-piece-legacy-of-the-master",      "ebay": "One Piece Legacy of the Master Booster Box english sealed"},
+    {"id": "op13", "name": "OP-13 Carrying On His Will",     "slug": "one-piece-carrying-on-his-will",      "console": "one-piece-carrying-on-his-will",      "ebay": "One Piece Carrying On His Will Booster Box english sealed"},
+    {"id": "op14", "name": "OP-14 Azure Sea's Seven",        "slug": "one-piece-azure-sea%27s-seven",       "console": "one-piece-azure-sea%27s-seven",       "ebay": "One Piece Azure Sea Seven OP-14 Booster Box english sealed"},
+    {"id": "op15", "name": "OP-15 Adventure on Kami's Island","slug": "one-piece-adventure-on-kami%27s-island","console": "one-piece-adventure-on-kami%27s-island","ebay": "One Piece Adventure Kami Island OP-15 Booster Box sealed"},
 ]
 
 HEADERS = {
@@ -153,6 +153,67 @@ def parse_recent_sales(html: str, max_results: int = 5) -> list[dict]:
     return results
 
 
+# ── Card List ─────────────────────────────────────────────
+
+SKIP_KEYWORDS = ("booster box", "booster pack", "starter deck", "display", "case", "bundle", "box set", "promo pack")
+
+def fetch_cards(console_slug: str) -> list[dict]:
+    """Fetch all individual cards from a PriceCharting console page sorted by price desc."""
+    url = f"https://www.pricecharting.com/console/{console_slug}?sort=price-desc&limit=all"
+    html = fetch_page(url)
+    if not html:
+        return []
+
+    soup = BeautifulSoup(html, "html.parser")
+    table = soup.find("table", {"id": "games_table"})
+    if not table:
+        return []
+
+    cards = []
+    for row in table.find_all("tr"):
+        # Titel-Zelle
+        title_el = row.find("td", class_="title")
+        if not title_el:
+            continue
+        link_el = title_el.find("a")
+        if not link_el:
+            continue
+        name = link_el.get_text(strip=True)
+
+        # Sealed-Produkte überspringen
+        if any(kw in name.lower() for kw in SKIP_KEYWORDS):
+            continue
+
+        card_url = "https://www.pricecharting.com" + link_el.get("href", "")
+
+        # Ungraded-Preis (erste .price Zelle)
+        price_el = row.find("td", class_="price")
+        if not price_el:
+            continue
+        price_text = price_el.get_text(strip=True).replace("$", "").replace(",", "")
+        try:
+            price = float(price_text)
+        except ValueError:
+            continue
+
+        if price <= 0:
+            continue
+
+        # Kartennummer aus Name extrahieren (z.B. "OP01-001")
+        num_match = re.search(r'[A-Z]{2}\d{2}-\d{3,4}', name)
+        number = num_match.group(0) if num_match else ""
+
+        cards.append({
+            "name": name,
+            "number": number,
+            "price": price,
+            "url": card_url,
+        })
+
+    # Nochmals nach Preis sortieren (sicher)
+    return sorted(cards, key=lambda c: c["price"], reverse=True)
+
+
 # ── Persistence ────────────────────────────────────────────
 
 def load_existing() -> dict:
@@ -219,6 +280,16 @@ def run():
                 print(f"    Letzte Verkäufe: {len(recent_sales)}  (zuletzt ${recent_sales[0]['price']:.2f} am {recent_sales[0]['date']})")
             else:
                 print("    Letzte Verkäufe: keine gefunden")
+
+        time.sleep(1.0)
+
+        # ── Kartenliste ──
+        cards = fetch_cards(s["console"])
+        if cards:
+            entry["cards"] = cards
+            print(f"    Karten: {len(cards)} geladen  (teuerste: {cards[0]['name'][:40]} – ${cards[0]['price']:.2f})")
+        else:
+            print("    Karten: keine gefunden")
 
         time.sleep(1.5)
 

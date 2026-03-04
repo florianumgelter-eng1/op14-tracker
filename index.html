@@ -151,6 +151,22 @@
     .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
     @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
     code { background: var(--surface2); border: 1px solid var(--border); padding: 1px 7px; border-radius: 4px; font-family: monospace; color: var(--accent); font-size: .85em; }
+
+    /* ── Tabs ── */
+    .tabs { display: flex; gap: 4px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 0; }
+    .tab-btn { background: none; border: none; color: var(--muted); padding: 8px 18px; font-size: .85rem; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: all .15s; font-family: inherit; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Cards table ── */
+    td.rank { color: var(--muted); font-size: .75rem; width: 36px; text-align: right; padding-right: 8px !important; }
+    td.card-name a { color: var(--text); text-decoration: none; font-size: .83rem; }
+    td.card-name a:hover { color: var(--accent); }
+    td.card-num { font-family: monospace; font-size: .72rem; color: var(--muted); }
+    .card-search { width: 100%; background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 8px 12px; border-radius: 7px; font-size: .83rem; margin-bottom: 12px; outline: none; font-family: inherit; }
+    .card-search:focus { border-color: var(--accent); }
     .progress-bar { width: 240px; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; }
     .progress-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width .3s; }
   </style>
@@ -269,6 +285,12 @@
 
     const isUp = stats.change >= 0;
     main.innerHTML = `
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('overview',this)">📈 Übersicht</button>
+        <button class="tab-btn" onclick="switchTab('cards',this)">🃏 Einzelkarten (${(setData.cards||[]).length})</button>
+      </div>
+
+      <div id="tab-overview" class="tab-panel active">
       <div class="stats-grid">
         <div class="stat-card c-current">
           <div class="stat-label">Aktueller Preis</div>
@@ -348,6 +370,11 @@
             </table>`;
           })()}
         </div>
+      </div>
+      </div><!-- /tab-overview -->
+
+      <div id="tab-cards" class="tab-panel">
+        ${renderCardsTab(setData)}
       </div>
     `;
 
@@ -551,6 +578,51 @@
         <h3>Fehler beim Laden</h3>
         <p>${msg}<br><br>Starte den Server mit <code>python server.py</code></p>
       </div>`;
+  }
+
+  // ── Tab-Switching ──
+  function switchTab(name, btn) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + name).classList.add('active');
+  }
+
+  // ── Karten-Tab ──
+  function renderCardsTab(setData) {
+    const cards = setData.cards || [];
+    if (!cards.length) return `<div class="centered"><h3>Keine Kartendaten</h3><p>Werden beim nächsten Scraper-Lauf geladen.</p></div>`;
+
+    const rows = cards.map((c, i) => `
+      <tr class="card-row">
+        <td class="rank">#${i+1}</td>
+        <td class="card-name"><a href="${c.url}" target="_blank">${c.name}</a></td>
+        <td class="card-num">${c.number}</td>
+        <td class="price">$${c.price.toFixed(2)}</td>
+      </tr>`).join('');
+
+    return `
+      <div class="table-card">
+        <div class="table-head-row" style="display:flex;align-items:center;justify-content:space-between">
+          <span>Einzelkarten – nach Wert sortiert <span style="color:var(--muted);font-size:.72rem;font-weight:400">(${cards.length} Karten)</span></span>
+          <span style="font-size:.72rem;color:var(--muted)">via PriceCharting</span>
+        </div>
+        <div style="padding:12px 18px 0">
+          <input class="card-search" type="text" placeholder="Karte suchen..." oninput="filterCards(this.value)">
+        </div>
+        <table id="cardsTable">
+          <thead><tr><th>#</th><th>Kartenname</th><th>Nummer</th><th>Preis</th></tr></thead>
+          <tbody id="cardsBody">${rows}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function filterCards(query) {
+    const q = query.toLowerCase();
+    document.querySelectorAll('#cardsBody .card-row').forEach(row => {
+      const text = row.textContent.toLowerCase();
+      row.style.display = text.includes(q) ? '' : 'none';
+    });
   }
 
   // Start
