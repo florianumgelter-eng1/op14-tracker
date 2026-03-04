@@ -196,9 +196,7 @@ def fetch_cards(console_slug: str) -> list[dict]:
 
         # Bild aus Zelle 0
         img_el = cells[0].find("img")
-        img_raw = img_el.get("src", "") if img_el else ""
-        # Größeres Bild: /60.jpg → /200.jpg
-        img = img_raw.replace("/60.jpg", "/200.jpg") if img_raw else ""
+        img = img_el.get("src", "") if img_el else ""
 
         # Titel aus Zelle 1
         link_el = cells[1].find("a")
