@@ -702,7 +702,7 @@
           <a class="pc-link" href="${sd.url}" target="_blank">↗ PriceCharting</a>
         </div>
         <button class="add-display-btn${isDisplayInInv(id)?' in-inv':''}" id="dispbtn_${id}"
-          onclick='addDisplayToInventory(${JSON.stringify({id, name: sd.name, price: st ? st.latest/100 : null, img: sd.box_img||null, url: sd.url})})'>
+          onclick="addDisplayToInventory('${id}')">
           📦 Display${isDisplayInInv(id) ? ' ✓' : ' +'}
         </button>
       </div>
@@ -1178,24 +1178,29 @@
     return !!inventory[displayKey(id)];
   }
 
-  function addDisplayToInventory(info) {
-    const k = displayKey(info.id);
-    const opNum = 'OP-' + info.id.replace('op','').padStart(2,'0');
+  function addDisplayToInventory(id) {
+    const sd  = allSets[id];
+    const pts = getPoints(sd);
+    const st  = calcStats(pts);
+    const k   = displayKey(id);
+    const opNum = 'OP-' + id.replace('op','').padStart(2,'0');
     if (inventory[k]) {
       inventory[k].qty += 1;
     } else {
       inventory[k] = {
-        name: info.name + ' Display',
+        name: (sd?.name || id.toUpperCase()) + ' Display',
         number: '', grade: 'display', type: 'display',
-        price: info.price, img: info.img, url: info.url,
-        setId: info.id, opNum, qty: 1, addedAt: Date.now()
+        price: st ? st.latest / 100 : null,
+        img: sd?.box_img || null,
+        url: sd?.url || null,
+        setId: id, opNum, qty: 1, addedAt: Date.now()
       };
     }
     saveInventory();
     updateInvButton();
     renderInventoryList();
-    const btn = document.getElementById('dispbtn_' + info.id);
-    if (btn) { btn.classList.add('in-inv'); btn.textContent = '📦 Display ✓'; }
+    const btn = document.getElementById('dispbtn_' + id);
+    if (btn) { btn.classList.add('in-inv'); btn.innerHTML = '📦 Display ✓'; }
   }
 
   // Grade picker popup
