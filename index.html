@@ -322,9 +322,16 @@
         </div>
 
         <div class="table-card">
-          <div class="table-head-row">
-            Letzte Verkäufe
-            <span style="font-size:.7rem;color:var(--muted);font-weight:400;margin-left:8px">via PriceCharting</span>
+          <div class="table-head-row" style="display:flex;align-items:center;justify-content:space-between">
+            <span>
+              Letzte Verkäufe
+              <span style="font-size:.7rem;color:var(--muted);font-weight:400;margin-left:8px">via PriceCharting</span>
+            </span>
+            ${(() => {
+              const q = encodeURIComponent((setData.ebay_query || setData.name + ' Booster Box sealed'));
+              const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${q}&LH_Sold=1&LH_Complete=1&LH_ItemCondition=1000&_sop=13`;
+              return `<a href="${ebayUrl}" target="_blank" style="font-size:.72rem;color:var(--accent2);text-decoration:none;border:1px solid var(--accent2);padding:3px 10px;border-radius:5px;font-weight:500;white-space:nowrap">↗ eBay Verkäufe</a>`;
+            })()}
           </div>
           ${(() => {
             const sales = setData.recent_sales || [];

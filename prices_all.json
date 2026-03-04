@@ -154,7 +154,8 @@
           "price": 1500.0,
           "title": "Sealed ENGLISH OP-01 Booster Box - White Bottom. One Piece TCG. Romance Dawn.\n  "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Romance Dawn Booster Box english sealed"
     },
     "op02": {
       "name": "OP-02 Paramount War",
@@ -310,7 +311,8 @@
           "price": 434.91,
           "title": "One Piece TCG OP-02 Booster Box Paramount War English - Red Bottom - Sealed\n    "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Paramount War Booster Box english sealed"
     },
     "op03": {
       "name": "OP-03 Pillars of Strength",
@@ -466,7 +468,8 @@
           "price": 601.17,
           "title": "Bandai One Piece TCG OP-03 Pillars of Strength Booster Box English - SEALED\n    "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Pillars of Strength Booster Box english sealed"
     },
     "op04": {
       "name": "OP-04 Kingdoms of Intrigue",
@@ -622,7 +625,8 @@
           "price": 500.0,
           "title": "One Piece OP04 Kingdoms Of Intrigue Sealed English Booster Box\n                 "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Kingdoms of Intrigue Booster Box english sealed"
     },
     "op05": {
       "name": "OP-05 Awakening of the New Era",
@@ -778,7 +782,8 @@
           "price": 1055.0,
           "title": "#1 One Piece English OP-05 Awakening of the New Era Booster Box Sealed\n         "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Awakening New Era Booster Box english sealed"
     },
     "op06": {
       "name": "OP-06 Wings of the Captain",
@@ -922,7 +927,8 @@
           "price": 338.88,
           "title": "One Piece TCG: Wings of the Captain (OP-06) Booster Box Sealed English\n         "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Wings of the Captain Booster Box english sealed"
     },
     "op07": {
       "name": "OP-07 500 Years in the Future",
@@ -1054,7 +1060,8 @@
           "price": 242.5,
           "title": "One Piece 500 Years In the Future OP07 Booster Box Factory Sealed RLOP26\n       "
         }
-      ]
+      ],
+      "ebay_query": "One Piece 500 Years in the Future Booster Box english sealed"
     },
     "op08": {
       "name": "OP-08 Two Legends",
@@ -1174,7 +1181,8 @@
           "price": 80.32,
           "title": "One Piece Card Game OP-08 Two Legends Booster Box op08 JAP New SEALED\n          "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Two Legends Booster Box english sealed"
     },
     "op09": {
       "name": "OP-09 Emperors in the New World",
@@ -1282,7 +1290,8 @@
           "price": 447.09,
           "title": "One Piece Card Game OP09 Emperors in the New World Booster Box English SEALED!\n "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Emperors in the New World Booster Box english sealed"
     },
     "op10": {
       "name": "OP-10 Royal Blood",
@@ -1378,7 +1387,8 @@
           "price": 173.92,
           "title": "One Piece Card Game Royal Blood OP10 Booster Box Sealed English TCG\n            "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Royal Blood Booster Box english sealed"
     },
     "op11": {
       "name": "OP-11 Fist of Divine Speed",
@@ -1458,7 +1468,8 @@
           "price": 398.0,
           "title": "One Piece a Fist of Divine Speed OP-11 Booster Box Sealed 24 Packs\n             "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Fist of Divine Speed Booster Box english sealed"
     },
     "op12": {
       "name": "OP-12 Legacy of the Master",
@@ -1534,7 +1545,8 @@
           "price": 225.0,
           "title": "One Piece Op12 Legacy Of The Master Sealed Booster Box English\n                 "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Legacy of the Master Booster Box english sealed"
     },
     "op13": {
       "name": "OP-13 Carrying On His Will",
@@ -1602,7 +1614,8 @@
           "price": 399.25,
           "title": "One piece TCG OP-13 ENG Carrying On His Will Booster Box SEALED 1st Print\n      "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Carrying On His Will Booster Box english sealed"
     },
     "op14": {
       "name": "OP-14 Azure Sea's Seven",
@@ -1658,15 +1671,17 @@
           "price": 233.75,
           "title": "One Piece TCG Booster Box OP14 OP-14 EB04 The Azure Sea's Seven - ENG ENGLISH\n  "
         }
-      ]
+      ],
+      "ebay_query": "One Piece Azure Sea Seven OP-14 Booster Box english sealed"
     },
     "op15": {
       "name": "OP-15 Adventure on Kami's Island",
       "url": "https://www.pricecharting.com/game/one-piece-adventure-on-kami%27s-island/booster-box",
       "history": [],
       "snapshots": [],
-      "available": true
+      "available": true,
+      "ebay_query": "One Piece Adventure Kami Island OP-15 Booster Box sealed"
     }
   },
-  "last_updated": "2026-03-04T15:23:17.665726"
+  "last_updated": "2026-03-04T15:28:16.481440"
 }

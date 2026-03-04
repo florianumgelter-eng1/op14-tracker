@@ -191,6 +191,7 @@ def run():
         })
         entry["name"] = s["name"]
         entry["url"] = url
+        entry["ebay_query"] = s["ebay"]
 
         if html is None:
             print("    PriceCharting: kein Eintrag")
