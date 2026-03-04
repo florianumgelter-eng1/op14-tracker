@@ -169,13 +169,23 @@ def fetch_cards(console_slug: str) -> list[dict]:
     if not table:
         return []
 
+    def parse_price(text: str) -> float | None:
+        t = text.strip().replace("$", "").replace(",", "")
+        try:
+            v = float(t)
+            return v if v > 0 else None
+        except ValueError:
+            return None
+
     cards = []
     for row in table.find_all("tr"):
-        # Titel-Zelle
-        title_el = row.find("td", class_="title")
-        if not title_el:
+        cells = row.find_all("td")
+        # Erwarte mind. 5 Zellen: img | title | ungraded | grade9 | psa10
+        if len(cells) < 5:
             continue
-        link_el = title_el.find("a")
+
+        # Titel aus Zelle 1
+        link_el = cells[1].find("a")
         if not link_el:
             continue
         name = link_el.get_text(strip=True)
@@ -186,17 +196,13 @@ def fetch_cards(console_slug: str) -> list[dict]:
 
         card_url = "https://www.pricecharting.com" + link_el.get("href", "")
 
-        # Ungraded-Preis (erste .price Zelle)
-        price_el = row.find("td", class_="price")
-        if not price_el:
-            continue
-        price_text = price_el.get_text(strip=True).replace("$", "").replace(",", "")
-        try:
-            price = float(price_text)
-        except ValueError:
-            continue
+        # Preise aus Zellen 2 (Ungraded), 3 (Grade 9), 4 (PSA 10)
+        price    = parse_price(cells[2].get_text(strip=True))
+        grade9   = parse_price(cells[3].get_text(strip=True))
+        psa10    = parse_price(cells[4].get_text(strip=True))
 
-        if price <= 0:
+        # Karte braucht mindestens einen Preis
+        if not price and not psa10:
             continue
 
         # Kartennummer aus Name extrahieren (z.B. "OP01-001")
@@ -206,12 +212,14 @@ def fetch_cards(console_slug: str) -> list[dict]:
         cards.append({
             "name": name,
             "number": number,
-            "price": price,
+            "price":  price,
+            "grade9": grade9,
+            "psa10":  psa10,
             "url": card_url,
         })
 
-    # Nochmals nach Preis sortieren (sicher)
-    return sorted(cards, key=lambda c: c["price"], reverse=True)
+    # Nach Ungraded sortieren, Karten ohne Ungraded ans Ende
+    return sorted(cards, key=lambda c: c["price"] or 0, reverse=True)
 
 
 # ── Persistence ────────────────────────────────────────────

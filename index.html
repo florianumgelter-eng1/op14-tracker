@@ -478,16 +478,22 @@
   }
 
   /* ── CARDS TAB ── */
+  const fmtP = v => (v != null) ? `$${v.toFixed(2)}` : `<span style="color:var(--text3)">–</span>`;
+
   function renderCardsTab(sd) {
     const cards = sd.cards || [];
     if (!cards.length) return `<div class="loading"><h3>Keine Kartendaten</h3><p>Werden beim nächsten täglichen Update geladen.</p></div>`;
-    const rows = cards.map((c,i)=>`
+
+    const rows = cards.map((c,i) => `
       <tr class="cr">
         <td class="rank">${i+1}</td>
         <td class="card-name"><a href="${c.url}" target="_blank">${c.name}</a></td>
         <td class="card-num">${c.number}</td>
-        <td class="price">$${c.price.toFixed(2)}</td>
+        <td class="price">${fmtP(c.price)}</td>
+        <td style="font-weight:700;color:var(--blue);font-size:.85rem">${fmtP(c.grade9)}</td>
+        <td style="font-weight:700;color:var(--purple);font-size:.85rem">${fmtP(c.psa10)}</td>
       </tr>`).join('');
+
     return `
       <div class="tbl-box">
         <div class="tbl-head">
@@ -498,7 +504,16 @@
           <input class="card-search" type="text" placeholder="Karte suchen…" oninput="filterCards(this.value)">
         </div>
         <table>
-          <thead><tr><th>#</th><th>Karte</th><th>Nummer</th><th>Preis</th></tr></thead>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Karte</th>
+              <th>Nummer</th>
+              <th>Ungraded</th>
+              <th style="color:var(--blue)">Grade 9</th>
+              <th style="color:var(--purple)">PSA 10</th>
+            </tr>
+          </thead>
           <tbody id="cardsBody">${rows}</tbody>
         </table>
       </div>`;
