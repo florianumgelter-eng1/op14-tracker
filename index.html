@@ -8,167 +8,216 @@
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
   <style>
     :root {
-      --bg: #0d0f14;
-      --surface: #161b27;
-      --surface2: #1e2535;
-      --border: #2a3347;
-      --accent: #e8b84b;
-      --accent2: #4b8be8;
-      --red: #e84b4b;
-      --green: #4be87a;
-      --text: #dde3f0;
-      --muted: #7a8aaa;
-      --radius: 12px;
-      --sidebar: 230px;
+      --bg:       #0b0d12;
+      --surface:  #13181f;
+      --surface2: #1a2030;
+      --surface3: #212840;
+      --border:   #252d3d;
+      --border2:  #2e3a50;
+      --accent:   #e8b84b;
+      --accent-dim: rgba(232,184,75,.12);
+      --blue:     #5b9cf6;
+      --green:    #3dd68c;
+      --red:      #f06060;
+      --purple:   #a78bfa;
+      --text:     #e2e8f0;
+      --text2:    #94a3b8;
+      --text3:    #5a6a82;
+      --radius:   10px;
+      --sidebar:  260px;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; height: 100vh; display: flex; flex-direction: column; overflow: hidden; font-size: 14px; }
 
-    /* ── Header ── */
+    /* ══ SCROLLBAR ══ */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+
+    /* ══ HEADER ══ */
     header {
-      background: linear-gradient(135deg, #1a0808 0%, #0d0f14 70%);
+      background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 14px 24px;
-      display: flex; align-items: center; gap: 14px;
+      padding: 0 20px;
+      height: 52px;
+      display: flex; align-items: center; gap: 12px;
       flex-shrink: 0;
     }
-    .logo { width: 38px; height: 38px; background: linear-gradient(135deg, var(--accent), #b8860b); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
-    header h1 { font-size: 1.1rem; font-weight: 700; }
-    header p { font-size: 0.72rem; color: var(--muted); margin-top: 1px; }
-    .header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
-    .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 6px var(--green); animation: pulse 2s infinite; }
-    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
-    #lastUpdate { font-size: 0.72rem; color: var(--muted); }
-    .refresh-btn {
-      background: var(--surface2); border: 1px solid var(--border); color: var(--muted);
-      padding: 5px 12px; border-radius: 6px; font-size: 0.75rem; cursor: pointer; transition: all .15s;
+    .logo {
+      width: 32px; height: 32px; flex-shrink: 0;
+      background: linear-gradient(135deg, var(--accent) 0%, #c8960a 100%);
+      border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px;
     }
-    .refresh-btn:hover { color: var(--text); border-color: var(--accent); }
+    .header-title { font-size: .95rem; font-weight: 700; letter-spacing: -.01em; }
+    .header-sub { font-size: .72rem; color: var(--text3); margin-top: 1px; }
+    .header-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+    .pulse-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: pulse 2.5s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(61,214,140,.4)} 50%{opacity:.6;box-shadow:0 0 0 4px rgba(61,214,140,0)} }
+    #lastUpdate { font-size: .72rem; color: var(--text3); }
+    .icon-btn {
+      background: var(--surface2); border: 1px solid var(--border); color: var(--text2);
+      width: 30px; height: 30px; border-radius: 7px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+      font-size: .9rem; transition: all .15s;
+    }
+    .icon-btn:hover { background: var(--surface3); border-color: var(--border2); color: var(--text); }
 
-    /* ── Layout ── */
+    /* ══ LAYOUT ══ */
     .layout { display: flex; flex: 1; overflow: hidden; }
 
-    /* ── Sidebar ── */
+    /* ══ SIDEBAR ══ */
     aside {
       width: var(--sidebar); background: var(--surface); border-right: 1px solid var(--border);
       display: flex; flex-direction: column; overflow: hidden; flex-shrink: 0;
     }
-    .sidebar-header { padding: 12px 14px; font-size: 0.68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); border-bottom: 1px solid var(--border); }
-    .set-list { overflow-y: auto; flex: 1; padding: 6px 0; }
-    .set-list::-webkit-scrollbar { width: 4px; }
-    .set-list::-webkit-scrollbar-track { background: transparent; }
-    .set-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    .sidebar-top {
+      padding: 10px 12px 6px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .sidebar-label { font-size: .65rem; text-transform: uppercase; letter-spacing: .1em; color: var(--text3); font-weight: 600; }
+    .set-list { overflow-y: auto; flex: 1; }
 
     .set-item {
-      display: flex; align-items: center; gap: 10px;
-      padding: 9px 14px; cursor: pointer; transition: background .1s;
-      border-left: 3px solid transparent;
+      display: flex; align-items: center; gap: 0;
+      padding: 0; cursor: pointer;
+      border-left: 2px solid transparent;
+      transition: background .12s;
+      position: relative;
     }
     .set-item:hover { background: var(--surface2); }
-    .set-item.active { background: rgba(232,184,75,.08); border-left-color: var(--accent); }
-    .set-item.unavailable { opacity: .4; cursor: default; }
-    .set-badge {
-      font-size: 0.62rem; font-weight: 700; background: var(--surface2); border: 1px solid var(--border);
-      border-radius: 4px; padding: 1px 5px; color: var(--muted); flex-shrink: 0; font-family: monospace;
-    }
-    .set-item.active .set-badge { border-color: var(--accent); color: var(--accent); }
-    .set-name { font-size: 0.78rem; line-height: 1.3; }
-    .set-price { font-size: 0.72rem; color: var(--accent); font-weight: 600; margin-left: auto; flex-shrink: 0; }
+    .set-item.active { background: var(--accent-dim); border-left-color: var(--accent); }
+    .set-item.unavailable { opacity: .35; pointer-events: none; }
 
-    /* ── Sidebar bottom ── */
-    .sidebar-footer { padding: 10px 14px; border-top: 1px solid var(--border); }
+    .set-num {
+      width: 44px; flex-shrink: 0; text-align: center;
+      font-size: .65rem; font-weight: 700; font-family: 'Consolas', monospace;
+      color: var(--text3); padding: 11px 0;
+    }
+    .set-item.active .set-num { color: var(--accent); }
+
+    .set-info { flex: 1; padding: 9px 4px 9px 0; min-width: 0; }
+    .set-sname { font-size: .8rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text2); }
+    .set-item.active .set-sname { color: var(--text); }
+    .set-meta { display: flex; align-items: center; gap: 6px; margin-top: 2px; }
+    .set-price-small { font-size: .72rem; font-weight: 700; color: var(--accent); }
+    .trend-tag { font-size: .6rem; padding: 1px 5px; border-radius: 3px; font-weight: 600; }
+    .trend-tag.up { background: rgba(61,214,140,.15); color: var(--green); }
+    .trend-tag.dn { background: rgba(240,96,96,.15); color: var(--red); }
+
+    .sidebar-footer { padding: 8px 10px; border-top: 1px solid var(--border); }
     .compare-btn {
-      width: 100%; background: var(--surface2); border: 1px solid var(--border);
-      color: var(--muted); padding: 7px; border-radius: 6px; font-size: 0.75rem;
-      cursor: pointer; transition: all .15s;
+      width: 100%; background: transparent; border: 1px solid var(--border);
+      color: var(--text3); padding: 7px 10px; border-radius: 7px; font-size: .75rem;
+      cursor: pointer; transition: all .15s; font-family: inherit; text-align: left; display: flex; align-items: center; gap: 7px;
     }
-    .compare-btn:hover, .compare-btn.active { background: rgba(75,139,232,.15); border-color: var(--accent2); color: var(--accent2); }
+    .compare-btn:hover { background: var(--surface2); color: var(--text2); border-color: var(--border2); }
+    .compare-btn.active { background: rgba(91,156,246,.1); border-color: var(--blue); color: var(--blue); }
 
-    /* ── Main content ── */
-    main { flex: 1; overflow-y: auto; padding: 20px 24px; }
-    main::-webkit-scrollbar { width: 4px; }
-    main::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    /* ══ MAIN ══ */
+    main { flex: 1; overflow-y: auto; padding: 20px 22px; }
 
-    /* ── Stats ── */
-    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 20px; }
-    .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; position: relative; overflow: hidden; }
-    .stat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
-    .stat-card.c-current::before { background: var(--accent); }
-    .stat-card.c-min::before { background: var(--green); }
-    .stat-card.c-max::before { background: var(--red); }
-    .stat-card.c-avg::before { background: var(--accent2); }
-    .stat-card.c-chg::before { background: #b44be8; }
-    .stat-label { font-size: 0.65rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 8px; }
-    .stat-value { font-size: 1.6rem; font-weight: 700; }
-    .stat-card.c-current .stat-value { color: var(--accent); }
-    .stat-card.c-min .stat-value { color: var(--green); }
-    .stat-card.c-max .stat-value { color: var(--red); }
-    .stat-card.c-avg .stat-value { color: var(--accent2); }
-    .stat-sub { font-size: 0.7rem; color: var(--muted); margin-top: 4px; }
-    .badge { display: inline-flex; align-items: center; gap: 3px; font-size: 0.78rem; font-weight: 600; padding: 2px 8px; border-radius: 20px; margin-top: 6px; }
-    .badge.up { background: rgba(75,232,122,.12); color: var(--green); }
-    .badge.down { background: rgba(232,75,75,.12); color: var(--red); }
+    /* ══ PAGE TITLE ══ */
+    .page-title { display: flex; align-items: baseline; gap: 10px; margin-bottom: 16px; }
+    .page-title h2 { font-size: 1.15rem; font-weight: 700; letter-spacing: -.02em; }
+    .page-title .pc-link { font-size: .72rem; color: var(--text3); text-decoration: none; transition: color .15s; }
+    .page-title .pc-link:hover { color: var(--blue); }
 
-    /* ── Chart ── */
-    .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 20px; }
-    .chart-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 10px; }
-    .chart-title { font-size: .95rem; font-weight: 600; }
-    .range-btns { display: flex; gap: 5px; }
-    .range-btn { background: var(--surface2); border: 1px solid var(--border); color: var(--muted); padding: 4px 12px; border-radius: 5px; font-size: .73rem; cursor: pointer; transition: all .15s; }
-    .range-btn:hover, .range-btn.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 700; }
-    .chart-wrap { position: relative; height: 280px; }
-
-    /* ── Compare view ── */
-    .compare-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
-    .compare-card {
-      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-      padding: 16px; cursor: pointer; transition: all .15s;
+    /* ══ TABS ══ */
+    .tabs { display: flex; gap: 2px; margin-bottom: 18px; border-bottom: 1px solid var(--border); }
+    .tab-btn {
+      background: none; border: none; color: var(--text3); padding: 8px 16px;
+      font-size: .82rem; cursor: pointer; border-bottom: 2px solid transparent;
+      margin-bottom: -1px; transition: all .15s; font-family: inherit; display: flex; align-items: center; gap: 6px;
     }
-    .compare-card:hover { border-color: var(--accent); background: var(--surface2); }
-    .compare-card .op-id { font-size: 0.65rem; color: var(--muted); font-family: monospace; margin-bottom: 6px; }
-    .compare-card .op-name { font-size: 0.82rem; font-weight: 600; margin-bottom: 12px; line-height: 1.3; }
-    .compare-card .op-price { font-size: 1.4rem; font-weight: 700; color: var(--accent); }
-    .compare-card .op-change { font-size: 0.72rem; margin-top: 4px; }
-    .compare-card.unavailable { opacity: .4; cursor: default; }
-    .compare-mini-chart { height: 50px; margin-top: 10px; }
-
-    /* ── Table ── */
-    .table-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-bottom: 20px; }
-    .table-head-row { padding: 14px 20px; border-bottom: 1px solid var(--border); font-size: .9rem; font-weight: 600; }
-    table { width: 100%; border-collapse: collapse; font-size: .82rem; }
-    thead th { padding: 8px 18px; text-align: left; color: var(--muted); font-size: .65rem; text-transform: uppercase; letter-spacing: .07em; background: var(--surface2); font-weight: 500; }
-    tbody tr { border-top: 1px solid var(--border); transition: background .1s; }
-    tbody tr:hover { background: var(--surface2); }
-    tbody td { padding: 9px 18px; }
-    td.price { font-weight: 600; color: var(--accent); }
-
-    /* ── Loading / empty ── */
-    .centered { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 300px; gap: 14px; color: var(--muted); text-align: center; }
-    .spinner { width: 36px; height: 36px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite; }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .centered h3 { color: var(--text); font-size: 1rem; }
-    .centered p { font-size: .82rem; line-height: 1.6; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
-    @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
-    code { background: var(--surface2); border: 1px solid var(--border); padding: 1px 7px; border-radius: 4px; font-family: monospace; color: var(--accent); font-size: .85em; }
-
-    /* ── Tabs ── */
-    .tabs { display: flex; gap: 4px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 0; }
-    .tab-btn { background: none; border: none; color: var(--muted); padding: 8px 18px; font-size: .85rem; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: all .15s; font-family: inherit; }
-    .tab-btn:hover { color: var(--text); }
+    .tab-btn:hover { color: var(--text2); }
     .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+    .tab-count { background: var(--surface2); border: 1px solid var(--border); color: var(--text3); font-size: .6rem; padding: 1px 5px; border-radius: 10px; font-weight: 600; }
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
 
-    /* ── Cards table ── */
-    td.rank { color: var(--muted); font-size: .75rem; width: 36px; text-align: right; padding-right: 8px !important; }
-    td.card-name a { color: var(--text); text-decoration: none; font-size: .83rem; }
+    /* ══ STAT ROW ══ */
+    .stat-row { display: grid; grid-template-columns: repeat(4, 1fr) 1.4fr; gap: 10px; margin-bottom: 16px; }
+    .stat-box {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 14px 16px; position: relative; overflow: hidden;
+    }
+    .stat-box::after { content:''; position:absolute; bottom:0; left:0; right:0; height:2px; }
+    .stat-box.s-cur::after { background: var(--accent); }
+    .stat-box.s-min::after { background: var(--green); }
+    .stat-box.s-max::after { background: var(--red); }
+    .stat-box.s-avg::after { background: var(--blue); }
+    .stat-box.s-chg::after { background: var(--purple); }
+    .s-label { font-size: .62rem; text-transform: uppercase; letter-spacing: .09em; color: var(--text3); font-weight: 600; margin-bottom: 7px; }
+    .s-val { font-size: 1.5rem; font-weight: 800; letter-spacing: -.02em; line-height: 1; }
+    .stat-box.s-cur .s-val { color: var(--accent); }
+    .stat-box.s-min .s-val { color: var(--green); }
+    .stat-box.s-max .s-val { color: var(--red); }
+    .stat-box.s-avg .s-val { color: var(--blue); }
+    .s-sub { font-size: .68rem; color: var(--text3); margin-top: 4px; }
+    .chg-pill { display: inline-flex; align-items: center; gap: 4px; padding: 3px 9px; border-radius: 20px; font-size: .8rem; font-weight: 700; margin-top: 2px; }
+    .chg-pill.up { background: rgba(61,214,140,.12); color: var(--green); }
+    .chg-pill.dn { background: rgba(240,96,96,.12); color: var(--red); }
+
+    /* ══ CHART ══ */
+    .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 16px; }
+    .chart-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+    .chart-lbl { font-size: .8rem; font-weight: 600; color: var(--text2); }
+    .range-row { display: flex; gap: 4px; }
+    .rng { background: transparent; border: 1px solid var(--border); color: var(--text3); padding: 3px 11px; border-radius: 5px; font-size: .71rem; cursor: pointer; transition: all .12s; font-family: inherit; }
+    .rng:hover { border-color: var(--border2); color: var(--text2); }
+    .rng.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 700; }
+    .chart-wrap { position: relative; height: 300px; }
+
+    /* ══ BOTTOM GRID ══ */
+    .bottom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+    @media (max-width: 800px) { .bottom-grid { grid-template-columns: 1fr; } .stat-row { grid-template-columns: repeat(2,1fr); } }
+
+    /* ══ TABLE CARD ══ */
+    .tbl-box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+    .tbl-head { padding: 12px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .tbl-title { font-size: .82rem; font-weight: 600; }
+    .tbl-badge { font-size: .65rem; color: var(--text3); background: var(--surface2); border: 1px solid var(--border); padding: 2px 7px; border-radius: 4px; }
+    .ext-link { font-size: .7rem; color: var(--blue); text-decoration: none; border: 1px solid rgba(91,156,246,.3); padding: 3px 9px; border-radius: 5px; white-space: nowrap; transition: all .15s; }
+    .ext-link:hover { background: rgba(91,156,246,.1); }
+    table { width: 100%; border-collapse: collapse; }
+    thead th { padding: 7px 16px; text-align: left; font-size: .62rem; text-transform: uppercase; letter-spacing: .08em; color: var(--text3); background: var(--surface2); font-weight: 600; border-bottom: 1px solid var(--border); }
+    tbody tr { border-top: 1px solid var(--border); transition: background .1s; }
+    tbody tr:hover { background: var(--surface2); }
+    tbody td { padding: 8px 16px; font-size: .8rem; }
+    td.price { font-weight: 700; color: var(--accent); font-size: .85rem; }
+    td.rank { color: var(--text3); font-size: .7rem; width: 32px; text-align: right; padding-right: 6px; font-family: monospace; }
+    td.card-num { font-family: 'Consolas', monospace; font-size: .7rem; color: var(--text3); }
+    td.card-name a { color: var(--text2); text-decoration: none; transition: color .12s; }
     td.card-name a:hover { color: var(--accent); }
-    td.card-num { font-family: monospace; font-size: .72rem; color: var(--muted); }
-    .card-search { width: 100%; background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 8px 12px; border-radius: 7px; font-size: .83rem; margin-bottom: 12px; outline: none; font-family: inherit; }
+
+    /* ══ CARD SEARCH ══ */
+    .search-wrap { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+    .card-search { width: 100%; background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 7px 11px; border-radius: 6px; font-size: .8rem; outline: none; font-family: inherit; transition: border-color .15s; }
     .card-search:focus { border-color: var(--accent); }
-    .progress-bar { width: 240px; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; }
-    .progress-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width .3s; }
+    .card-search::placeholder { color: var(--text3); }
+
+    /* ══ COMPARE GRID ══ */
+    .cmp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(185px, 1fr)); gap: 10px; }
+    .cmp-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 14px; cursor: pointer; transition: all .15s;
+    }
+    .cmp-card:hover { border-color: var(--border2); background: var(--surface2); transform: translateY(-1px); }
+    .cmp-card.unavailable { opacity: .3; pointer-events: none; }
+    .cmp-op { font-size: .62rem; font-weight: 700; color: var(--text3); font-family: monospace; margin-bottom: 5px; letter-spacing: .05em; }
+    .cmp-name { font-size: .78rem; font-weight: 600; line-height: 1.35; margin-bottom: 10px; color: var(--text); }
+    .cmp-price { font-size: 1.3rem; font-weight: 800; color: var(--accent); letter-spacing: -.02em; }
+    .cmp-trend { margin-top: 4px; }
+    .cmp-canvas { height: 44px; margin-top: 10px; display: block; }
+
+    /* ══ LOADING ══ */
+    .loading { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 320px; gap: 14px; color: var(--text3); }
+    .spinner { width: 32px; height: 32px; border: 2.5px solid var(--border2); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading h3 { font-size: .95rem; color: var(--text2); }
+    .loading p { font-size: .78rem; line-height: 1.6; text-align: center; }
+    .pbar { width: 220px; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
+    .pfill { height: 100%; background: var(--accent); border-radius: 2px; transition: width .4s; }
+    .no-data { padding: 40px 20px; text-align: center; color: var(--text3); font-size: .82rem; }
   </style>
 </head>
 <body>
@@ -176,91 +225,90 @@
 <header>
   <div class="logo">🃏</div>
   <div>
-    <h1>One Piece TCG Preistracker</h1>
-    <p>Booster Box Preise – OP-01 bis OP-15</p>
+    <div class="header-title">One Piece TCG Preistracker</div>
+    <div class="header-sub">OP-01 bis OP-15 · Booster Box</div>
   </div>
   <div class="header-right">
-    <div class="status-dot"></div>
-    <span id="lastUpdate">Lade Daten...</span>
-    <button class="refresh-btn" onclick="refreshData()">⟳ Aktualisieren</button>
+    <div class="pulse-dot"></div>
+    <span id="lastUpdate">Laden...</span>
+    <button class="icon-btn" onclick="refreshData()" title="Aktualisieren">⟳</button>
   </div>
 </header>
 
 <div class="layout">
   <aside>
-    <div class="sidebar-header">Sets</div>
+    <div class="sidebar-top">
+      <span class="sidebar-label">Sets</span>
+    </div>
     <div class="set-list" id="setList"></div>
     <div class="sidebar-footer">
-      <button class="compare-btn" id="compareBtn" onclick="toggleCompare()">⊞ Alle vergleichen</button>
+      <button class="compare-btn" id="compareBtn" onclick="toggleCompare()">
+        <span>⊞</span> Alle Sets vergleichen
+      </button>
     </div>
   </aside>
 
   <main id="main">
-    <div class="centered">
+    <div class="loading">
       <div class="spinner"></div>
-      <h3>Preise werden geladen</h3>
-      <p>Scraper läuft für alle 15 Sets...<br>Einen Moment bitte.</p>
-      <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      <h3>Daten werden geladen</h3>
+      <p>Preise werden abgerufen…</p>
+      <div class="pbar"><div class="pfill" id="progressFill" style="width:0%"></div></div>
     </div>
   </main>
 </div>
 
 <script>
-  const fmt = c => '$' + (c/100).toFixed(2);
-  const fmtDate = ts => new Date(ts).toLocaleDateString('de-DE', {day:'2-digit',month:'2-digit',year:'numeric'});
+  const fmt   = c => '$' + (c / 100).toFixed(2);
+  const fmtD  = ts => new Date(ts).toLocaleDateString('de-DE', { day:'2-digit', month:'2-digit', year:'numeric' });
+  const SET_IDS = ['op01','op02','op03','op04','op05','op06','op07','op08','op09','op10','op11','op12','op13','op14','op15'];
 
-  let allSetsData = {};
-  let activeSet = 'op14';
-  let compareMode = false;
-  let mainChart = null;
-  let miniCharts = {};
+  let allSets = {}, activeSet = 'op14', compareMode = false, mainChart = null;
 
-  // ── Daten kombinieren (history + snapshots, dedupliziert) ──
-  function getPoints(setData) {
-    if (!setData) return [];
-    const combined = [...(setData.history||[]), ...(setData.snapshots||[])];
+  /* ── helpers ── */
+  function getPoints(sd) {
+    if (!sd) return [];
     const seen = new Set();
-    return combined
-      .filter(p => { if(seen.has(p[0])) return false; seen.add(p[0]); return true; })
+    return [...(sd.history||[]), ...(sd.snapshots||[])]
+      .filter(p => { if (seen.has(p[0])) return false; seen.add(p[0]); return true; })
       .sort((a,b) => a[0]-b[0]);
   }
 
-  function calcStats(points) {
-    if (!points.length) return null;
-    const prices = points.map(p => p[1]);
-    const min = Math.min(...prices), max = Math.max(...prices);
-    const avg = prices.reduce((a,b)=>a+b,0)/prices.length;
-    const latest = prices[prices.length-1], first = prices[0];
-    const change = latest - first;
-    const changePct = ((change/first)*100).toFixed(1);
-    return {min,max,avg:Math.round(avg),latest,change,changePct};
+  function calcStats(pts) {
+    if (!pts.length) return null;
+    const v = pts.map(p=>p[1]);
+    const min=Math.min(...v), max=Math.max(...v), avg=Math.round(v.reduce((a,b)=>a+b,0)/v.length);
+    const latest=v[v.length-1], first=v[0], change=latest-first;
+    return { min, max, avg, latest, first, change, pct: ((change/first)*100).toFixed(1) };
   }
 
-  // ── Sidebar aufbauen ──
+  /* ── SIDEBAR ── */
   function buildSidebar(data) {
     const list = document.getElementById('setList');
     list.innerHTML = '';
-    const sets = data.sets || {};
+    SET_IDS.forEach(id => {
+      const sd = data.sets?.[id];
+      const available = sd?.available !== false;
+      const pts = getPoints(sd);
+      const st = calcStats(pts);
+      const name = sd?.name?.replace(/OP-\d+\s*/,'') ?? id.toUpperCase();
+      const num = id.replace('op','OP-').replace('OP-0','OP-').replace(/OP-(\d)$/,'OP-0$1');
 
-    ['op01','op02','op03','op04','op05','op06','op07','op08',
-     'op09','op10','op11','op12','op13','op14','op15'].forEach(id => {
-      const s = sets[id];
-      const name = s ? s.name : id.toUpperCase();
-      const available = s && s.available !== false;
-      const points = s ? getPoints(s) : [];
-      const latest = points.length ? points[points.length-1][1] : null;
-      const opNum = id.replace('op','OP-');
-
-      const el = document.createElement('div');
-      el.className = 'set-item' + (id===activeSet?' active':'') + (!available?' unavailable':'');
-      el.dataset.id = id;
-      el.innerHTML = `
-        <span class="set-badge">${opNum}</span>
-        <span class="set-name">${name.replace(/OP-\d+\s*/,'')}</span>
-        ${latest ? `<span class="set-price">${fmt(latest)}</span>` : ''}
-      `;
-      if (available) el.onclick = () => selectSet(id);
-      list.appendChild(el);
+      const div = document.createElement('div');
+      div.className = 'set-item' + (id===activeSet?' active':'') + (!available?' unavailable':'');
+      div.dataset.id = id;
+      div.innerHTML = `
+        <div class="set-num">${id.replace('op','').replace(/^0/,'').padStart(2,'0')}</div>
+        <div class="set-info">
+          <div class="set-sname">${name}</div>
+          <div class="set-meta">
+            ${st ? `<span class="set-price-small">${fmt(st.latest)}</span>
+                    <span class="trend-tag ${st.change>=0?'up':'dn'}">${st.change>=0?'▲':'▼'}${Math.abs(st.pct)}%</span>`
+                 : '<span style="font-size:.68rem;color:var(--text3)">–</span>'}
+          </div>
+        </div>`;
+      if (available) div.onclick = () => selectSet(id);
+      list.appendChild(div);
     });
   }
 
@@ -271,361 +319,307 @@
     renderDetail(id);
   }
 
-  // ── Detail-Ansicht ──
+  /* ── DETAIL VIEW ── */
   function renderDetail(id) {
-    const setData = allSetsData[id];
-    const points = getPoints(setData);
-    const stats = calcStats(points);
+    const sd = allSets[id];
+    const pts = getPoints(sd);
+    const st = calcStats(pts);
     const main = document.getElementById('main');
 
-    if (!points.length) {
-      main.innerHTML = `<div class="centered"><h3>Keine Daten für ${id.toUpperCase()}</h3><p>Möglicherweise noch nicht auf PriceCharting verfügbar.</p></div>`;
+    if (!pts.length) {
+      main.innerHTML = `<div class="loading"><h3>Keine Daten für ${id.toUpperCase()}</h3><p>Noch nicht auf PriceCharting verfügbar.</p></div>`;
       return;
     }
 
-    const isUp = stats.change >= 0;
+    const up = st.change >= 0;
+    const cards = sd.cards || [];
+    const sales = sd.recent_sales || [];
+    const q = encodeURIComponent(sd.ebay_query || sd.name + ' Booster Box sealed');
+    const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${q}&LH_Sold=1&LH_Complete=1&LH_ItemCondition=1000&_sop=13`;
+
     main.innerHTML = `
+      <div class="page-title">
+        <h2>${sd.name}</h2>
+        <a class="pc-link" href="${sd.url}" target="_blank">↗ PriceCharting</a>
+      </div>
+
       <div class="tabs">
-        <button class="tab-btn active" onclick="switchTab('overview',this)">📈 Übersicht</button>
-        <button class="tab-btn" onclick="switchTab('cards',this)">🃏 Einzelkarten (${(setData.cards||[]).length})</button>
+        <button class="tab-btn active" onclick="switchTab('ov',this)">Übersicht</button>
+        <button class="tab-btn" onclick="switchTab('cards',this)">
+          Einzelkarten <span class="tab-count">${cards.length}</span>
+        </button>
       </div>
 
-      <div id="tab-overview" class="tab-panel active">
-      <div class="stats-grid">
-        <div class="stat-card c-current">
-          <div class="stat-label">Aktueller Preis</div>
-          <div class="stat-value">${fmt(stats.latest)}</div>
-          <div class="stat-sub">Letzter Datenpunkt</div>
-        </div>
-        <div class="stat-card c-min">
-          <div class="stat-label">Tiefstkurs</div>
-          <div class="stat-value">${fmt(stats.min)}</div>
-          <div class="stat-sub">im Zeitraum</div>
-        </div>
-        <div class="stat-card c-max">
-          <div class="stat-label">Höchstkurs</div>
-          <div class="stat-value">${fmt(stats.max)}</div>
-          <div class="stat-sub">im Zeitraum</div>
-        </div>
-        <div class="stat-card c-avg">
-          <div class="stat-label">Durchschnitt</div>
-          <div class="stat-value">${fmt(stats.avg)}</div>
-          <div class="stat-sub">über alle Daten</div>
-        </div>
-        <div class="stat-card c-chg">
-          <div class="stat-label">Entwicklung</div>
-          <div class="badge ${isUp?'up':'down'}">${isUp?'▲':'▼'} ${isUp?'+':''}${fmt(stats.change)} (${isUp?'+':''}${stats.changePct}%)</div>
-          <div class="stat-sub">seit Aufzeichnungsbeginn</div>
-        </div>
-      </div>
+      <!-- TAB: Übersicht -->
+      <div id="tab-ov" class="tab-panel active">
 
-      <div class="chart-card">
-        <div class="chart-header">
-          <div class="chart-title">${setData.name} – Preisverlauf</div>
-          <div class="range-btns">
-            <button class="range-btn" onclick="filterRange(30,this)">30T</button>
-            <button class="range-btn" onclick="filterRange(90,this)">3M</button>
-            <button class="range-btn" onclick="filterRange(180,this)">6M</button>
-            <button class="range-btn active" onclick="filterRange(0,this)">Alle</button>
+        <div class="stat-row">
+          <div class="stat-box s-cur">
+            <div class="s-label">Aktuell</div>
+            <div class="s-val">${fmt(st.latest)}</div>
+            <div class="s-sub">Letzter Datenpunkt</div>
+          </div>
+          <div class="stat-box s-min">
+            <div class="s-label">Tiefstkurs</div>
+            <div class="s-val">${fmt(st.min)}</div>
+            <div class="s-sub">im Zeitraum</div>
+          </div>
+          <div class="stat-box s-max">
+            <div class="s-label">Höchstkurs</div>
+            <div class="s-val">${fmt(st.max)}</div>
+            <div class="s-sub">im Zeitraum</div>
+          </div>
+          <div class="stat-box s-avg">
+            <div class="s-label">Ø Durchschnitt</div>
+            <div class="s-val">${fmt(st.avg)}</div>
+            <div class="s-sub">über alle Daten</div>
+          </div>
+          <div class="stat-box s-chg">
+            <div class="s-label">Entwicklung gesamt</div>
+            <div class="chg-pill ${up?'up':'dn'}">${up?'▲':'▼'} ${up?'+':''}${fmt(st.change)}</div>
+            <div class="s-sub">${up?'+':''}${st.pct}% seit Beginn (${fmt(st.first)})</div>
           </div>
         </div>
-        <div class="chart-wrap"><canvas id="mainChart"></canvas></div>
-      </div>
 
-      <div class="two-col">
-        <div class="table-card">
-          <div class="table-head-row">Preisverlauf (letzte ${Math.min(points.length,50)} Einträge)</div>
-          <table>
-            <thead><tr><th>Datum</th><th>Preis</th></tr></thead>
-            <tbody>
-              ${[...points].reverse().slice(0,50).map(p=>`<tr><td>${fmtDate(p[0])}</td><td class="price">${fmt(p[1])}</td></tr>`).join('')}
-            </tbody>
-          </table>
+        <div class="chart-box">
+          <div class="chart-top">
+            <span class="chart-lbl">Preisverlauf</span>
+            <div class="range-row">
+              <button class="rng" onclick="fRange(30,this)">1M</button>
+              <button class="rng" onclick="fRange(90,this)">3M</button>
+              <button class="rng" onclick="fRange(180,this)">6M</button>
+              <button class="rng active" onclick="fRange(0,this)">Alle</button>
+            </div>
+          </div>
+          <div class="chart-wrap"><canvas id="mainChart"></canvas></div>
         </div>
 
-        <div class="table-card">
-          <div class="table-head-row" style="display:flex;align-items:center;justify-content:space-between">
-            <span>
-              Letzte Verkäufe
-              <span style="font-size:.7rem;color:var(--muted);font-weight:400;margin-left:8px">via PriceCharting</span>
-            </span>
-            ${(() => {
-              const q = encodeURIComponent((setData.ebay_query || setData.name + ' Booster Box sealed'));
-              const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${q}&LH_Sold=1&LH_Complete=1&LH_ItemCondition=1000&_sop=13`;
-              return `<a href="${ebayUrl}" target="_blank" style="font-size:.72rem;color:var(--accent2);text-decoration:none;border:1px solid var(--accent2);padding:3px 10px;border-radius:5px;font-weight:500;white-space:nowrap">↗ eBay Verkäufe</a>`;
-            })()}
-          </div>
-          ${(() => {
-            const sales = setData.recent_sales || [];
-            if (!sales.length) return `<div style="padding:24px 20px;color:var(--muted);font-size:.83rem">Noch keine Verkaufsdaten</div>`;
-            return `<table>
-              <thead><tr><th>Datum</th><th>Verkaufspreis</th></tr></thead>
+        <div class="bottom-grid">
+          <div class="tbl-box">
+            <div class="tbl-head">
+              <span class="tbl-title">Preisverlauf</span>
+              <span class="tbl-badge">${Math.min(pts.length,50)} Einträge</span>
+            </div>
+            <table>
+              <thead><tr><th>Datum</th><th>Preis</th></tr></thead>
               <tbody>
-                ${sales.map(s => `
-                  <tr>
-                    <td>${s.date}</td>
-                    <td class="price">\$${s.price.toFixed(2)}</td>
-                  </tr>`).join('')}
+                ${[...pts].reverse().slice(0,50).map(p=>`<tr><td>${fmtD(p[0])}</td><td class="price">${fmt(p[1])}</td></tr>`).join('')}
               </tbody>
-            </table>`;
-          })()}
-        </div>
-      </div>
-      </div><!-- /tab-overview -->
+            </table>
+          </div>
 
+          <div class="tbl-box">
+            <div class="tbl-head">
+              <span class="tbl-title">Letzte Verkäufe</span>
+              <a class="ext-link" href="${ebayUrl}" target="_blank">↗ eBay</a>
+            </div>
+            ${sales.length
+              ? `<table>
+                  <thead><tr><th>Datum</th><th>Preis</th></tr></thead>
+                  <tbody>${sales.map(s=>`<tr><td>${s.date}</td><td class="price">$${s.price.toFixed(2)}</td></tr>`).join('')}</tbody>
+                </table>`
+              : `<div class="no-data">Keine Verkaufsdaten verfügbar</div>`}
+          </div>
+        </div>
+      </div><!-- /tab-ov -->
+
+      <!-- TAB: Karten -->
       <div id="tab-cards" class="tab-panel">
-        ${renderCardsTab(setData)}
+        ${renderCardsTab(sd)}
       </div>
     `;
 
-    window._detailPoints = points;
-    buildMainChart(points);
+    window._pts = pts;
+    buildChart(pts);
   }
 
-  function filterRange(days, btn) {
-    document.querySelectorAll('.range-btn').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
-    let pts = window._detailPoints;
-    if (days > 0) {
-      const cutoff = Date.now() - days*86400*1000;
-      pts = pts.filter(p=>p[0]>=cutoff);
-    }
-    if (pts.length < 2) pts = window._detailPoints;
-    buildMainChart(pts);
-  }
-
-  function buildMainChart(points) {
+  /* ── CHART ── */
+  function buildChart(pts) {
     if (mainChart) mainChart.destroy();
     const ctx = document.getElementById('mainChart').getContext('2d');
-    const grad = ctx.createLinearGradient(0,0,0,240);
-    grad.addColorStop(0,'rgba(232,184,75,0.28)');
-    grad.addColorStop(1,'rgba(232,184,75,0)');
-
+    const g = ctx.createLinearGradient(0,0,0,260);
+    g.addColorStop(0,'rgba(232,184,75,.22)');
+    g.addColorStop(1,'rgba(232,184,75,0)');
     mainChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: points.map(p=>new Date(p[0])),
-        datasets: [{
-          data: points.map(p=>p[1]/100),
-          borderColor: '#e8b84b', backgroundColor: grad,
-          borderWidth: 2.5, pointRadius: points.length<30?5:2,
-          pointHoverRadius:7, pointBackgroundColor:'#e8b84b',
-          tension: 0.35, fill: true,
-        }]
-      },
-      options: {
+      type:'line',
+      data:{ labels:pts.map(p=>new Date(p[0])), datasets:[{
+        data:pts.map(p=>p[1]/100), borderColor:'#e8b84b', backgroundColor:g,
+        borderWidth:2, pointRadius:pts.length<20?4:1.5, pointHoverRadius:6,
+        pointBackgroundColor:'#e8b84b', tension:.35, fill:true
+      }]},
+      options:{
         responsive:true, maintainAspectRatio:false,
         interaction:{mode:'index',intersect:false},
         plugins:{
           legend:{display:false},
           tooltip:{
-            backgroundColor:'#1e2535',borderColor:'#2a3347',borderWidth:1,
-            titleColor:'#7a8aaa',bodyColor:'#dde3f0',padding:12,
-            callbacks:{
-              title:items=>fmtDate(items[0].parsed.x),
-              label:item=>` $${item.parsed.y.toFixed(2)}`,
-            }
+            backgroundColor:'#1a2030', borderColor:'#252d3d', borderWidth:1,
+            titleColor:'#5a6a82', bodyColor:'#e2e8f0', padding:10,
+            callbacks:{ title:i=>fmtD(i[0].parsed.x), label:i=>` $${i.parsed.y.toFixed(2)}` }
           }
         },
         scales:{
-          x:{type:'time',time:{unit:'week',displayFormats:{week:'dd.MM.yy'}},grid:{color:'#1e2535'},ticks:{color:'#7a8aaa',maxTicksLimit:8,font:{size:11}}},
-          y:{grid:{color:'#1e2535'},ticks:{color:'#7a8aaa',font:{size:11},callback:v=>'$'+v.toFixed(0)}}
+          x:{ type:'time', time:{unit:'week',displayFormats:{week:'dd.MM.yy'}},
+              grid:{color:'rgba(37,45,61,.8)'}, ticks:{color:'#5a6a82',maxTicksLimit:7,font:{size:10}} },
+          y:{ grid:{color:'rgba(37,45,61,.8)'},
+              ticks:{color:'#5a6a82',font:{size:10},callback:v=>'$'+v.toFixed(0)} }
         }
       }
     });
   }
 
-  // ── Vergleichsansicht ──
-  function toggleCompare() {
-    compareMode = !compareMode;
-    document.getElementById('compareBtn').classList.toggle('active', compareMode);
-    if (compareMode) renderCompare();
-    else renderDetail(activeSet);
-  }
-
-  function renderCompare() {
-    const sets = allSetsData;
-    const ids = ['op01','op02','op03','op04','op05','op06','op07','op08','op09','op10','op11','op12','op13','op14','op15'];
-    const main = document.getElementById('main');
-
-    const cards = ids.map(id => {
-      const s = sets[id];
-      const pts = s ? getPoints(s) : [];
-      const stats = calcStats(pts);
-      const available = s && s.available !== false && pts.length > 0;
-      const name = s ? s.name.replace(/OP-\d+\s*/,'') : id.toUpperCase();
-      const opNum = id.replace('op','OP-');
-      const isUp = stats && stats.change >= 0;
-
-      return `
-        <div class="compare-card${available?'':' unavailable'}" onclick="${available?`selectSet('${id}')`:''}" data-id="${id}">
-          <div class="op-id">${opNum}</div>
-          <div class="op-name">${name}</div>
-          ${stats ? `
-            <div class="op-price">${fmt(stats.latest)}</div>
-            <div class="op-change">
-              <span class="badge ${isUp?'up':'down'}" style="font-size:.68rem;padding:1px 6px">
-                ${isUp?'▲':'▼'} ${isUp?'+':''}${stats.changePct}%
-              </span>
-            </div>
-            <canvas class="compare-mini-chart" id="mini_${id}"></canvas>
-          ` : '<div class="op-price" style="color:var(--muted);font-size:.9rem">N/A</div>'}
-        </div>
-      `;
-    }).join('');
-
-    main.innerHTML = `<div class="compare-grid">${cards}</div>`;
-
-    // Mini-Charts zeichnen
-    ids.forEach(id => {
-      const s = sets[id];
-      if (!s) return;
-      const pts = getPoints(s);
-      if (pts.length < 2) return;
-      const canvas = document.getElementById('mini_'+id);
-      if (!canvas) return;
-
-      new Chart(canvas.getContext('2d'), {
-        type: 'line',
-        data: {
-          labels: pts.map(p=>new Date(p[0])),
-          datasets: [{
-            data: pts.map(p=>p[1]/100),
-            borderColor: '#e8b84b', borderWidth: 1.5,
-            pointRadius: 0, tension: 0.4, fill: false,
-          }]
-        },
-        options: {
-          responsive:false, animation:false,
-          plugins:{legend:{display:false},tooltip:{enabled:false}},
-          scales:{x:{display:false},y:{display:false}}
-        }
-      });
-    });
-  }
-
-  // ── Daten laden ──
-  const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
-
-  async function refreshData() {
-    document.getElementById('lastUpdate').textContent = 'Aktualisiere...';
-
-    if (isLocal) {
-      // Lokal: Scraper über API anstoßen
-      document.getElementById('main').innerHTML = `<div class="centered"><div class="spinner"></div><h3>Scraper läuft</h3><p>Alle 15 Sets werden abgefragt...</p><div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:5%"></div></div></div>`;
-      let p = 5;
-      const interval = setInterval(() => {
-        p = Math.min(p+4, 90);
-        const el = document.getElementById('progressFill');
-        if (el) el.style.width = p + '%';
-      }, 1500);
-      try {
-        const resp = await fetch('/api/update');
-        clearInterval(interval);
-        if (!resp.ok) throw new Error('Server nicht erreichbar');
-        const json = await resp.json();
-        if (!json.ok) throw new Error(json.error);
-        applyData(json.data);
-      } catch (e) {
-        clearInterval(interval);
-        await loadStatic();
-      }
-    } else {
-      // GitHub Pages / statisch: JSON direkt laden
-      document.getElementById('main').innerHTML = `<div class="centered"><div class="spinner"></div><h3>Daten werden geladen</h3><p>Preisdaten werden abgerufen...</p></div>`;
-      await loadStatic();
-    }
-  }
-
-  async function loadStatic() {
-    try {
-      const resp = await fetch('prices_all.json?t=' + Date.now());
-      if (!resp.ok) throw new Error('Keine Preisdaten gefunden');
-      const data = await resp.json();
-      applyData(data);
-    } catch (e) {
-      showError(e.message);
-    }
-  }
-
-  function applyData(data) {
-    allSetsData = data.sets || {};
-
-    if (data.last_updated) {
-      const d = new Date(data.last_updated);
-      document.getElementById('lastUpdate').textContent =
-        'Zuletzt: ' + d.toLocaleDateString('de-DE') + ' ' + d.toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});
-    }
-
-    buildSidebar(data);
-
-    if (compareMode) renderCompare();
-    else {
-      // Wähle aktivstes Set mit Daten
-      if (!allSetsData[activeSet]?.available) {
-        const first = ['op01','op02','op03','op04','op05','op06','op07','op08','op09','op10','op11','op12','op13','op14','op15']
-          .find(id => allSetsData[id]?.available && getPoints(allSetsData[id]).length > 0);
-        if (first) activeSet = first;
-      }
-      renderDetail(activeSet);
-      document.querySelectorAll('.set-item').forEach(el => el.classList.toggle('active', el.dataset.id===activeSet));
-    }
-  }
-
-  function showError(msg) {
-    document.getElementById('main').innerHTML = `
-      <div class="centered">
-        <h3>Fehler beim Laden</h3>
-        <p>${msg}<br><br>Starte den Server mit <code>python server.py</code></p>
-      </div>`;
-  }
-
-  // ── Tab-Switching ──
-  function switchTab(name, btn) {
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  function fRange(days, btn) {
+    document.querySelectorAll('.rng').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
-    document.getElementById('tab-' + name).classList.add('active');
+    let pts = window._pts;
+    if (days>0) { const c=Date.now()-days*86400000; pts=pts.filter(p=>p[0]>=c); }
+    if (pts.length<2) pts=window._pts;
+    buildChart(pts);
   }
 
-  // ── Karten-Tab ──
-  function renderCardsTab(setData) {
-    const cards = setData.cards || [];
-    if (!cards.length) return `<div class="centered"><h3>Keine Kartendaten</h3><p>Werden beim nächsten Scraper-Lauf geladen.</p></div>`;
-
-    const rows = cards.map((c, i) => `
-      <tr class="card-row">
-        <td class="rank">#${i+1}</td>
+  /* ── CARDS TAB ── */
+  function renderCardsTab(sd) {
+    const cards = sd.cards || [];
+    if (!cards.length) return `<div class="loading"><h3>Keine Kartendaten</h3><p>Werden beim nächsten täglichen Update geladen.</p></div>`;
+    const rows = cards.map((c,i)=>`
+      <tr class="cr">
+        <td class="rank">${i+1}</td>
         <td class="card-name"><a href="${c.url}" target="_blank">${c.name}</a></td>
         <td class="card-num">${c.number}</td>
         <td class="price">$${c.price.toFixed(2)}</td>
       </tr>`).join('');
-
     return `
-      <div class="table-card">
-        <div class="table-head-row" style="display:flex;align-items:center;justify-content:space-between">
-          <span>Einzelkarten – nach Wert sortiert <span style="color:var(--muted);font-size:.72rem;font-weight:400">(${cards.length} Karten)</span></span>
-          <span style="font-size:.72rem;color:var(--muted)">via PriceCharting</span>
+      <div class="tbl-box">
+        <div class="tbl-head">
+          <span class="tbl-title">Einzelkarten nach Wert</span>
+          <span class="tbl-badge">${cards.length} Karten</span>
         </div>
-        <div style="padding:12px 18px 0">
-          <input class="card-search" type="text" placeholder="Karte suchen..." oninput="filterCards(this.value)">
+        <div class="search-wrap">
+          <input class="card-search" type="text" placeholder="Karte suchen…" oninput="filterCards(this.value)">
         </div>
-        <table id="cardsTable">
-          <thead><tr><th>#</th><th>Kartenname</th><th>Nummer</th><th>Preis</th></tr></thead>
+        <table>
+          <thead><tr><th>#</th><th>Karte</th><th>Nummer</th><th>Preis</th></tr></thead>
           <tbody id="cardsBody">${rows}</tbody>
         </table>
       </div>`;
   }
 
-  function filterCards(query) {
-    const q = query.toLowerCase();
-    document.querySelectorAll('#cardsBody .card-row').forEach(row => {
-      const text = row.textContent.toLowerCase();
-      row.style.display = text.includes(q) ? '' : 'none';
+  function filterCards(q) {
+    q = q.toLowerCase();
+    document.querySelectorAll('#cardsBody .cr').forEach(r => {
+      r.style.display = r.textContent.toLowerCase().includes(q) ? '' : 'none';
     });
   }
 
-  // Start
+  /* ── TABS ── */
+  function switchTab(name, btn) {
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-'+name).classList.add('active');
+  }
+
+  /* ── COMPARE ── */
+  function toggleCompare() {
+    compareMode = !compareMode;
+    document.getElementById('compareBtn').classList.toggle('active', compareMode);
+    compareMode ? renderCompare() : renderDetail(activeSet);
+  }
+
+  function renderCompare() {
+    const main = document.getElementById('main');
+    const html = SET_IDS.map(id => {
+      const sd = allSets[id];
+      const pts = getPoints(sd);
+      const st = calcStats(pts);
+      const ok = sd?.available !== false && pts.length>0;
+      const name = sd?.name?.replace(/OP-\d+\s*/,'') ?? id;
+      const opNum = 'OP-' + id.replace('op','').replace(/^0/,'').padStart(2,'0');
+      const up = st?.change >= 0;
+      return `
+        <div class="cmp-card${ok?'':' unavailable'}" onclick="${ok?`selectSet('${id}')`:''}" >
+          <div class="cmp-op">${opNum}</div>
+          <div class="cmp-name">${name}</div>
+          ${st ? `
+            <div class="cmp-price">${fmt(st.latest)}</div>
+            <div class="cmp-trend">
+              <span class="chg-pill ${up?'up':'dn'}" style="font-size:.65rem;padding:2px 7px">
+                ${up?'▲':'▼'} ${up?'+':''}${st.pct}%
+              </span>
+            </div>
+            <canvas class="cmp-canvas" id="mc_${id}" width="185" height="44"></canvas>
+          ` : '<div style="color:var(--text3);font-size:.82rem;margin-top:8px">N/A</div>'}
+        </div>`;
+    }).join('');
+
+    main.innerHTML = `
+      <div class="page-title"><h2>Alle Sets im Vergleich</h2></div>
+      <div class="cmp-grid">${html}</div>`;
+
+    SET_IDS.forEach(id => {
+      const sd = allSets[id];
+      const pts = getPoints(sd);
+      if (pts.length < 2) return;
+      const canvas = document.getElementById('mc_'+id);
+      if (!canvas) return;
+      const up = calcStats(pts)?.change >= 0;
+      new Chart(canvas.getContext('2d'), {
+        type:'line',
+        data:{ labels:pts.map(p=>new Date(p[0])), datasets:[{
+          data:pts.map(p=>p[1]/100),
+          borderColor: up ? '#3dd68c' : '#f06060',
+          borderWidth:1.5, pointRadius:0, tension:.4, fill:false
+        }]},
+        options:{ responsive:false, animation:false, plugins:{legend:{display:false},tooltip:{enabled:false}}, scales:{x:{display:false},y:{display:false}} }
+      });
+    });
+  }
+
+  /* ── DATA LOADING ── */
+  const isLocal = ['localhost','127.0.0.1'].includes(location.hostname);
+
+  async function refreshData() {
+    document.getElementById('lastUpdate').textContent = 'Laden…';
+    if (isLocal) {
+      document.getElementById('main').innerHTML = `<div class="loading"><div class="spinner"></div><h3>Scraper läuft</h3><p>Alle 15 Sets werden abgefragt…</p><div class="pbar"><div class="pfill" id="progressFill" style="width:5%"></div></div></div>`;
+      let p=5; const iv=setInterval(()=>{ p=Math.min(p+3,88); const e=document.getElementById('progressFill'); if(e) e.style.width=p+'%'; },1800);
+      try {
+        const r = await fetch('/api/update');
+        clearInterval(iv);
+        const j = await r.json();
+        if (!j.ok) throw new Error(j.error);
+        applyData(j.data);
+      } catch { clearInterval(iv); await loadJSON(); }
+    } else {
+      document.getElementById('main').innerHTML = `<div class="loading"><div class="spinner"></div><h3>Daten werden geladen</h3></div>`;
+      await loadJSON();
+    }
+  }
+
+  async function loadJSON() {
+    try {
+      const r = await fetch('prices_all.json?t='+Date.now());
+      if (!r.ok) throw new Error('Datei nicht gefunden');
+      applyData(await r.json());
+    } catch(e) {
+      document.getElementById('main').innerHTML = `<div class="loading"><h3>Fehler beim Laden</h3><p>${e.message}</p></div>`;
+    }
+  }
+
+  function applyData(data) {
+    allSets = data.sets || {};
+    if (data.last_updated) {
+      const d = new Date(data.last_updated);
+      document.getElementById('lastUpdate').textContent = d.toLocaleDateString('de-DE') + ' ' + d.toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});
+    }
+    buildSidebar(data);
+    if (!allSets[activeSet]?.available) {
+      activeSet = SET_IDS.find(id => allSets[id]?.available && getPoints(allSets[id]).length>0) ?? 'op14';
+    }
+    compareMode ? renderCompare() : renderDetail(activeSet);
+    document.querySelectorAll('.set-item').forEach(el => el.classList.toggle('active', el.dataset.id===activeSet));
+  }
+
   refreshData();
 </script>
 </body>
