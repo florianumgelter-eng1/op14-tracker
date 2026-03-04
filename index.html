@@ -167,6 +167,24 @@
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
 
+    /* ══ PAGE HEADER WITH BOX IMAGE ══ */
+    .set-header { display: flex; align-items: center; gap: 18px; margin-bottom: 16px; }
+    .box-img { width: 80px; height: 80px; object-fit: contain; border-radius: 8px; border: 1px solid var(--border); background: var(--surface2); flex-shrink: 0; }
+    .box-img-placeholder { width: 80px; height: 80px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface2); flex-shrink: 0; display:flex; align-items:center; justify-content:center; font-size:2rem; }
+    .set-header-info h2 { font-size: 1.15rem; font-weight: 700; letter-spacing: -.02em; }
+    .set-header-info .pc-link { font-size: .72rem; color: var(--text3); text-decoration: none; transition: color .15s; display: inline-block; margin-top: 4px; }
+    .set-header-info .pc-link:hover { color: var(--blue); }
+
+    /* ══ CARD IMAGE HOVER PREVIEW ══ */
+    .card-img-thumb { width: 36px; height: 50px; object-fit: contain; border-radius: 4px; border: 1px solid var(--border); background: var(--surface2); cursor: pointer; transition: transform .15s; vertical-align: middle; }
+    .card-img-thumb:hover { transform: scale(1.05); }
+    td.card-img-cell { width: 50px; padding: 5px 8px !important; }
+
+    /* Lightbox */
+    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.8); z-index: 9999; align-items: center; justify-content: center; cursor: pointer; }
+    .lightbox.open { display: flex; }
+    .lightbox img { max-width: 340px; max-height: 80vh; border-radius: 10px; box-shadow: 0 0 60px rgba(0,0,0,.8); }
+
     /* ══ STAT ROW ══ */
     .stat-row { display: grid; grid-template-columns: repeat(4, 1fr) 1.4fr; gap: 10px; margin-bottom: 16px; }
     .stat-box {
@@ -298,6 +316,10 @@
   </main>
 </div>
 
+<div class="lightbox" id="lightbox" onclick="this.classList.remove('open')">
+  <img id="lightboxImg" src="" alt="">
+</div>
+
 <script>
   const fmt   = c => '$' + (c / 100).toFixed(2);
   const fmtD  = ts => new Date(ts).toLocaleDateString('de-DE', { day:'2-digit', month:'2-digit', year:'numeric' });
@@ -378,9 +400,14 @@
     const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${q}&LH_Sold=1&LH_Complete=1&LH_ItemCondition=1000&_sop=13`;
 
     main.innerHTML = `
-      <div class="page-title">
-        <h2>${sd.name}</h2>
-        <a class="pc-link" href="${sd.url}" target="_blank">↗ PriceCharting</a>
+      <div class="set-header">
+        ${sd.box_img
+          ? `<img class="box-img" src="${sd.box_img}" alt="${sd.name}" onclick="openLightbox('${sd.box_img.replace('/240.jpg','/400.jpg')}')">`
+          : `<div class="box-img-placeholder">🃏</div>`}
+        <div class="set-header-info">
+          <h2>${sd.name}</h2>
+          <a class="pc-link" href="${sd.url}" target="_blank">↗ PriceCharting</a>
+        </div>
       </div>
 
       <div class="tabs">
@@ -526,6 +553,11 @@
 
     const rows = cards.map((c,i) => `
       <tr class="cr">
+        <td class="card-img-cell">
+          ${c.img
+            ? `<img class="card-img-thumb" src="${c.img}" alt="${c.name}" loading="lazy" onclick="openLightbox('${c.img.replace('/200.jpg','/400.jpg')}')">`
+            : `<div style="width:36px;height:50px;background:var(--surface2);border-radius:4px;border:1px solid var(--border)"></div>`}
+        </td>
         <td class="rank">${i+1}</td>
         <td class="card-name"><a href="${c.url}" target="_blank">${c.name}</a></td>
         <td class="card-num">${c.number}</td>
@@ -546,6 +578,7 @@
         <table>
           <thead>
             <tr>
+              <th></th>
               <th>#</th>
               <th>Karte</th>
               <th>Nummer</th>
@@ -675,6 +708,12 @@
     document.querySelectorAll('.set-item').forEach(el => el.classList.toggle('active', el.dataset.id===activeSet));
   }
 
+  /* ══ LIGHTBOX ══ */
+  function openLightbox(src) {
+    document.getElementById('lightboxImg').src = src;
+    document.getElementById('lightbox').classList.add('open');
+  }
+
   /* ══ GLOBAL CARD SEARCH ══ */
   function globalSearch(q) {
     const drop = document.getElementById('gsearchDrop');
@@ -712,6 +751,7 @@
       <div class="gsd-header">${total} Treffer${total > 12 ? ` (Top 12)` : ''}</div>
       ${shown.map(c => `
         <div class="gsd-item" onclick="goToCard('${c.setId}','${c.url}')">
+          ${c.img ? `<img src="${c.img}" style="width:26px;height:36px;object-fit:contain;border-radius:3px;border:1px solid var(--border);flex-shrink:0" loading="lazy">` : ''}
           <span class="gsd-set">${c.setNum}</span>
           <span class="gsd-name">${highlight(c.name)}</span>
           <div class="gsd-prices">

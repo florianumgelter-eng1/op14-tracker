@@ -79,6 +79,16 @@ def parse_chart_data(html: str) -> list:
     return []
 
 
+def parse_box_image(html: str) -> str:
+    """Extract booster box product image URL from PriceCharting page."""
+    soup = BeautifulSoup(html, "html.parser")
+    for img in soup.find_all("img"):
+        src = img.get("src", "")
+        if "storage.googleapis.com/images.pricecharting" in src:
+            return src
+    return ""
+
+
 def parse_current_price(html: str) -> float | None:
     soup = BeautifulSoup(html, "html.parser")
     for selector in ["#used_price .price", ".price-box .used .price", "[id*='used'] .price"]:
@@ -184,6 +194,12 @@ def fetch_cards(console_slug: str) -> list[dict]:
         if len(cells) < 5:
             continue
 
+        # Bild aus Zelle 0
+        img_el = cells[0].find("img")
+        img_raw = img_el.get("src", "") if img_el else ""
+        # Größeres Bild: /60.jpg → /200.jpg
+        img = img_raw.replace("/60.jpg", "/200.jpg") if img_raw else ""
+
         # Titel aus Zelle 1
         link_el = cells[1].find("a")
         if not link_el:
@@ -215,7 +231,8 @@ def fetch_cards(console_slug: str) -> list[dict]:
             "price":  price,
             "grade9": grade9,
             "psa10":  psa10,
-            "url": card_url,
+            "url":    card_url,
+            "img":    img,
         })
 
     # Nach Ungraded sortieren, Karten ohne Ungraded ans Ende
@@ -266,6 +283,9 @@ def run():
             print("    PriceCharting: kein Eintrag")
         else:
             entry["available"] = True
+            box_img = parse_box_image(html)
+            if box_img:
+                entry["box_img"] = box_img
             chart_data = parse_chart_data(html)
             current_price = parse_current_price(html)
 
