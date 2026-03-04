@@ -269,6 +269,87 @@
     .pbar { width: 220px; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
     .pfill { height: 100%; background: var(--accent); border-radius: 2px; transition: width .4s; }
     .no-data { padding: 40px 20px; text-align: center; color: var(--text3); font-size: .82rem; }
+
+    /* ══ INVENTORY BUTTON ══ */
+    .inv-btn {
+      background: var(--surface2); border: 1px solid var(--border); color: var(--text2);
+      height: 30px; padding: 0 10px; border-radius: 7px; cursor: pointer;
+      display: flex; align-items: center; gap: 6px;
+      font-size: .78rem; font-weight: 600; transition: all .15s; font-family: inherit; white-space: nowrap;
+    }
+    .inv-btn:hover { background: var(--surface3); border-color: var(--border2); color: var(--text); }
+    .inv-btn.has-items { border-color: rgba(232,184,75,.5); color: var(--accent); }
+    .inv-count-badge {
+      background: var(--accent); color: #000; font-size: .6rem; font-weight: 800;
+      min-width: 16px; height: 16px; border-radius: 8px; display: inline-flex;
+      align-items: center; justify-content: center; padding: 0 4px;
+    }
+
+    /* ══ INVENTORY DRAWER ══ */
+    .inv-drawer {
+      position: fixed; top: 52px; right: 0; bottom: 0;
+      width: 380px; background: var(--surface); border-left: 1px solid var(--border);
+      display: flex; flex-direction: column; z-index: 500;
+      transform: translateX(100%); transition: transform .22s ease;
+      box-shadow: -8px 0 32px rgba(0,0,0,.4);
+    }
+    .inv-drawer.open { transform: translateX(0); }
+    .inv-drawer-head {
+      padding: 14px 16px; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
+    }
+    .inv-drawer-title { font-size: .9rem; font-weight: 700; }
+    .inv-close-btn {
+      background: none; border: none; color: var(--text3); cursor: pointer; font-size: 1.1rem;
+      width: 28px; height: 28px; border-radius: 5px; display: flex; align-items: center; justify-content: center;
+      transition: all .12s;
+    }
+    .inv-close-btn:hover { background: var(--surface2); color: var(--text); }
+    .inv-total-bar {
+      padding: 10px 16px; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
+      background: var(--surface2);
+    }
+    .inv-total-label { font-size: .7rem; text-transform: uppercase; letter-spacing: .09em; color: var(--text3); font-weight: 600; }
+    .inv-total-val { font-size: 1.1rem; font-weight: 800; color: var(--accent); }
+    .inv-list { flex: 1; overflow-y: auto; }
+    .inv-empty { padding: 40px 20px; text-align: center; color: var(--text3); font-size: .82rem; line-height: 1.7; }
+    .inv-item {
+      display: flex; align-items: center; gap: 10px; padding: 9px 14px;
+      border-bottom: 1px solid var(--border); transition: background .1s;
+    }
+    .inv-item:hover { background: var(--surface2); }
+    .inv-item-img { width: 30px; height: 42px; object-fit: contain; border-radius: 3px; border: 1px solid var(--border); flex-shrink: 0; }
+    .inv-item-img-placeholder { width: 30px; height: 42px; background: var(--surface2); border-radius: 3px; border: 1px solid var(--border); flex-shrink: 0; }
+    .inv-item-info { flex: 1; min-width: 0; }
+    .inv-item-name { font-size: .77rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
+    .inv-item-set { font-size: .65rem; color: var(--text3); font-family: monospace; margin-top: 1px; }
+    .inv-item-price { font-size: .8rem; font-weight: 700; color: var(--accent); flex-shrink: 0; }
+    .inv-qty { display: flex; align-items: center; gap: 5px; flex-shrink: 0; }
+    .qty-btn {
+      background: var(--surface3); border: 1px solid var(--border); color: var(--text2);
+      width: 22px; height: 22px; border-radius: 4px; cursor: pointer; font-size: .85rem;
+      display: flex; align-items: center; justify-content: center; transition: all .12s; line-height: 1;
+    }
+    .qty-btn:hover { background: var(--border2); color: var(--text); }
+    .qty-num { font-size: .8rem; font-weight: 700; min-width: 16px; text-align: center; color: var(--text); }
+    .inv-clear-btn {
+      margin: 12px 16px; background: transparent; border: 1px solid rgba(240,96,96,.3);
+      color: var(--red); padding: 7px; border-radius: 6px; font-size: .75rem; cursor: pointer;
+      font-family: inherit; transition: all .15s; width: calc(100% - 32px);
+    }
+    .inv-clear-btn:hover { background: rgba(240,96,96,.08); }
+
+    /* ══ ADD TO INVENTORY BUTTON ══ */
+    .add-inv-btn {
+      background: transparent; border: 1px solid var(--border); color: var(--text3);
+      width: 24px; height: 24px; border-radius: 5px; cursor: pointer; font-size: .9rem;
+      display: inline-flex; align-items: center; justify-content: center; transition: all .12s;
+      flex-shrink: 0; line-height: 1;
+    }
+    .add-inv-btn:hover { background: rgba(232,184,75,.15); border-color: var(--accent); color: var(--accent); }
+    .add-inv-btn.in-inv { background: rgba(232,184,75,.15); border-color: var(--accent); color: var(--accent); }
+    td.inv-cell { width: 36px; padding: 5px 4px !important; text-align: center; }
   </style>
 </head>
 <body>
@@ -280,6 +361,9 @@
     <div class="header-sub">OP-01 bis OP-15 · Booster Box</div>
   </div>
   <div class="header-right">
+    <button class="inv-btn" id="invBtn" onclick="toggleInventory()" title="Inventar">
+      🗃 Inventar <span class="inv-count-badge" id="invCountBadge" style="display:none">0</span>
+    </button>
     <div class="gsearch-wrap" id="gsearchWrap">
       <span class="gsearch-icon">🔍</span>
       <input class="gsearch" type="text" id="gsearch" placeholder="Karte suchen…"
@@ -314,6 +398,19 @@
       <div class="pbar"><div class="pfill" id="progressFill" style="width:0%"></div></div>
     </div>
   </main>
+</div>
+
+<div class="inv-drawer" id="invDrawer">
+  <div class="inv-drawer-head">
+    <span class="inv-drawer-title">🗃 Mein Inventar</span>
+    <button class="inv-close-btn" onclick="toggleInventory()">✕</button>
+  </div>
+  <div class="inv-total-bar">
+    <span class="inv-total-label">Gesamtwert (Ungraded)</span>
+    <span class="inv-total-val" id="invTotalVal">$0.00</span>
+  </div>
+  <div class="inv-list" id="invList"></div>
+  <button class="inv-clear-btn" onclick="clearInventory()">Inventar leeren</button>
 </div>
 
 <div class="lightbox" id="lightbox" onclick="this.classList.remove('open')">
@@ -551,12 +648,23 @@
     const cards = sd.cards || [];
     if (!cards.length) return `<div class="loading"><h3>Keine Kartendaten</h3><p>Werden beim nächsten täglichen Update geladen.</p></div>`;
 
-    const rows = cards.map((c,i) => `
-      <tr class="cr">
+    const setId = Object.keys(allSets).find(k => allSets[k] === sd) || '';
+    const rows = cards.map((c,i) => {
+      const ikey = invKey(setId, c);
+      const inInv = !!inventory[ikey];
+      const safeImg = c.img ? c.img.replace(/'/g, "\\'") : '';
+      const safeName = c.name.replace(/'/g, "\\'");
+      return `
+      <tr class="cr" id="cr_${ikey}">
         <td class="card-img-cell">
           ${c.img
-            ? `<img class="card-img-thumb" src="${c.img}" alt="${c.name}" loading="lazy" onclick="openLightbox('${c.img}')">`
+            ? `<img class="card-img-thumb" src="${c.img}" alt="${c.name}" loading="lazy" onclick="openLightbox('${safeImg}')">`
             : `<div style="width:36px;height:50px;background:var(--surface2);border-radius:4px;border:1px solid var(--border)"></div>`}
+        </td>
+        <td class="inv-cell">
+          <button class="add-inv-btn${inInv?' in-inv':''}" id="addbtn_${ikey}"
+            onclick='addToInventory(${JSON.stringify({name:c.name,number:c.number,price:c.price,psa10:c.psa10,img:c.img,url:c.url})}, "${setId}")'
+            title="${inInv?'Im Inventar':'Zum Inventar hinzufügen'}">+</button>
         </td>
         <td class="rank">${i+1}</td>
         <td class="card-name"><a href="${c.url}" target="_blank">${c.name}</a></td>
@@ -564,7 +672,8 @@
         <td class="price">${fmtP(c.price)}</td>
         <td style="font-weight:700;color:var(--blue);font-size:.85rem">${fmtP(c.grade9)}</td>
         <td style="font-weight:700;color:var(--purple);font-size:.85rem">${fmtP(c.psa10)}</td>
-      </tr>`).join('');
+      </tr>`;
+    }).join('');
 
     return `
       <div class="tbl-box">
@@ -578,6 +687,7 @@
         <table>
           <thead>
             <tr>
+              <th></th>
               <th></th>
               <th>#</th>
               <th>Karte</th>
@@ -777,6 +887,118 @@
       document.getElementById('gsearchDrop').classList.remove('open');
     }
   });
+
+  /* ══ INVENTORY ══ */
+  let inventory = JSON.parse(localStorage.getItem('op_inventory') || '{}');
+  let invOpen = false;
+
+  function invKey(setId, card) {
+    return setId + '__' + (card.number || card.name.replace(/\s+/g,'_').slice(0,30));
+  }
+
+  function saveInventory() {
+    localStorage.setItem('op_inventory', JSON.stringify(inventory));
+  }
+
+  function updateInvButton() {
+    const total = Object.values(inventory).reduce((s, v) => s + v.qty, 0);
+    const badge = document.getElementById('invCountBadge');
+    const btn = document.getElementById('invBtn');
+    if (total > 0) {
+      badge.textContent = total;
+      badge.style.display = '';
+      btn.classList.add('has-items');
+    } else {
+      badge.style.display = 'none';
+      btn.classList.remove('has-items');
+    }
+  }
+
+  function addToInventory(card, setId) {
+    const k = invKey(setId, card);
+    if (inventory[k]) {
+      inventory[k].qty += 1;
+    } else {
+      const opNum = 'OP-' + setId.replace('op','').padStart(2,'0');
+      inventory[k] = { ...card, setId, opNum, qty: 1 };
+    }
+    saveInventory();
+    updateInvButton();
+    renderInventoryList();
+    // Visual feedback on + button
+    const btn = document.getElementById('addbtn_' + k);
+    if (btn) btn.classList.add('in-inv');
+  }
+
+  function changeQty(k, delta) {
+    if (!inventory[k]) return;
+    inventory[k].qty += delta;
+    if (inventory[k].qty <= 0) {
+      delete inventory[k];
+      const btn = document.getElementById('addbtn_' + k);
+      if (btn) btn.classList.remove('in-inv');
+    }
+    saveInventory();
+    updateInvButton();
+    renderInventoryList();
+  }
+
+  function clearInventory() {
+    if (!Object.keys(inventory).length) return;
+    if (!confirm('Inventar wirklich leeren?')) return;
+    inventory = {};
+    saveInventory();
+    updateInvButton();
+    renderInventoryList();
+    // Reset all + buttons
+    document.querySelectorAll('.add-inv-btn').forEach(b => b.classList.remove('in-inv'));
+  }
+
+  function renderInventoryList() {
+    const list = document.getElementById('invList');
+    const totalEl = document.getElementById('invTotalVal');
+    if (!list) return;
+
+    const items = Object.entries(inventory);
+    if (!items.length) {
+      list.innerHTML = `<div class="inv-empty">Noch keine Karten im Inventar.<br>Klicke auf <strong>+</strong> neben einer Karte.</div>`;
+      if (totalEl) totalEl.textContent = '$0.00';
+      return;
+    }
+
+    let total = 0;
+    list.innerHTML = items.map(([k, c]) => {
+      const lineVal = (c.price || 0) * c.qty;
+      total += lineVal;
+      return `
+        <div class="inv-item">
+          ${c.img
+            ? `<img class="inv-item-img" src="${c.img}" loading="lazy">`
+            : `<div class="inv-item-img-placeholder"></div>`}
+          <div class="inv-item-info">
+            <div class="inv-item-name" title="${c.name}">${c.name}</div>
+            <div class="inv-item-set">${c.opNum}${c.number ? ' · ' + c.number : ''}</div>
+          </div>
+          <div class="inv-qty">
+            <button class="qty-btn" onclick="changeQty('${k}',-1)">−</button>
+            <span class="qty-num">${c.qty}</span>
+            <button class="qty-btn" onclick="changeQty('${k}',1)">+</button>
+          </div>
+          <span class="inv-item-price">${c.price != null ? '$'+(c.price * c.qty).toFixed(2) : '–'}</span>
+        </div>`;
+    }).join('');
+
+    if (totalEl) totalEl.textContent = '$' + total.toFixed(2);
+  }
+
+  function toggleInventory() {
+    invOpen = !invOpen;
+    document.getElementById('invDrawer').classList.toggle('open', invOpen);
+    if (invOpen) renderInventoryList();
+  }
+
+  // Init inventory button state on load
+  updateInvButton();
 
   refreshData();
 </script>
