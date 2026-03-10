@@ -153,6 +153,10 @@
         [
           1773100378388,
           172317
+        ],
+        [
+          1773186769524,
+          172317
         ]
       ],
       "available": true,
@@ -208,7 +212,7 @@
           "number": "OP01-016",
           "price": 2004.98,
           "grade9": 1631.0,
-          "psa10": 3650.0,
+          "psa10": 3040.0,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/nami-manga-prb01-op01-016",
           "img": "https://storage.googleapis.com/images.pricecharting.com/pzuhcsezcvl7crhj/60.jpg"
         },
@@ -242,7 +246,7 @@
         {
           "name": "Yamato [Top 64] OP01-121",
           "number": "OP01-121",
-          "price": 1001.87,
+          "price": 1000.94,
           "grade9": 470.0,
           "psa10": 595.0,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/yamato-top-64-op01-121",
@@ -269,36 +273,18 @@
         {
           "name": "Nami [Special Alternate Art] OP01-016",
           "number": "OP01-016",
-          "price": 599.5,
+          "price": 596.34,
           "grade9": 138.75,
-          "psa10": 827.5,
+          "psa10": 810.0,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/nami-special-alternate-art-op01-016",
           "img": "https://storage.googleapis.com/images.pricecharting.com/cbe1c431efa824bee3d9c52919775b52f8847ce413fd0e16f9d0fbd74e484a2b/60.jpg"
-        },
-        {
-          "name": "Roronoa Zoro [Alternate Art] OP01-001",
-          "number": "OP01-001",
-          "price": 525.5,
-          "grade9": 343.84,
-          "psa10": 905.0,
-          "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/roronoa-zoro-alternate-art-op01-001",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/1769e8327ab684ea8ace5b9b81f45c1894f32da81668a9e029709e7f4918272b/60.jpg"
-        },
-        {
-          "name": "Monkey.D.Luffy [Alt Art Errata] OP01-003",
-          "number": "OP01-003",
-          "price": 510.15,
-          "grade9": 366.26,
-          "psa10": 1724.98,
-          "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/monkeydluffy-alt-art-errata-op01-003",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/wmaq6oy7yoqj37kv/60.jpg"
         },
         {
           "name": "Trafalgar Law [Alternate Art] OP01-002",
           "number": "OP01-002",
           "price": 478.38,
           "grade9": 493.0,
-          "psa10": 1127.5,
+          "psa10": 1130.0,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/trafalgar-law-alternate-art-op01-002",
           "img": "https://storage.googleapis.com/images.pricecharting.com/3faf6d53f8664fcff00d9b7044d468953bc76fbb873092179c6024c5920444a2/60.jpg"
         },
@@ -312,11 +298,29 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/wscx63swzoztlftx/60.jpg"
         },
         {
+          "name": "Roronoa Zoro [Alternate Art] OP01-001",
+          "number": "OP01-001",
+          "price": 472.0,
+          "grade9": 343.84,
+          "psa10": 943.08,
+          "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/roronoa-zoro-alternate-art-op01-001",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/1769e8327ab684ea8ace5b9b81f45c1894f32da81668a9e029709e7f4918272b/60.jpg"
+        },
+        {
+          "name": "Monkey.D.Luffy [Alt Art Errata] OP01-003",
+          "number": "OP01-003",
+          "price": 439.27,
+          "grade9": 365.72,
+          "psa10": 1724.98,
+          "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/monkeydluffy-alt-art-errata-op01-003",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/wmaq6oy7yoqj37kv/60.jpg"
+        },
+        {
           "name": "Roronoa Zoro [1st Anniversary] OP01-025",
           "number": "OP01-025",
-          "price": 275.1,
-          "grade9": null,
-          "psa10": 449.45,
+          "price": 276.3,
+          "grade9": 299.99,
+          "psa10": 448.58,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/roronoa-zoro-1st-anniversary-op01-025",
           "img": "https://storage.googleapis.com/images.pricecharting.com/y3msmzzlxtnmq6pq/60.jpg"
         },
@@ -359,7 +363,7 @@
         {
           "name": "Nico Robin [1st Anniversary] OP01-017",
           "number": "OP01-017",
-          "price": 178.69,
+          "price": 176.0,
           "grade9": 24.5,
           "psa10": 380.96,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/nico-robin-1st-anniversary-op01-017",
@@ -368,9 +372,9 @@
         {
           "name": "Roronoa Zoro [Alternate Art] OP01-025",
           "number": "OP01-025",
-          "price": 174.96,
-          "grade9": 99.87,
-          "psa10": 616.26,
+          "price": 174.84,
+          "grade9": 99.93,
+          "psa10": 626.5,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/roronoa-zoro-alternate-art-op01-025",
           "img": "https://storage.googleapis.com/images.pricecharting.com/zbqnudbdkbpaxhir/60.jpg"
         },
@@ -406,7 +410,7 @@
           "number": "OP01-121",
           "price": 103.33,
           "grade9": 99.99,
-          "psa10": 257.52,
+          "psa10": 247.25,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/yamato-alternate-art-op01-121",
           "img": "https://storage.googleapis.com/images.pricecharting.com/8a60fb1f5e26a73e110d73cd652dc35b30e636bdf4bc80177129eb16fddad2f0/60.jpg"
         },
@@ -458,16 +462,16 @@
         {
           "name": "Boa Hancock [Alternate Art PRB01] OP01-078",
           "number": "OP01-078",
-          "price": 40.97,
+          "price": 40.49,
           "grade9": null,
-          "psa10": 137.72,
+          "psa10": 139.61,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/boa-hancock-alternate-art-prb01-op01-078",
           "img": "https://storage.googleapis.com/images.pricecharting.com/wonei2hy7ujwyuk6/60.jpg"
         },
         {
           "name": "Monkey.D.Luffy [Alternate Art PRB01] OP01-024",
           "number": "OP01-024",
-          "price": 31.22,
+          "price": 31.48,
           "grade9": null,
           "psa10": 96.48,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/monkeydluffy-alternate-art-prb01-op01-024",
@@ -476,9 +480,9 @@
         {
           "name": "Perona [Box Topper] OP01-077",
           "number": "OP01-077",
-          "price": 24.97,
+          "price": 25.0,
           "grade9": 43.11,
-          "psa10": 98.72,
+          "psa10": 98.86,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/perona-box-topper-op01-077",
           "img": "https://storage.googleapis.com/images.pricecharting.com/6e38c2ba63c574863e34f93e1e925c611817f39fbace716381b2c083269ebec6/60.jpg"
         },
@@ -503,7 +507,7 @@
         {
           "name": "Monkey.D.Luffy [Errata] OP01-003",
           "number": "OP01-003",
-          "price": 17.73,
+          "price": 17.84,
           "grade9": 1500.0,
           "psa10": 2094.25,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/monkeydluffy-errata-op01-003",
@@ -512,7 +516,7 @@
         {
           "name": "DON!! Card [Alternate Art]",
           "number": "",
-          "price": 11.72,
+          "price": 9.99,
           "grade9": 7.0,
           "psa10": 140.75,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/don-card-alternate-art",
@@ -539,9 +543,9 @@
         {
           "name": "Roronoa Zoro OP01-025",
           "number": "OP01-025",
-          "price": 7.42,
+          "price": 7.43,
           "grade9": 26.46,
-          "psa10": 111.91,
+          "psa10": 110.09,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/roronoa-zoro-op01-025",
           "img": "https://storage.googleapis.com/images.pricecharting.com/evzpsunsmkeo6n6p/60.jpg"
         },
@@ -566,7 +570,7 @@
         {
           "name": "EustassCaptainKid OP01-051",
           "number": "OP01-051",
-          "price": 3.19,
+          "price": 3.28,
           "grade9": 19.81,
           "psa10": 61.06,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/eustasscaptainkid-op01-051",
@@ -584,7 +588,7 @@
         {
           "name": "Dracule Mihawk OP01-070",
           "number": "OP01-070",
-          "price": 2.63,
+          "price": 2.34,
           "grade9": 37.99,
           "psa10": 50.2,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/dracule-mihawk-op01-070",
@@ -764,6 +768,10 @@
         [
           1773100378388,
           49496
+        ],
+        [
+          1773186769524,
+          49496
         ]
       ],
       "available": true,
@@ -853,7 +861,7 @@
         {
           "name": "Portgas.D.Ace [Manga PRB01] OP02-013",
           "number": "OP02-013",
-          "price": 702.0,
+          "price": 702.91,
           "grade9": 617.5,
           "psa10": 1725.0,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/portgasdace-manga-prb01-op02-013",
@@ -871,18 +879,18 @@
         {
           "name": "Portgas.D.Ace [SP] OP02-013",
           "number": "OP02-013",
-          "price": 297.25,
+          "price": 278.75,
           "grade9": null,
-          "psa10": 334.63,
+          "psa10": 350.0,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/portgasdace-sp-op02-013",
           "img": "https://storage.googleapis.com/images.pricecharting.com/62r4zhbwgplizbs5/60.jpg"
         },
         {
           "name": "Uta [SP] OP02-120",
           "number": "OP02-120",
-          "price": 253.05,
+          "price": 242.0,
           "grade9": null,
-          "psa10": 429.15,
+          "psa10": 424.58,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/uta-sp-op02-120",
           "img": "https://storage.googleapis.com/images.pricecharting.com/2xysgjtfxcgzelz7/60.jpg"
         },
@@ -934,8 +942,8 @@
         {
           "name": "Smoker [Alternate Art] OP02-093",
           "number": "OP02-093",
-          "price": 90.0,
-          "grade9": 105.01,
+          "price": 102.57,
+          "grade9": 105.0,
           "psa10": 252.5,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/smoker-alternate-art-op02-093",
           "img": "https://storage.googleapis.com/images.pricecharting.com/d2bbeaf9a9bcf160a46bf038e04e7173815f26c1357a140caa5300036b5585c3/60.jpg"
@@ -943,9 +951,9 @@
         {
           "name": "Nami [Alternate Art] OP02-036",
           "number": "OP02-036",
-          "price": 75.02,
+          "price": 76.31,
           "grade9": 74.99,
-          "psa10": 269.54,
+          "psa10": 264.23,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/nami-alternate-art-op02-036",
           "img": "https://storage.googleapis.com/images.pricecharting.com/5afgnzwf35stijtw/60.jpg"
         },
@@ -988,7 +996,7 @@
         {
           "name": "Monkey.D.Luffy [Alternate Art] OP02-041",
           "number": "OP02-041",
-          "price": 42.23,
+          "price": 40.13,
           "grade9": 39.0,
           "psa10": 84.06,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/monkeydluffy-alternate-art-op02-041",
@@ -1006,7 +1014,7 @@
         {
           "name": "Boa Hancock [Gift Collection] OP02-059",
           "number": "OP02-059",
-          "price": 32.21,
+          "price": 32.8,
           "grade9": 30.0,
           "psa10": 177.99,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/boa-hancock-gift-collection-op02-059",
@@ -1024,9 +1032,9 @@
         {
           "name": "Nami [Best Selection] OP02-036",
           "number": "OP02-036",
-          "price": 30.09,
+          "price": 31.46,
           "grade9": 27.0,
-          "psa10": 177.43,
+          "psa10": 177.05,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/nami-best-selection-op02-036",
           "img": "https://storage.googleapis.com/images.pricecharting.com/43023d2d6a520dffd36a79ff72af9bdbf1993fc36ef04620282da96fbf4982e4/60.jpg"
         },
@@ -1035,7 +1043,7 @@
           "number": "OP02-059",
           "price": 27.08,
           "grade9": 24.99,
-          "psa10": 112.03,
+          "psa10": 133.43,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/boa-hancock-judge-op02-059",
           "img": "https://storage.googleapis.com/images.pricecharting.com/bgysyovubzci6p3o/60.jpg"
         },
@@ -1069,9 +1077,9 @@
         {
           "name": "Kuzan [Alternate Art] OP02-096",
           "number": "OP02-096",
-          "price": 14.95,
+          "price": 14.9,
           "grade9": 15.01,
-          "psa10": 51.81,
+          "psa10": 51.0,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/kuzan-alternate-art-op02-096",
           "img": "https://storage.googleapis.com/images.pricecharting.com/23f72b70cb7a503028752d2201ccc1b2cbda7c50a1e948dcd57a156472f46ad6/60.jpg"
         },
@@ -1168,7 +1176,7 @@
         {
           "name": "Judgment of Hell OP02-089",
           "number": "OP02-089",
-          "price": 1.14,
+          "price": 0.99,
           "grade9": 7.11,
           "psa10": 48.0,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/judgment-of-hell-op02-089",
@@ -1187,7 +1195,7 @@
           "name": "Borsalino OP02-114",
           "number": "OP02-114",
           "price": 0.65,
-          "grade9": 223.66,
+          "grade9": 223.35,
           "psa10": 268.0,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/borsalino-op02-114",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ixvtwtzluafpqgp6/60.jpg"
@@ -1393,6 +1401,10 @@
         [
           1773100378388,
           60000
+        ],
+        [
+          1773186769524,
+          58500
         ]
       ],
       "available": true,
@@ -1534,6 +1546,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/7wpijwspmfgftanl/60.jpg"
         },
         {
+          "name": "Charlotte Linlin [SP] OP03-114",
+          "number": "OP03-114",
+          "price": 81.38,
+          "grade9": 46.2,
+          "psa10": 101.0,
+          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-linlin-sp-op03-114",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/i2r74ytrpobv3kaz/60.jpg"
+        },
+        {
           "name": "Rob Lucci [SP] OP03-092",
           "number": "OP03-092",
           "price": 80.87,
@@ -1543,18 +1564,9 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/e6166aa9e8ed5d927272495bd00ebf62a0a79bfd00d85725e27fb733200a5ce7/60.jpg"
         },
         {
-          "name": "Charlotte Linlin [SP] OP03-114",
-          "number": "OP03-114",
-          "price": 80.26,
-          "grade9": 46.2,
-          "psa10": 101.0,
-          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-linlin-sp-op03-114",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/i2r74ytrpobv3kaz/60.jpg"
-        },
-        {
           "name": "Izo [SP] OP03-003",
           "number": "OP03-003",
-          "price": 64.04,
+          "price": 64.4,
           "grade9": null,
           "psa10": 56.01,
           "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/izo-sp-op03-003",
@@ -1599,7 +1611,7 @@
         {
           "name": "Portgas.D.Ace [Special Goods] OP03-001",
           "number": "OP03-001",
-          "price": 35.88,
+          "price": 35.14,
           "grade9": null,
           "psa10": 93.2,
           "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/portgasdace-special-goods-op03-001",
@@ -1617,7 +1629,7 @@
         {
           "name": "Three Thousand Worlds [Alternate Art PRB01] OP03-057",
           "number": "OP03-057",
-          "price": 32.55,
+          "price": 32.14,
           "grade9": null,
           "psa10": 79.25,
           "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/three-thousand-worlds-alternate-art-prb01-op03-057",
@@ -1640,15 +1652,6 @@
           "psa10": 32.73,
           "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/monkeydluffy-judge-op03-070",
           "img": "https://storage.googleapis.com/images.pricecharting.com/2e1bdf4c2e0e5bcc77dbdfa353a0d7b549c8ec91c76dc1638031ec5acaee38c6/60.jpg"
-        },
-        {
-          "name": "Kaya OP03-044",
-          "number": "OP03-044",
-          "price": 26.21,
-          "grade9": 11.14,
-          "psa10": 14.5,
-          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/kaya-op03-044",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/ilefcwltt4pqemdo/60.jpg"
         },
         {
           "name": "Sogeking [Alternate Art] OP03-122",
@@ -1678,6 +1681,24 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/3407f17bc7eb37e2a87e34e4ed3f9e31042f212c131bdd2258eff61092ff6d70/60.jpg"
         },
         {
+          "name": "Kaya OP03-044",
+          "number": "OP03-044",
+          "price": 15.8,
+          "grade9": 11.03,
+          "psa10": 14.5,
+          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/kaya-op03-044",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/ilefcwltt4pqemdo/60.jpg"
+        },
+        {
+          "name": "Sogeking OP03-122",
+          "number": "OP03-122",
+          "price": 14.19,
+          "grade9": 647.0,
+          "psa10": 776.0,
+          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/sogeking-op03-122",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/tpyzzep6jmlhvz5t/60.jpg"
+        },
+        {
           "name": "Shirahoshi OP03-116",
           "number": "OP03-116",
           "price": 14.0,
@@ -1694,15 +1715,6 @@
           "psa10": 60.92,
           "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-pudding-alternate-art-op03-112",
           "img": "https://storage.googleapis.com/images.pricecharting.com/duysztoz6fuepnao/60.jpg"
-        },
-        {
-          "name": "Sogeking OP03-122",
-          "number": "OP03-122",
-          "price": 13.97,
-          "grade9": 620.0,
-          "psa10": 744.0,
-          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/sogeking-op03-122",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/tpyzzep6jmlhvz5t/60.jpg"
         },
         {
           "name": "Charlotte Linlin [Alternate Art] OP03-114",
@@ -1777,40 +1789,40 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/pltxt7gxk75hhkmw/60.jpg"
         },
         {
-          "name": "Charlotte Pudding OP03-112",
-          "number": "OP03-112",
-          "price": 1.45,
-          "grade9": 493.67,
-          "psa10": 592.0,
-          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-pudding-op03-112",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/khgj5ep4oppo37id/60.jpg"
-        },
-        {
           "name": "Gum-Gum Jet Gatling OP03-072",
           "number": "OP03-072",
-          "price": 1.08,
+          "price": 1.02,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/gum-gum-jet-gatling-op03-072",
           "img": "https://storage.googleapis.com/images.pricecharting.com/pxj5ppqwzlftnza3/60.jpg"
         },
         {
+          "name": "Charlotte Pudding OP03-112",
+          "number": "OP03-112",
+          "price": 1.0,
+          "grade9": 496.83,
+          "psa10": 596.0,
+          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-pudding-op03-112",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/khgj5ep4oppo37id/60.jpg"
+        },
+        {
           "name": "Charlotte Perospero OP03-113",
           "number": "OP03-113",
-          "price": 0.99,
+          "price": 0.74,
           "grade9": null,
           "psa10": 21.25,
           "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-perospero-op03-113",
           "img": "https://storage.googleapis.com/images.pricecharting.com/7b62967fb8cf4523db20d1d5bfa625bc18e70e34f01dabeb8b1e1f4e900f3299/60.jpg"
         },
         {
-          "name": "Charlotte Smoothie OP03-110",
-          "number": "OP03-110",
-          "price": 0.58,
-          "grade9": 19.27,
-          "psa10": 49.0,
-          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-smoothie-op03-110",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/16f9c297b7d570a625218a5a1dc25747cae9e9ba5cf285e4f91e7136e5bbf140/60.jpg"
+          "name": "Charlotte Cracker OP03-108",
+          "number": "OP03-108",
+          "price": 0.5,
+          "grade9": null,
+          "psa10": 21.99,
+          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-cracker-op03-108",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/52fb75cd05997e3ebcd95616e9105431fa009a4c8bd68ddf8b361dfb4183f0f1/60.jpg"
         },
         {
           "name": "Nojiko OP03-048",
@@ -1840,13 +1852,13 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/e02603f886e62ab2def03c1641d44cf9a523fb18cbba2a78781364c3fe6bbbe3/60.jpg"
         },
         {
-          "name": "Charlotte Cracker OP03-108",
-          "number": "OP03-108",
-          "price": 0.39,
-          "grade9": null,
-          "psa10": 21.99,
-          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-cracker-op03-108",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/52fb75cd05997e3ebcd95616e9105431fa009a4c8bd68ddf8b361dfb4183f0f1/60.jpg"
+          "name": "Charlotte Smoothie OP03-110",
+          "number": "OP03-110",
+          "price": 0.4,
+          "grade9": 19.27,
+          "psa10": 49.0,
+          "url": "https://www.pricecharting.com/game/one-piece-pillars-of-strength/charlotte-smoothie-op03-110",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/16f9c297b7d570a625218a5a1dc25747cae9e9ba5cf285e4f91e7136e5bbf140/60.jpg"
         },
         {
           "name": "Three Thousand Worlds OP03-057",
@@ -2022,6 +2034,10 @@
         [
           1773100378388,
           46374
+        ],
+        [
+          1773186769524,
+          46374
         ]
       ],
       "available": true,
@@ -2091,15 +2107,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/brra6kuaecyt4r34/60.jpg"
         },
         {
-          "name": "Sabo [Sealed Battle] OP04-083",
-          "number": "OP04-083",
-          "price": 158.98,
-          "grade9": 95.34,
-          "psa10": 371.71,
-          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/sabo-sealed-battle-op04-083",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/73a0e1373a9127552ceeef7da65c14ee15361485736309cde3273330ed25f9cd/60.jpg"
-        },
-        {
           "name": "Kaido [SP] OP04-044",
           "number": "OP04-044",
           "price": 151.6,
@@ -2107,6 +2114,15 @@
           "psa10": 310.0,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/kaido-sp-op04-044",
           "img": "https://storage.googleapis.com/images.pricecharting.com/3gee7rw6tn3iq4gm/60.jpg"
+        },
+        {
+          "name": "Sabo [Sealed Battle] OP04-083",
+          "number": "OP04-083",
+          "price": 132.23,
+          "grade9": 95.37,
+          "psa10": 371.71,
+          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/sabo-sealed-battle-op04-083",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/73a0e1373a9127552ceeef7da65c14ee15361485736309cde3273330ed25f9cd/60.jpg"
         },
         {
           "name": "Nefeltari Vivi [Alternate Art] OP04-001",
@@ -2129,7 +2145,7 @@
         {
           "name": "Yamato [Alternate Art PRB01] OP04-112",
           "number": "OP04-112",
-          "price": 78.75,
+          "price": 78.26,
           "grade9": null,
           "psa10": 174.87,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/yamato-alternate-art-prb01-op04-112",
@@ -2176,16 +2192,25 @@
           "number": "OP04-058",
           "price": 50.0,
           "grade9": 36.0,
-          "psa10": 176.68,
+          "psa10": 175.91,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/crocodile-alternate-art-op04-058",
           "img": "https://storage.googleapis.com/images.pricecharting.com/itpmltzdz7pttidw/60.jpg"
         },
         {
+          "name": "Rebecca OP04-092",
+          "number": "OP04-092",
+          "price": 39.64,
+          "grade9": 20.03,
+          "psa10": 40.0,
+          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/rebecca-op04-092",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/01aaabfc8ab9fec7c732158c5d46f936c9a3b21c55c8976d17cf8e576e49be65/60.jpg"
+        },
+        {
           "name": "Ms. All Sunday [Alternate Art] OP04-064",
           "number": "OP04-064",
-          "price": 35.56,
+          "price": 30.5,
           "grade9": 51.0,
-          "psa10": 163.56,
+          "psa10": 163.26,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/ms-all-sunday-alternate-art-op04-064",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ead7d5638b8f61dc120c9547a8a78c8681e3f18fbd2e36916fa5595f72a28dda/60.jpg"
         },
@@ -2194,7 +2219,7 @@
           "number": "OP04-118",
           "price": 29.79,
           "grade9": 26.97,
-          "psa10": 162.5,
+          "psa10": 167.37,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/nefeltari-vivi-alt-art-op04-118",
           "img": "https://storage.googleapis.com/images.pricecharting.com/tasrp5lqswxuyedn/60.jpg"
         },
@@ -2228,7 +2253,7 @@
         {
           "name": "Sabo [Alternate Art] OP04-083",
           "number": "OP04-083",
-          "price": 24.93,
+          "price": 24.0,
           "grade9": 31.38,
           "psa10": 120.0,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/sabo-alternate-art-op04-083",
@@ -2253,15 +2278,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/bimbagojmntazkb5/60.jpg"
         },
         {
-          "name": "Rebecca OP04-092",
-          "number": "OP04-092",
-          "price": 18.36,
-          "grade9": 20.03,
-          "psa10": 40.0,
-          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/rebecca-op04-092",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/01aaabfc8ab9fec7c732158c5d46f936c9a3b21c55c8976d17cf8e576e49be65/60.jpg"
-        },
-        {
           "name": "Donquixote Doflamingo [Alternate Art] OP04-031",
           "number": "OP04-031",
           "price": 13.98,
@@ -2269,15 +2285,6 @@
           "psa10": 52.5,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/donquixote-doflamingo-alternate-art-op04-031",
           "img": "https://storage.googleapis.com/images.pricecharting.com/7y6aplbmelmxremd/60.jpg"
-        },
-        {
-          "name": "Donquixote Rosinante OP04-119",
-          "number": "OP04-119",
-          "price": 11.0,
-          "grade9": 20.26,
-          "psa10": 50.0,
-          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/donquixote-rosinante-op04-119",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/d642da91316d58e10181bbf3f1914a2ddd3dbfea8fffcbf474fcda7eb2a65f05/60.jpg"
         },
         {
           "name": "Bartolomeo [Alternate Art PRB01] OP04-089",
@@ -2296,6 +2303,15 @@
           "psa10": 65.99,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/nefeltari-vivi-op04-118",
           "img": "https://storage.googleapis.com/images.pricecharting.com/gisofkcimxqpicgo/60.jpg"
+        },
+        {
+          "name": "Donquixote Rosinante OP04-119",
+          "number": "OP04-119",
+          "price": 10.0,
+          "grade9": 20.26,
+          "psa10": 50.0,
+          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/donquixote-rosinante-op04-119",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/d642da91316d58e10181bbf3f1914a2ddd3dbfea8fffcbf474fcda7eb2a65f05/60.jpg"
         },
         {
           "name": "Sugar [Alternate Art] OP04-024",
@@ -2334,13 +2350,13 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/35401ebf3f23ad43cc31523289f61edda8f0fe88370150a60c794a2838f00cbe/60.jpg"
         },
         {
-          "name": "Special DON!! Card Pack",
-          "number": "",
-          "price": 5.95,
-          "grade9": null,
-          "psa10": null,
-          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/special-don-card-pack",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/6bbb989b1e7d3b8fdb9ab1ec341333a33d7124f3f16f0f92419da2bc20284ec9/60.jpg"
+          "name": "Mr.5 Gem [Alternate Art] OP04-072",
+          "number": "OP04-072",
+          "price": 6.07,
+          "grade9": 10.5,
+          "psa10": 44.99,
+          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/mr5-gem-alternate-art-op04-072",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/e5126879e28fdf510e8cabd4961ac52f6fcb6731a9f3034c3e12b9895ea586e0/60.jpg"
         },
         {
           "name": "Gum-Gum Red Roc OP04-056",
@@ -2352,13 +2368,13 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/ade7ecb793f1dd0c3a0027cf37e5100166562fcd18242e7dc3eb94b89da37c99/60.jpg"
         },
         {
-          "name": "Mr.5 Gem [Alternate Art] OP04-072",
-          "number": "OP04-072",
-          "price": 5.58,
-          "grade9": 10.5,
-          "psa10": 44.99,
-          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/mr5-gem-alternate-art-op04-072",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/e5126879e28fdf510e8cabd4961ac52f6fcb6731a9f3034c3e12b9895ea586e0/60.jpg"
+          "name": "Special DON!! Card Pack",
+          "number": "",
+          "price": 5.15,
+          "grade9": null,
+          "psa10": null,
+          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/special-don-card-pack",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/6bbb989b1e7d3b8fdb9ab1ec341333a33d7124f3f16f0f92419da2bc20284ec9/60.jpg"
         },
         {
           "name": "Pell [Alternate Art] OP04-013",
@@ -2370,6 +2386,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/419c2c26a89b055e09e9c31676dc901ccb1e36f1cea511267297ffe059f55ffd/60.jpg"
         },
         {
+          "name": "DON!! Card",
+          "number": "",
+          "price": 3.35,
+          "grade9": null,
+          "psa10": 41.0,
+          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/don-card",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/50672f04d96e4f7133e53e829572200a9a88c02513976bbaa4b8578fd8995745/60.jpg"
+        },
+        {
           "name": "Monkey.D.Luffy OP04-090",
           "number": "OP04-090",
           "price": 3.3,
@@ -2379,18 +2404,9 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/umuksf3enragsnfe/60.jpg"
         },
         {
-          "name": "DON!! Card",
-          "number": "",
-          "price": 3.14,
-          "grade9": null,
-          "psa10": 41.0,
-          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/don-card",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/50672f04d96e4f7133e53e829572200a9a88c02513976bbaa4b8578fd8995745/60.jpg"
-        },
-        {
           "name": "Ms. All Sunday OP04-064",
           "number": "OP04-064",
-          "price": 2.52,
+          "price": 2.5,
           "grade9": 83.0,
           "psa10": 100.0,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/ms-all-sunday-op04-064",
@@ -2437,18 +2453,9 @@
           "number": "",
           "price": 1.25,
           "grade9": 15.49,
-          "psa10": 38.73,
+          "psa10": 36.95,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/don-card-alternate-art",
           "img": "https://storage.googleapis.com/images.pricecharting.com/11a4565dee2dd3a8e449eb68f5ebe54314fa59e498c80c8ba76f9338f4d0206f/60.jpg"
-        },
-        {
-          "name": "Kaido OP04-044",
-          "number": "OP04-044",
-          "price": 0.99,
-          "grade9": null,
-          "psa10": 51.19,
-          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/kaido-op04-044",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/cbb59461d9e5e2df155f78bbebcee92ba7ac58452242fea96a4c5a19f0d5ae10/60.jpg"
         },
         {
           "name": "Bad Manners Kick Course OP04-016",
@@ -2458,6 +2465,15 @@
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/bad-manners-kick-course-op04-016",
           "img": "https://storage.googleapis.com/images.pricecharting.com/wbk7v7tdke66fal3/60.jpg"
+        },
+        {
+          "name": "Kaido OP04-044",
+          "number": "OP04-044",
+          "price": 0.65,
+          "grade9": null,
+          "psa10": 51.19,
+          "url": "https://www.pricecharting.com/game/one-piece-kingdoms-of-intrigue/kaido-op04-044",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/cbb59461d9e5e2df155f78bbebcee92ba7ac58452242fea96a4c5a19f0d5ae10/60.jpg"
         },
         {
           "name": "Roronoa Zoro OP04-015",
@@ -2651,14 +2667,28 @@
         [
           1773100378388,
           94519
+        ],
+        [
+          1773186769524,
+          94519
         ]
       ],
       "available": true,
       "recent_sales": [
         {
+          "date": "2026-03-10",
+          "price": 1008.33,
+          "title": "One Piece TCG Sealed Booster Box Awakening Of The New Era OP-05 Bandai + Case\n  "
+        },
+        {
           "date": "2026-03-08",
           "price": 865.14,
           "title": "One Piece OP-05 Booster Box Awakening of the New Era English Sealed (A)\n        "
+        },
+        {
+          "date": "2026-03-08",
+          "price": 1000.0,
+          "title": "Bandai One Piece CCG Awakening of the New Era Booster Box - 24 Packs\n           "
         },
         {
           "date": "2026-03-08",
@@ -2669,16 +2699,6 @@
           "date": "2026-03-08",
           "price": 794.67,
           "title": "ONE PIECE CARD GAME OP05 AWAKENING OF THE NEW ERA OP-05 ENG SEALED BOOSTER BOX\n "
-        },
-        {
-          "date": "2026-03-08",
-          "price": 966.63,
-          "title": "ONE PIECE TCG: OP-05 AWAKENING OF THE NEW ERA Booster Box Sealed English\n       "
-        },
-        {
-          "date": "2026-03-08",
-          "price": 900.0,
-          "title": "One Piece CCG EN: Awakening Of The New Era (OP-05) Sealed Booster Box (See Pics)"
         }
       ],
       "ebay_query": "One Piece Awakening New Era Booster Box english sealed",
@@ -2722,18 +2742,18 @@
         {
           "name": "EustassCaptainKid [Alternate Art Manga] OP05-074",
           "number": "OP05-074",
-          "price": 956.5,
-          "grade9": 661.87,
-          "psa10": 1313.24,
+          "price": 842.39,
+          "grade9": 526.57,
+          "psa10": 1254.4,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/eustasscaptainkid-alternate-art-manga-op05-074",
           "img": "https://storage.googleapis.com/images.pricecharting.com/a75f8b3f948a9883b5571169cd7a38fc093aaf0981a8abf575a3e1a2c10e8be3/60.jpg"
         },
         {
           "name": "Monkey.D.Luffy [Wanted] OP05-119",
           "number": "OP05-119",
-          "price": 763.88,
-          "grade9": 377.24,
-          "psa10": 990.0,
+          "price": 744.16,
+          "grade9": 376.26,
+          "psa10": 1200.59,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/monkeydluffy-wanted-op05-119",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ntvjapdgkkojmipk/60.jpg"
         },
@@ -2814,7 +2834,7 @@
           "number": "OP05-119",
           "price": 168.04,
           "grade9": 151.44,
-          "psa10": 612.98,
+          "psa10": 607.48,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/monkey-d-luffy-alternate-art-op05-119",
           "img": "https://storage.googleapis.com/images.pricecharting.com/nlt2s2y3u2lrsmcp/60.jpg"
         },
@@ -2830,20 +2850,20 @@
         {
           "name": "Zoro-Juurou [Event] OP05-067",
           "number": "OP05-067",
-          "price": 139.32,
+          "price": 138.49,
           "grade9": 123.0,
           "psa10": 149.95,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/zoro-juurou-event-op05-067",
           "img": "https://storage.googleapis.com/images.pricecharting.com/vojfwe45ejroyiwv/60.jpg"
         },
         {
-          "name": "Shirahoshi [Alternate Art PRB01] OP05-082",
-          "number": "OP05-082",
-          "price": 110.72,
-          "grade9": null,
-          "psa10": 123.05,
-          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/shirahoshi-alternate-art-prb01-op05-082",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/4wqwaiuavbat6kle/60.jpg"
+          "name": "Monkey.D.Luffy [2nd Anniversary] OP05-119",
+          "number": "OP05-119",
+          "price": 107.32,
+          "grade9": 99.95,
+          "psa10": 275.0,
+          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/monkeydluffy-2nd-anniversary-op05-119",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/hm3zmacg7lyeqkqj/60.jpg"
         },
         {
           "name": "Rob Lucci [SP] OP05-093",
@@ -2855,13 +2875,13 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/6qf3jzystkgfowmr/60.jpg"
         },
         {
-          "name": "Monkey.D.Luffy [2nd Anniversary] OP05-119",
-          "number": "OP05-119",
-          "price": 96.19,
-          "grade9": 99.95,
-          "psa10": 280.0,
-          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/monkeydluffy-2nd-anniversary-op05-119",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/hm3zmacg7lyeqkqj/60.jpg"
+          "name": "Shirahoshi [Alternate Art PRB01] OP05-082",
+          "number": "OP05-082",
+          "price": 97.71,
+          "grade9": null,
+          "psa10": 123.05,
+          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/shirahoshi-alternate-art-prb01-op05-082",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/4wqwaiuavbat6kle/60.jpg"
         },
         {
           "name": "EustassCaptainKid [SP] OP05-074",
@@ -2877,14 +2897,14 @@
           "number": "OP05-060",
           "price": 79.53,
           "grade9": 62.49,
-          "psa10": 250.5,
+          "psa10": 256.84,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/monkeydluffy-alternate-art-op05-060",
           "img": "https://storage.googleapis.com/images.pricecharting.com/53548478527e08fc54aee7ceb50cc9af452bf7dd894272a234f78b39de63ed88/60.jpg"
         },
         {
           "name": "Enel [Alternate Art] OP05-098",
           "number": "OP05-098",
-          "price": 53.1,
+          "price": 54.4,
           "grade9": 62.0,
           "psa10": 160.0,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/enel-alternate-art-op05-098",
@@ -2893,7 +2913,7 @@
         {
           "name": "Borsalino [SP] OP05-051",
           "number": "OP05-051",
-          "price": 49.05,
+          "price": 49.95,
           "grade9": 43.99,
           "psa10": 105.0,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/borsalino-sp-op05-051",
@@ -2902,7 +2922,7 @@
         {
           "name": "Belo Betty [Alternate Art] OP05-002",
           "number": "OP05-002",
-          "price": 31.38,
+          "price": 32.75,
           "grade9": 21.01,
           "psa10": 70.0,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/belo-betty-alternate-art-op05-002",
@@ -2918,6 +2938,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/y6pvw34tpqyhbsyq/60.jpg"
         },
         {
+          "name": "Zoro-Juurou [Alternate Art] OP05-067",
+          "number": "OP05-067",
+          "price": 27.31,
+          "grade9": 28.98,
+          "psa10": 157.39,
+          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/zoro-juurou-alternate-art-op05-067",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/nhfectv2kco542wa/60.jpg"
+        },
+        {
           "name": "O-Nami [Illustration Box Vol. 1] OP05-062",
           "number": "OP05-062",
           "price": 26.24,
@@ -2927,31 +2956,22 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/s6uzxmr6j6lx3sd5/60.jpg"
         },
         {
-          "name": "Zoro-Juurou [Alternate Art] OP05-067",
-          "number": "OP05-067",
-          "price": 25.23,
-          "grade9": 28.98,
-          "psa10": 156.25,
-          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/zoro-juurou-alternate-art-op05-067",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/nhfectv2kco542wa/60.jpg"
+          "name": "Donquixote Rosinante [Alternate Art] OP05-022",
+          "number": "OP05-022",
+          "price": 22.49,
+          "grade9": 18.16,
+          "psa10": 72.5,
+          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/donquixote-rosinante-alternate-art-op05-022",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/bfdb249a4dc76a1744fb5140f9c649f942f0de36af1c37e2003b5c2d221df59e/60.jpg"
         },
         {
           "name": "Monkey.D.Luffy [Sound Loader] OP05-060",
           "number": "OP05-060",
-          "price": 24.99,
+          "price": 22.11,
           "grade9": null,
           "psa10": 54.62,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/monkeydluffy-sound-loader-op05-060",
           "img": "https://storage.googleapis.com/images.pricecharting.com/z7zrdfjjluwd4bwp/60.jpg"
-        },
-        {
-          "name": "Donquixote Rosinante [Alternate Art] OP05-022",
-          "number": "OP05-022",
-          "price": 22.49,
-          "grade9": 18.17,
-          "psa10": 72.5,
-          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/donquixote-rosinante-alternate-art-op05-022",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/bfdb249a4dc76a1744fb5140f9c649f942f0de36af1c37e2003b5c2d221df59e/60.jpg"
         },
         {
           "name": "Sabo [Alternate Art] OP05-001",
@@ -2967,7 +2987,7 @@
           "number": "OP05-091",
           "price": 20.46,
           "grade9": 23.71,
-          "psa10": 70.0,
+          "psa10": 69.49,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/rebecca-alternate-art-op05-091",
           "img": "https://storage.googleapis.com/images.pricecharting.com/hbj56hnxvy2ermew/60.jpg"
         },
@@ -3010,18 +3030,18 @@
         {
           "name": "Rob Lucci [Alternate Art] OP05-093",
           "number": "OP05-093",
-          "price": 9.73,
+          "price": 9.21,
           "grade9": 32.27,
-          "psa10": 55.5,
+          "psa10": 60.0,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/rob-lucci-alternate-art-op05-093",
           "img": "https://storage.googleapis.com/images.pricecharting.com/bkqedcwclge2ouvt/60.jpg"
         },
         {
           "name": "Kaido OP05-118",
           "number": "OP05-118",
-          "price": 4.85,
-          "grade9": 15.0,
-          "psa10": 48.08,
+          "price": 4.99,
+          "grade9": 20.0,
+          "psa10": 48.58,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/kaido-op05-118",
           "img": "https://storage.googleapis.com/images.pricecharting.com/7u6y4raskvck7dtk/60.jpg"
         },
@@ -3044,15 +3064,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/kvh53ndt7ppxyzpe/60.jpg"
         },
         {
-          "name": "Sabo OP05-007",
-          "number": "OP05-007",
-          "price": 1.64,
-          "grade9": 15.47,
-          "psa10": 32.5,
-          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/sabo-op05-007",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/906a20c3e103f2b92d9dc572c61490e7f59e03069e239e29425d99dc0a987dce/60.jpg"
-        },
-        {
           "name": "Trafalgar Law OP05-069",
           "number": "OP05-069",
           "price": 1.54,
@@ -3062,22 +3073,22 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/34542451f169821d66ad91314cf51f48e513513e81cbcf9c2675c5dd3acbdf70/60.jpg"
         },
         {
-          "name": "Enel OP05-100",
-          "number": "OP05-100",
-          "price": 1.25,
-          "grade9": 8.07,
-          "psa10": 42.0,
-          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/enel-op05-100",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/kbttlofofi3l2aw3/60.jpg"
-        },
-        {
           "name": "Koala OP05-006",
           "number": "OP05-006",
-          "price": 1.12,
+          "price": 1.29,
           "grade9": 10.88,
           "psa10": 29.94,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/koala-op05-006",
           "img": "https://storage.googleapis.com/images.pricecharting.com/f5ad3aaf16171af264d0e2ce4276f351a9c0e224167a48f1b608c4f8983c7301/60.jpg"
+        },
+        {
+          "name": "Sabo OP05-007",
+          "number": "OP05-007",
+          "price": 1.28,
+          "grade9": 15.47,
+          "psa10": 32.5,
+          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/sabo-op05-007",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/906a20c3e103f2b92d9dc572c61490e7f59e03069e239e29425d99dc0a987dce/60.jpg"
         },
         {
           "name": "Rebecca OP05-091",
@@ -3087,6 +3098,15 @@
           "psa10": 49.52,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/rebecca-op05-091",
           "img": "https://storage.googleapis.com/images.pricecharting.com/a1b91bcd39abacfcd6f7a32c07355fbcd1a3b045065f4fad9b5815fc79e845da/60.jpg"
+        },
+        {
+          "name": "Enel OP05-100",
+          "number": "OP05-100",
+          "price": 1.0,
+          "grade9": 8.07,
+          "psa10": 42.0,
+          "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/enel-op05-100",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/kbttlofofi3l2aw3/60.jpg"
         },
         {
           "name": "Ulti OP05-043",
@@ -3118,7 +3138,7 @@
         {
           "name": "Monkey.D.Luffy OP05-060",
           "number": "OP05-060",
-          "price": 0.35,
+          "price": 0.34,
           "grade9": 1601.59,
           "psa10": 1922.0,
           "url": "https://www.pricecharting.com/game/one-piece-awakening-of-the-new-era/monkeydluffy-op05-060",
@@ -3268,10 +3288,29 @@
         [
           1773100378388,
           30093
+        ],
+        [
+          1773186769524,
+          29000
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-03-10",
+          "price": 167.05,
+          "title": "One Piece OP-06 *UNSEALED*  Wings Of The Captain Booster Box ENGLISH - Bandai\n  "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 339.43,
+          "title": "One Piece Wings of the Captain OP-06 Booster Box English, New Sealed\n           "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 283.04,
+          "title": "One Piece TCG Sealed Booster Box Wings Of The Captain OP-06 Bandai + Case\n      "
+        },
         {
           "date": "2026-03-09",
           "price": 290.0,
@@ -3281,21 +3320,6 @@
           "date": "2026-03-08",
           "price": 283.76,
           "title": "ONE PIECE OP06 WINGS OF THE CAPTAIN BOOSTER BOX SEALED\n                        \n"
-        },
-        {
-          "date": "2026-03-08",
-          "price": 294.81,
-          "title": "ONE PIECE OP06 WINGS OF THE CAPTAIN BOOSTER BOX SEALED\n                        \n"
-        },
-        {
-          "date": "2026-03-06",
-          "price": 335.0,
-          "title": "One Piece Card Game - Wings of the Captain (OP06) - Sealed Booster Box - English"
-        },
-        {
-          "date": "2026-03-06",
-          "price": 201.2,
-          "title": "OP-06 Wings Of The Captain Booster Box - SEALED -One Piece Card  English Game\n  "
         }
       ],
       "ebay_query": "One Piece Wings of the Captain Booster Box english sealed",
@@ -3366,7 +3390,7 @@
         {
           "name": "Kouzuki Hiyori [Alternate Art PRB01] OP06-106",
           "number": "OP06-106",
-          "price": 148.0,
+          "price": 147.0,
           "grade9": null,
           "psa10": 150.0,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/kouzuki-hiyori-alternate-art-prb01-op06-106",
@@ -3422,7 +3446,7 @@
           "number": "OP06-022",
           "price": 90.5,
           "grade9": 80.0,
-          "psa10": 185.0,
+          "psa10": 172.27,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/yamato-alternate-art-op06-022",
           "img": "https://storage.googleapis.com/images.pricecharting.com/9729c84ecb849d4051abd1c4d1f8aed041e9a64b0682e81e7ec5854aa5e40bc5/60.jpg"
         },
@@ -3492,7 +3516,7 @@
         {
           "name": "Sanji [Alternate Art] OP06-119",
           "number": "OP06-119",
-          "price": 30.0,
+          "price": 28.42,
           "grade9": 50.0,
           "psa10": 130.0,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/sanji-alternate-art-op06-119",
@@ -3501,9 +3525,9 @@
         {
           "name": "Vinsmoke Reiju [Alternate Art] OP06-069",
           "number": "OP06-069",
-          "price": 27.63,
+          "price": 25.7,
           "grade9": 39.99,
-          "psa10": 149.18,
+          "psa10": 152.1,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/vinsmoke-reiju-alternate-art-op06-069",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ece77b1c08063dfc282c5056ca4e5169846d83743abc7efe251c73258f36cd34/60.jpg"
         },
@@ -3557,7 +3581,7 @@
           "number": "OP06-013",
           "price": 13.33,
           "grade9": 21.01,
-          "psa10": 64.14,
+          "psa10": 63.93,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/monkeydluffy-alternate-art-op06-013",
           "img": "https://storage.googleapis.com/images.pricecharting.com/7d4db50bba7e4d0564b37596ae97047d09535426141dc51d32ae5afc585dc1ff/60.jpg"
         },
@@ -3584,7 +3608,7 @@
           "number": "OP06-119",
           "price": 7.0,
           "grade9": 25.4,
-          "psa10": 44.0,
+          "psa10": 47.54,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/sanji-op06-119",
           "img": "https://storage.googleapis.com/images.pricecharting.com/8a3b51f2f6369c02c30652f4bb3b70b09e7a79bf9a88fc5ac91b6a5e6f6985ed/60.jpg"
         },
@@ -3600,47 +3624,47 @@
         {
           "name": "O-Nami OP06-101",
           "number": "OP06-101",
-          "price": 5.39,
+          "price": 5.11,
           "grade9": 21.54,
           "psa10": 65.49,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/o-nami-op06-101",
           "img": "https://storage.googleapis.com/images.pricecharting.com/6mar2kgtcgebshdw/60.jpg"
         },
         {
-          "name": "You're the One Who Should Disappear OP06-115",
-          "number": "OP06-115",
-          "price": 4.1,
-          "grade9": 32.0,
-          "psa10": 150.0,
-          "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/you%27re-the-one-who-should-disappear-op06-115",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/8d11e4e3f80c79e5e22397da7e69649a862b8018de999f9cc153e5105cefc54d/60.jpg"
-        },
-        {
           "name": "Charlotte Pudding OP06-047",
           "number": "OP06-047",
-          "price": 3.99,
+          "price": 4.82,
           "grade9": 130.0,
           "psa10": 156.0,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/charlotte-pudding-op06-047",
           "img": "https://storage.googleapis.com/images.pricecharting.com/5728d0b92f5a08621282e8677dfafed8ef5e242372be558c8fef19588203017e/60.jpg"
         },
         {
-          "name": "Gravity Blade Raging Tiger OP06-058",
-          "number": "OP06-058",
-          "price": 2.99,
-          "grade9": null,
-          "psa10": 41.67,
-          "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/gravity-blade-raging-tiger-op06-058",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/79390703d3f534c4dc6b80f3bbae230f7795e1e568865ba4b55d4dbca1f5bda9/60.jpg"
+          "name": "You're the One Who Should Disappear OP06-115",
+          "number": "OP06-115",
+          "price": 4.19,
+          "grade9": 32.0,
+          "psa10": 150.0,
+          "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/you%27re-the-one-who-should-disappear-op06-115",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/8d11e4e3f80c79e5e22397da7e69649a862b8018de999f9cc153e5105cefc54d/60.jpg"
         },
         {
           "name": "Perona OP06-093",
           "number": "OP06-093",
-          "price": 2.92,
+          "price": 2.87,
           "grade9": 14.99,
           "psa10": 94.06,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/perona-op06-093",
           "img": "https://storage.googleapis.com/images.pricecharting.com/0231948689eb0680f104e73280ee138fe5bd53905e59c20fccd9c60a15025920/60.jpg"
+        },
+        {
+          "name": "Shanks OP06-007",
+          "number": "OP06-007",
+          "price": 2.69,
+          "grade9": 54.96,
+          "psa10": 66.0,
+          "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/shanks-op06-007",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/00c04cdd198c085974e3e93903ab2f0d9c28b3c49b1036df381cada95515bc3f/60.jpg"
         },
         {
           "name": "Kikunojo OP06-104",
@@ -3652,13 +3676,13 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/f41ab8e9cf55475c57a496baf7076fbeade0720df990d4474184b890d1c13568/60.jpg"
         },
         {
-          "name": "Shanks OP06-007",
-          "number": "OP06-007",
-          "price": 2.39,
-          "grade9": 54.96,
-          "psa10": 66.0,
-          "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/shanks-op06-007",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/00c04cdd198c085974e3e93903ab2f0d9c28b3c49b1036df381cada95515bc3f/60.jpg"
+          "name": "Gravity Blade Raging Tiger OP06-058",
+          "number": "OP06-058",
+          "price": 2.49,
+          "grade9": null,
+          "psa10": 41.67,
+          "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/gravity-blade-raging-tiger-op06-058",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/79390703d3f534c4dc6b80f3bbae230f7795e1e568865ba4b55d4dbca1f5bda9/60.jpg"
         },
         {
           "name": "Vinsmoke Reiju OP06-069",
@@ -3699,7 +3723,7 @@
         {
           "name": "Yamato OP06-022",
           "number": "OP06-022",
-          "price": 0.74,
+          "price": 0.99,
           "grade9": null,
           "psa10": 102.93,
           "url": "https://www.pricecharting.com/game/one-piece-wings-of-the-captain/yamato-op06-022",
@@ -3873,10 +3897,19 @@
         [
           1773100378388,
           23663
+        ],
+        [
+          1773186769524,
+          25698
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-03-10",
+          "price": 258.27,
+          "title": "One Piece TCG Sealed Booster Box 500 Years In The Future OP-07 Bandai + Case\n   "
+        },
         {
           "date": "2026-03-09",
           "price": 223.5,
@@ -3896,11 +3929,6 @@
           "date": "2026-03-07",
           "price": 349.99,
           "title": "One Piece TCG: 500 Years into the Future Booster Box ENGLISH OP07 FACTORY SEALED"
-        },
-        {
-          "date": "2026-03-07",
-          "price": 320.0,
-          "title": "One Piece TCG 500 Years In The Future Booster Box OP-07 English Sealed\n         "
         }
       ],
       "ebay_query": "One Piece 500 Years in the Future Booster Box english sealed",
@@ -3935,9 +3963,9 @@
         {
           "name": "Boa Hancock [Alternate Art Manga] OP07-051",
           "number": "OP07-051",
-          "price": 2125.0,
-          "grade9": 571.9,
-          "psa10": 2950.0,
+          "price": 2130.4,
+          "grade9": 737.18,
+          "psa10": 2925.0,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/boa-hancock-alternate-art-manga-op07-051",
           "img": "https://storage.googleapis.com/images.pricecharting.com/e3646c458acb18afdd4ead32b57b24a5c919f0add617b3bdd7d9a80407c440ea/60.jpg"
         },
@@ -3971,7 +3999,7 @@
         {
           "name": "Monkey.D.Luffy [Offline Regionals] OP07-091",
           "number": "OP07-091",
-          "price": 194.95,
+          "price": 194.5,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/monkeydluffy-offline-regionals-op07-091",
@@ -3998,9 +4026,9 @@
         {
           "name": "Boa Hancock [Magazine] OP07-038",
           "number": "OP07-038",
-          "price": 130.22,
+          "price": 129.08,
           "grade9": 119.0,
-          "psa10": 288.75,
+          "psa10": 238.75,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/boa-hancock-magazine-op07-038",
           "img": "https://storage.googleapis.com/images.pricecharting.com/3e5d7qgzztjklabu/60.jpg"
         },
@@ -4016,8 +4044,8 @@
         {
           "name": "Boa Hancock [Alternate Art] OP07-038",
           "number": "OP07-038",
-          "price": 111.68,
-          "grade9": 68.12,
+          "price": 107.9,
+          "grade9": 68.05,
           "psa10": 265.17,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/boa-hancock-alternate-art-op07-038",
           "img": "https://storage.googleapis.com/images.pricecharting.com/99348a30dca4d61e9b642c3e4a28bf91907721e83b82c7ece51dfa1ba60b5387/60.jpg"
@@ -4032,15 +4060,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/bfmz4cssb6nl76xo/60.jpg"
         },
         {
-          "name": "Portgas.D.Ace [Winner] OP07-053",
-          "number": "OP07-053",
-          "price": 94.61,
-          "grade9": null,
-          "psa10": 147.61,
-          "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/portgasdace-winner-op07-053",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/tohidwwvqhbwbxzu/60.jpg"
-        },
-        {
           "name": "Monkey.D.Luffy [Bandai Card Games Fest] OP07-073",
           "number": "OP07-073",
           "price": 94.47,
@@ -4048,6 +4067,15 @@
           "psa10": 462.45,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/monkeydluffy-bandai-card-games-fest-op07-073",
           "img": "https://storage.googleapis.com/images.pricecharting.com/gqobmn7qa45bqifq/60.jpg"
+        },
+        {
+          "name": "Portgas.D.Ace [Winner] OP07-053",
+          "number": "OP07-053",
+          "price": 83.12,
+          "grade9": null,
+          "psa10": 147.61,
+          "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/portgasdace-winner-op07-053",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/tohidwwvqhbwbxzu/60.jpg"
         },
         {
           "name": "Jewelry Bonney [Alternate Art] OP07-019",
@@ -4088,7 +4116,7 @@
         {
           "name": "Sanji [Alternate Art] OP07-064",
           "number": "OP07-064",
-          "price": 29.99,
+          "price": 30.79,
           "grade9": 23.75,
           "psa10": 89.34,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/sanji-alternate-art-op07-064",
@@ -4115,9 +4143,9 @@
         {
           "name": "Monkey.D.Dragon [Alternate Art] OP07-001",
           "number": "OP07-001",
-          "price": 23.15,
+          "price": 22.51,
           "grade9": 32.5,
-          "psa10": 89.77,
+          "psa10": 89.89,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/monkeyddragon-alternate-art-op07-001",
           "img": "https://storage.googleapis.com/images.pricecharting.com/eb166a3f0d4444e6275cbfdde4377b82f1a516b916cf1929583ac8bf9a305d40/60.jpg"
         },
@@ -4138,15 +4166,6 @@
           "psa10": 113.37,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/portgasdace-alternate-art-op07-119",
           "img": "https://storage.googleapis.com/images.pricecharting.com/148ba2ae94ba78140b5516a69b2d6d2f86f17ef4baa0cc83022b6ed85300ea22/60.jpg"
-        },
-        {
-          "name": "Perfume Femur OP07-057",
-          "number": "OP07-057",
-          "price": 20.0,
-          "grade9": 13.0,
-          "psa10": 100.0,
-          "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/perfume-femur-op07-057",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/a8748126bb451ac78cf79100463869a43f9d74e6829f301baee2ba735ba84f20/60.jpg"
         },
         {
           "name": "Monkey.D.Luffy [Alternate Art] OP07-109",
@@ -4178,9 +4197,9 @@
         {
           "name": "Sengoku [Alternate Art] OP07-046",
           "number": "OP07-046",
-          "price": 14.9,
+          "price": 12.82,
           "grade9": 12.5,
-          "psa10": 37.43,
+          "psa10": 37.71,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/sengoku-alternate-art-op07-046",
           "img": "https://storage.googleapis.com/images.pricecharting.com/3a68d25ac88a46a2f71b1b82480c01dd072bd6f7361803fc60dd3ea6edee3ba8/60.jpg"
         },
@@ -4210,6 +4229,15 @@
           "psa10": 83.28,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/carina-alternate-art-op07-005",
           "img": "https://storage.googleapis.com/images.pricecharting.com/31a7e4b9079fa097a3959c1f854872c587ad4d57b5f4bf2989612e7c8458a903/60.jpg"
+        },
+        {
+          "name": "Perfume Femur OP07-057",
+          "number": "OP07-057",
+          "price": 9.83,
+          "grade9": 13.0,
+          "psa10": 100.0,
+          "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/perfume-femur-op07-057",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/a8748126bb451ac78cf79100463869a43f9d74e6829f301baee2ba735ba84f20/60.jpg"
         },
         {
           "name": "Trafalgar Law [Alternate Art] OP07-047",
@@ -4259,9 +4287,9 @@
         {
           "name": "Stussy OP07-085",
           "number": "OP07-085",
-          "price": 3.76,
+          "price": 3.68,
           "grade9": 26.99,
-          "psa10": 44.0,
+          "psa10": 51.0,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/stussy-op07-085",
           "img": "https://storage.googleapis.com/images.pricecharting.com/wbt3vupuyyvpag2j/60.jpg"
         },
@@ -4313,11 +4341,20 @@
         {
           "name": "DON!! Card [Alternate Art]",
           "number": "",
-          "price": 1.98,
-          "grade9": 16.93,
-          "psa10": 43.7,
+          "price": 1.95,
+          "grade9": 16.97,
+          "psa10": 43.67,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/don-card-alternate-art",
           "img": "https://storage.googleapis.com/images.pricecharting.com/859c4576879032559ccd89c9896a922eae86d8f22f95f96098170fc4b6159cc2/60.jpg"
+        },
+        {
+          "name": "Basil Hawkins OP07-029",
+          "number": "OP07-029",
+          "price": 1.54,
+          "grade9": null,
+          "psa10": 52.5,
+          "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/basil-hawkins-op07-029",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/ushiuf25fcbdl75v/60.jpg"
         },
         {
           "name": "Monkey.D.Luffy OP07-073",
@@ -4336,15 +4373,6 @@
           "psa10": 47.5,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/monkeyddragon-op07-015",
           "img": "https://storage.googleapis.com/images.pricecharting.com/529b074f8a91d34a69da68ad1895aa2f4b0c39e20616627560ec67ee8712b9c8/60.jpg"
-        },
-        {
-          "name": "Basil Hawkins OP07-029",
-          "number": "OP07-029",
-          "price": 1.12,
-          "grade9": null,
-          "psa10": 52.5,
-          "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/basil-hawkins-op07-029",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/ushiuf25fcbdl75v/60.jpg"
         }
       ],
       "box_img": "https://storage.googleapis.com/images.pricecharting.com/jqet77qddh6yogw5/240.jpg"
@@ -4466,10 +4494,24 @@
         [
           1773100378388,
           20000
+        ],
+        [
+          1773186769524,
+          20000
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-03-10",
+          "price": 219.36,
+          "title": "One Piece TCG Sealed Booster Box Two Legends OP-08 Bandai Ultra Rare + Case\n    "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 255.0,
+          "title": "One Piece Card Game EN - Two Legends (OP-08) Sealed Booster Box\n                "
+        },
         {
           "date": "2026-03-08",
           "price": 67.38,
@@ -4484,16 +4526,6 @@
           "date": "2026-03-08",
           "price": 229.99,
           "title": "1x One Piece TCG OP08 Two Legends Booster Box Sealed NEW ENGLISH\n               "
-        },
-        {
-          "date": "2026-03-06",
-          "price": 200.0,
-          "title": "Two Legends - Booster Box Unopened English[TCGPlayer]"
-        },
-        {
-          "date": "2026-03-05",
-          "price": 269.99,
-          "title": "OP-08 Two Legends Display Booster Box One Piece TCG English Sealed.\n            "
         }
       ],
       "ebay_query": "One Piece Two Legends Booster Box english sealed",
@@ -4528,9 +4560,9 @@
         {
           "name": "Silvers Rayleigh [Manga] OP08-118",
           "number": "OP08-118",
-          "price": 642.48,
+          "price": 579.0,
           "grade9": 750.0,
-          "psa10": 1087.5,
+          "psa10": 1046.4,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/silvers-rayleigh-manga-op08-118",
           "img": "https://storage.googleapis.com/images.pricecharting.com/zjsmmmp66qqcucie/60.jpg"
         },
@@ -4546,9 +4578,9 @@
         {
           "name": "Tony Tony.Chopper [Alternate Art] OP08-001",
           "number": "OP08-001",
-          "price": 60.0,
+          "price": 61.19,
           "grade9": 51.0,
-          "psa10": 212.25,
+          "psa10": 207.04,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/tony-tonychopper-alternate-art-op08-001",
           "img": "https://storage.googleapis.com/images.pricecharting.com/puexmzt25waz4ndi/60.jpg"
         },
@@ -4564,7 +4596,7 @@
         {
           "name": "Carrot [Alternate Art] OP08-021",
           "number": "OP08-021",
-          "price": 37.87,
+          "price": 37.72,
           "grade9": null,
           "psa10": 64.32,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/carrot-alternate-art-op08-021",
@@ -4582,9 +4614,9 @@
         {
           "name": "Charlotte Pudding [Alternate Art] OP08-058",
           "number": "OP08-058",
-          "price": 33.41,
+          "price": 35.1,
           "grade9": 26.0,
-          "psa10": 87.5,
+          "psa10": 87.22,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/charlotte-pudding-alternate-art-op08-058",
           "img": "https://storage.googleapis.com/images.pricecharting.com/7p4i4gr4hy67q5w3/60.jpg"
         },
@@ -4600,45 +4632,45 @@
         {
           "name": "Tony Tony.Chopper [Alternate Art] OP08-007",
           "number": "OP08-007",
-          "price": 24.75,
+          "price": 24.85,
           "grade9": 63.0,
-          "psa10": 155.0,
+          "psa10": 142.93,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/tony-tonychopper-alternate-art-op08-007",
           "img": "https://storage.googleapis.com/images.pricecharting.com/bwb2gkkxfdnqbhfd/60.jpg"
         },
         {
-          "name": "Silvers Rayleigh [Alternate Art] OP08-118",
-          "number": "OP08-118",
-          "price": 21.59,
-          "grade9": 60.0,
-          "psa10": 60.0,
-          "url": "https://www.pricecharting.com/game/one-piece-two-legends/silvers-rayleigh-alternate-art-op08-118",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/7iat2mibbrsjnbeb/60.jpg"
-        },
-        {
-          "name": "Charlotte Linlin [2nd Anniversary] OP08-069",
-          "number": "OP08-069",
-          "price": 20.39,
-          "grade9": null,
-          "psa10": 43.1,
-          "url": "https://www.pricecharting.com/game/one-piece-two-legends/charlotte-linlin-2nd-anniversary-op08-069",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/cqzir7fnwpgwqtss/60.jpg"
-        },
-        {
           "name": "Carrot [Alternate Art] OP08-023",
           "number": "OP08-023",
-          "price": 20.0,
+          "price": 23.74,
           "grade9": 27.5,
           "psa10": 75.0,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/carrot-alternate-art-op08-023",
           "img": "https://storage.googleapis.com/images.pricecharting.com/myayr6kjeqgp37zk/60.jpg"
         },
         {
+          "name": "Charlotte Linlin [2nd Anniversary] OP08-069",
+          "number": "OP08-069",
+          "price": 20.51,
+          "grade9": null,
+          "psa10": 43.1,
+          "url": "https://www.pricecharting.com/game/one-piece-two-legends/charlotte-linlin-2nd-anniversary-op08-069",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/cqzir7fnwpgwqtss/60.jpg"
+        },
+        {
+          "name": "Silvers Rayleigh [Alternate Art] OP08-118",
+          "number": "OP08-118",
+          "price": 19.38,
+          "grade9": 60.0,
+          "psa10": 60.0,
+          "url": "https://www.pricecharting.com/game/one-piece-two-legends/silvers-rayleigh-alternate-art-op08-118",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/7iat2mibbrsjnbeb/60.jpg"
+        },
+        {
           "name": "Marco [Alternate Art] OP08-002",
           "number": "OP08-002",
-          "price": 18.44,
+          "price": 18.99,
           "grade9": 20.5,
-          "psa10": 63.36,
+          "psa10": 63.29,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/marco-alternate-art-op08-002",
           "img": "https://storage.googleapis.com/images.pricecharting.com/qhxktborvbtbqrom/60.jpg"
         },
@@ -4681,7 +4713,7 @@
         {
           "name": "Kaido & Linlin [Alternate Art] OP08-119",
           "number": "OP08-119",
-          "price": 13.25,
+          "price": 12.33,
           "grade9": 19.99,
           "psa10": 44.99,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/kaido-&-linlin-alternate-art-op08-119",
@@ -4690,16 +4722,34 @@
         {
           "name": "Black Maria [Promo] OP08-074",
           "number": "OP08-074",
-          "price": 11.99,
+          "price": 11.49,
           "grade9": null,
           "psa10": 55.97,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/black-maria-promo-op08-074",
           "img": "https://storage.googleapis.com/images.pricecharting.com/vtzllvlh46li5lak/60.jpg"
         },
         {
+          "name": "Portgas.D.Ace [Alternate Art] OP08-052",
+          "number": "OP08-052",
+          "price": 9.66,
+          "grade9": 20.5,
+          "psa10": 110.0,
+          "url": "https://www.pricecharting.com/game/one-piece-two-legends/portgasdace-alternate-art-op08-052",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/adedacuv6zikqha2/60.jpg"
+        },
+        {
+          "name": "Charlotte Pudding [Alternate Art] OP08-067",
+          "number": "OP08-067",
+          "price": 9.25,
+          "grade9": 15.25,
+          "psa10": 47.0,
+          "url": "https://www.pricecharting.com/game/one-piece-two-legends/charlotte-pudding-alternate-art-op08-067",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/rv7lypjjt34e6lgp/60.jpg"
+        },
+        {
           "name": "Black Maria [Illustration Box Vol.2] OP08-074",
           "number": "OP08-074",
-          "price": 9.99,
+          "price": 9.23,
           "grade9": null,
           "psa10": 65.42,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/black-maria-illustration-box-vol2-op08-074",
@@ -4708,20 +4758,11 @@
         {
           "name": "Charlotte Linlin [Alternate Art] OP08-069",
           "number": "OP08-069",
-          "price": 9.6,
+          "price": 9.04,
           "grade9": 25.0,
           "psa10": 42.5,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/charlotte-linlin-alternate-art-op08-069",
           "img": "https://storage.googleapis.com/images.pricecharting.com/fmqvmeku7j2h54le/60.jpg"
-        },
-        {
-          "name": "Charlotte Pudding [Alternate Art] OP08-067",
-          "number": "OP08-067",
-          "price": 8.99,
-          "grade9": 15.25,
-          "psa10": 47.5,
-          "url": "https://www.pricecharting.com/game/one-piece-two-legends/charlotte-pudding-alternate-art-op08-067",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/rv7lypjjt34e6lgp/60.jpg"
         },
         {
           "name": "Black Maria [Alternate Art] OP08-074",
@@ -4735,20 +4776,11 @@
         {
           "name": "Kaido [Alternate Art] OP08-079",
           "number": "OP08-079",
-          "price": 8.85,
+          "price": 8.56,
           "grade9": null,
           "psa10": 43.69,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/kaido-alternate-art-op08-079",
           "img": "https://storage.googleapis.com/images.pricecharting.com/tv4aipvdv2ndghiy/60.jpg"
-        },
-        {
-          "name": "Portgas.D.Ace [Alternate Art] OP08-052",
-          "number": "OP08-052",
-          "price": 8.25,
-          "grade9": 20.5,
-          "psa10": 110.0,
-          "url": "https://www.pricecharting.com/game/one-piece-two-legends/portgasdace-alternate-art-op08-052",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/adedacuv6zikqha2/60.jpg"
         },
         {
           "name": "Nami OP08-106",
@@ -4771,9 +4803,9 @@
         {
           "name": "Silvers Rayleigh OP08-118",
           "number": "OP08-118",
-          "price": 4.8,
+          "price": 4.61,
           "grade9": 15.5,
-          "psa10": 37.17,
+          "psa10": 29.99,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/silvers-rayleigh-op08-118",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ozmwewg37tu7hzzb/60.jpg"
         },
@@ -4814,29 +4846,29 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/jjeoeuqazh4vyspm/60.jpg"
         },
         {
+          "name": "Carrot OP08-023",
+          "number": "OP08-023",
+          "price": 1.91,
+          "grade9": null,
+          "psa10": 31.29,
+          "url": "https://www.pricecharting.com/game/one-piece-two-legends/carrot-op08-023",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/iuwsolc7fv3zmt64/60.jpg"
+        },
+        {
           "name": "Jewelry Bonney OP08-105",
           "number": "OP08-105",
-          "price": 1.94,
+          "price": 1.84,
           "grade9": null,
           "psa10": 38.0,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/jewelry-bonney-op08-105",
           "img": "https://storage.googleapis.com/images.pricecharting.com/fgixi5ovme5mlx2b/60.jpg"
         },
         {
-          "name": "Carrot OP08-023",
-          "number": "OP08-023",
-          "price": 1.65,
-          "grade9": null,
-          "psa10": 31.1,
-          "url": "https://www.pricecharting.com/game/one-piece-two-legends/carrot-op08-023",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/iuwsolc7fv3zmt64/60.jpg"
-        },
-        {
           "name": "Edward.Newgate OP08-043",
           "number": "OP08-043",
-          "price": 1.58,
+          "price": 1.71,
           "grade9": null,
-          "psa10": 49.41,
+          "psa10": 49.26,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/edwardnewgate-op08-043",
           "img": "https://storage.googleapis.com/images.pricecharting.com/sbewtun3owox4vf4/60.jpg"
         },
@@ -4859,6 +4891,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/c3novm75lzdy5hjw/60.jpg"
         },
         {
+          "name": "Kaido OP08-079",
+          "number": "OP08-079",
+          "price": 1.0,
+          "grade9": 14.99,
+          "psa10": 17.38,
+          "url": "https://www.pricecharting.com/game/one-piece-two-legends/kaido-op08-079",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/u3fmew5psu66uwhk/60.jpg"
+        },
+        {
           "name": "Charlotte Linlin OP08-069",
           "number": "OP08-069",
           "price": 0.99,
@@ -4877,13 +4918,13 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/6kdtyytoczqqofpi/60.jpg"
         },
         {
-          "name": "Kaido OP08-079",
-          "number": "OP08-079",
-          "price": 0.95,
-          "grade9": 14.99,
-          "psa10": 17.4,
-          "url": "https://www.pricecharting.com/game/one-piece-two-legends/kaido-op08-079",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/u3fmew5psu66uwhk/60.jpg"
+          "name": "Portgas.D.Ace OP08-052",
+          "number": "OP08-052",
+          "price": 0.59,
+          "grade9": null,
+          "psa10": 189.99,
+          "url": "https://www.pricecharting.com/game/one-piece-two-legends/portgasdace-op08-052",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/rk6j5nrw6xmw2yj3/60.jpg"
         },
         {
           "name": "Charlotte Pudding OP08-058",
@@ -4920,15 +4961,6 @@
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-two-legends/don-card-alternate-art-foil",
           "img": "https://storage.googleapis.com/images.pricecharting.com/icdch5dxrtxqkc5y/60.jpg"
-        },
-        {
-          "name": "Portgas.D.Ace OP08-052",
-          "number": "OP08-052",
-          "price": 0.26,
-          "grade9": null,
-          "psa10": 189.99,
-          "url": "https://www.pricecharting.com/game/one-piece-two-legends/portgasdace-op08-052",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/rk6j5nrw6xmw2yj3/60.jpg"
         },
         {
           "name": "King OP08-057",
@@ -5047,10 +5079,24 @@
         [
           1773100378388,
           51901
+        ],
+        [
+          1773186769524,
+          54485
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-03-10",
+          "price": 544.85,
+          "title": "One Piece TCG Sealed Booster Box Emperors In The New World OP-09 Bandai + Case\n "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 345.0,
+          "title": "One Piece English OP-09 EMPERORS IN THE NEW WORLD Booster Box NO SHRINK - USA -A"
+        },
         {
           "date": "2026-03-09",
           "price": 570.0,
@@ -5065,16 +5111,6 @@
           "date": "2026-03-07",
           "price": 599.99,
           "title": "BOX ONE PIECE OP-09 Emperors In The New World Booster box new Sealed English\n   "
-        },
-        {
-          "date": "2026-03-05",
-          "price": 223.36,
-          "title": "One Piece TCG OP-09 Emperors in the New World Booster Box | Slight damage to box"
-        },
-        {
-          "date": "2026-03-05",
-          "price": 435.92,
-          "title": "One Piece OP09 Emperors in the New World English Booster Box Sealed\n            "
         }
       ],
       "ebay_query": "One Piece Emperors in the New World Booster Box english sealed",
@@ -5082,9 +5118,9 @@
         {
           "name": "Gol.D.Roger [Manga] OP09-118",
           "number": "OP09-118",
-          "price": 3254.12,
-          "grade9": 4547.34,
-          "psa10": 19441.75,
+          "price": 3297.97,
+          "grade9": 4548.67,
+          "psa10": 13157.14,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/goldroger-manga-op09-118",
           "img": "https://storage.googleapis.com/images.pricecharting.com/tycjk3v5z52topbu/60.jpg"
         },
@@ -5100,8 +5136,8 @@
         {
           "name": "Marshall.D.Teach [Manga] OP09-093",
           "number": "OP09-093",
-          "price": 1571.61,
-          "grade9": 525.13,
+          "price": 1574.22,
+          "grade9": 525.35,
           "psa10": 2750.0,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/marshalldteach-manga-op09-093",
           "img": "https://storage.googleapis.com/images.pricecharting.com/g4a7xgvygg7tnj6w/60.jpg"
@@ -5109,18 +5145,18 @@
         {
           "name": "Shanks [Manga] OP09-004",
           "number": "OP09-004",
-          "price": 1453.27,
-          "grade9": 1869.0,
-          "psa10": 2466.7,
+          "price": 1475.0,
+          "grade9": 1429.0,
+          "psa10": 2375.0,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/shanks-manga-op09-004",
           "img": "https://storage.googleapis.com/images.pricecharting.com/apcgmtnsn47gokf4/60.jpg"
         },
         {
           "name": "Buggy [Alternate Art Manga] OP09-051",
           "number": "OP09-051",
-          "price": 785.53,
-          "grade9": 562.87,
-          "psa10": 2069.12,
+          "price": 939.0,
+          "grade9": 562.51,
+          "psa10": 2071.1,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/buggy-alternate-art-manga-op09-051",
           "img": "https://storage.googleapis.com/images.pricecharting.com/l4n3kx5tw5wpytp2/60.jpg"
         },
@@ -5136,7 +5172,7 @@
         {
           "name": "Shanks [Wanted Poster] OP09-004",
           "number": "OP09-004",
-          "price": 283.28,
+          "price": 278.53,
           "grade9": 160.0,
           "psa10": 475.04,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/shanks-wanted-poster-op09-004",
@@ -5170,15 +5206,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/s5e7ir252zh522m7/60.jpg"
         },
         {
-          "name": "Gol.D.Roger [Alternate Art] OP09-118",
-          "number": "OP09-118",
-          "price": 82.3,
-          "grade9": 168.5,
-          "psa10": 294.4,
-          "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/goldroger-alternate-art-op09-118",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/6lhdfr42xfl22u77/60.jpg"
-        },
-        {
           "name": "Shanks [2nd Anniversary] OP09-001",
           "number": "OP09-001",
           "price": 80.9,
@@ -5186,6 +5213,15 @@
           "psa10": 306.62,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/shanks-2nd-anniversary-op09-001",
           "img": "https://storage.googleapis.com/images.pricecharting.com/i3att7oybgdowndo/60.jpg"
+        },
+        {
+          "name": "Gol.D.Roger [Alternate Art] OP09-118",
+          "number": "OP09-118",
+          "price": 76.88,
+          "grade9": 168.5,
+          "psa10": 295.52,
+          "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/goldroger-alternate-art-op09-118",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/6lhdfr42xfl22u77/60.jpg"
         },
         {
           "name": "Nami [Best Selection] OP09-070",
@@ -5197,15 +5233,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/cudqdmrozfd7zg7x/60.jpg"
         },
         {
-          "name": "Buggy [2nd Anniversary] OP09-042",
-          "number": "OP09-042",
-          "price": 69.99,
-          "grade9": 89.98,
-          "psa10": 259.68,
-          "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/buggy-2nd-anniversary-op09-042",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/gewvmutmmlbsc4qg/60.jpg"
-        },
-        {
           "name": "Nico Robin [Alternate Art] OP09-062",
           "number": "OP09-062",
           "price": 68.46,
@@ -5215,9 +5242,18 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/yei32ojey6kmfbvj/60.jpg"
         },
         {
+          "name": "Buggy [2nd Anniversary] OP09-042",
+          "number": "OP09-042",
+          "price": 67.47,
+          "grade9": 89.98,
+          "psa10": 259.68,
+          "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/buggy-2nd-anniversary-op09-042",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/gewvmutmmlbsc4qg/60.jpg"
+        },
+        {
           "name": "Marshall.D.Teach [2nd Anniversary] OP09-081",
           "number": "OP09-081",
-          "price": 56.29,
+          "price": 51.26,
           "grade9": 86.73,
           "psa10": 158.05,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/marshalldteach-2nd-anniversary-op09-081",
@@ -5226,7 +5262,7 @@
         {
           "name": "Sabo OP09-027",
           "number": "OP09-027",
-          "price": 55.5,
+          "price": 49.45,
           "grade9": null,
           "psa10": 331.0,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/sabo-op09-027",
@@ -5271,8 +5307,8 @@
         {
           "name": "Marshall.D.Teach [Alternate Art] OP09-081",
           "number": "OP09-081",
-          "price": 28.41,
-          "grade9": 51.98,
+          "price": 28.0,
+          "grade9": 51.97,
           "psa10": 96.0,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/marshalldteach-alternate-art-op09-081",
           "img": "https://storage.googleapis.com/images.pricecharting.com/62sb4g3lchjmu65l/60.jpg"
@@ -5334,9 +5370,9 @@
         {
           "name": "Monkey.D.Luffy OP09-119",
           "number": "OP09-119",
-          "price": 9.97,
+          "price": 9.96,
           "grade9": 20.0,
-          "psa10": 95.99,
+          "psa10": 95.46,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/monkeydluffy-op09-119",
           "img": "https://storage.googleapis.com/images.pricecharting.com/zm5fd5pa3sd24n5m/60.jpg"
         },
@@ -5377,6 +5413,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/kvcnjt2vwxurxhi5/60.jpg"
         },
         {
+          "name": "Nico Robin [Foil] OP09-107",
+          "number": "OP09-107",
+          "price": 2.82,
+          "grade9": 13.5,
+          "psa10": 67.5,
+          "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/nico-robin-foil-op09-107",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/4czhozwsbmb5qmf2/60.jpg"
+        },
+        {
           "name": "Benn.Beckman [Foil] OP09-009",
           "number": "OP09-009",
           "price": 2.81,
@@ -5386,31 +5431,13 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/viprjigb7ekdreer/60.jpg"
         },
         {
-          "name": "Nico Robin [Foil] OP09-107",
-          "number": "OP09-107",
-          "price": 2.64,
-          "grade9": 13.5,
-          "psa10": 67.5,
-          "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/nico-robin-foil-op09-107",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/4czhozwsbmb5qmf2/60.jpg"
-        },
-        {
           "name": "Perona [Foil] OP09-034",
           "number": "OP09-034",
-          "price": 2.39,
+          "price": 2.5,
           "grade9": 17.5,
           "psa10": 37.5,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/perona-foil-op09-034",
           "img": "https://storage.googleapis.com/images.pricecharting.com/sfx64w7npacxdmdg/60.jpg"
-        },
-        {
-          "name": "Shanks OP09-004",
-          "number": "OP09-004",
-          "price": 2.0,
-          "grade9": 65.0,
-          "psa10": 535.86,
-          "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/shanks-op09-004",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/yhr6anwq5537itcs/60.jpg"
         },
         {
           "name": "Sanji [Foil] OP09-065",
@@ -5420,6 +5447,15 @@
           "psa10": 26.17,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/sanji-foil-op09-065",
           "img": "https://storage.googleapis.com/images.pricecharting.com/3kxxmchhw4bobttu/60.jpg"
+        },
+        {
+          "name": "Shanks OP09-004",
+          "number": "OP09-004",
+          "price": 1.88,
+          "grade9": 65.0,
+          "psa10": 581.37,
+          "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/shanks-op09-004",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/yhr6anwq5537itcs/60.jpg"
         },
         {
           "name": "Trafalgar Law [Foil] OP09-069",
@@ -5460,7 +5496,7 @@
         {
           "name": "Cross Guild [Foil] OP09-057",
           "number": "OP09-057",
-          "price": 1.25,
+          "price": 1.29,
           "grade9": null,
           "psa10": 630.0,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/cross-guild-foil-op09-057",
@@ -5487,9 +5523,9 @@
         {
           "name": "Marshall.D.Teach OP09-093",
           "number": "OP09-093",
-          "price": 0.99,
+          "price": 0.76,
           "grade9": null,
-          "psa10": 1375.0,
+          "psa10": 1300.0,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/marshalldteach-op09-093",
           "img": "https://storage.googleapis.com/images.pricecharting.com/kbofwyhzkkdyylwb/60.jpg"
         },
@@ -5514,7 +5550,7 @@
         {
           "name": "Marshall.D.Teach OP09-081",
           "number": "OP09-081",
-          "price": 0.24,
+          "price": 0.19,
           "grade9": null,
           "psa10": 78.99,
           "url": "https://www.pricecharting.com/game/one-piece-emperors-in-the-new-world/marshalldteach-op09-081",
@@ -5616,34 +5652,38 @@
         [
           1773100378388,
           20771
+        ],
+        [
+          1773186769524,
+          20771
         ]
       ],
       "available": true,
       "recent_sales": [
         {
-          "date": "2026-03-08",
-          "price": 221.11,
-          "title": "ONE PIECE OP10 TCG ENGLISH ROYAL BLOOD BOOSTER BOX SEALED\n                      "
+          "date": "2026-03-10",
+          "price": 251.2,
+          "title": "One Piece TCG Sealed Booster Box Royal Blood OP-10 Bandai Ultra Rare\n           "
         },
         {
-          "date": "2026-03-08",
-          "price": 200.0,
-          "title": "*Sealed OP-10 Royal Blood Booster Box* One Piece\n                        \n      "
-        },
-        {
-          "date": "2026-03-07",
-          "price": 174.37,
-          "title": "One Piece Card Game Royal Blood OP10 Booster Box Sealed English TCG\n            "
-        },
-        {
-          "date": "2026-03-06",
-          "price": 204.99,
-          "title": "Royal Blood Booster Box Unopened English[TCGPlayer]"
-        },
-        {
-          "date": "2026-03-06",
-          "price": 228.0,
+          "date": "2026-03-10",
+          "price": 238.5,
           "title": "One Piece Card Game Royal Blood Booster Box OP-10 English Edition Sealed US\n    "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 183.5,
+          "title": "One Piece EN OP-10 Royal Blood Booster Box Sealed\n                        \n     "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 211.5,
+          "title": "#5 One Piece English OP-10 Royal Blood Booster Box Sealed\n                      "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 209.5,
+          "title": "#4 One Piece English OP-10 Royal Blood Booster Box Sealed\n                      "
         }
       ],
       "ebay_query": "One Piece Royal Blood Booster Box english sealed",
@@ -5651,16 +5691,16 @@
         {
           "name": "Trafalgar Law [Manga] OP10-119",
           "number": "OP10-119",
-          "price": 822.43,
+          "price": 823.6,
           "grade9": 710.0,
-          "psa10": 1026.89,
+          "psa10": 1050.0,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/trafalgar-law-manga-op10-119",
           "img": "https://storage.googleapis.com/images.pricecharting.com/weppzb33pji7dvvi/60.jpg"
         },
         {
           "name": "Usopp [Playmat Limited Edition] OP10-042",
           "number": "OP10-042",
-          "price": 96.74,
+          "price": 96.64,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/usopp-playmat-limited-edition-op10-042",
@@ -5696,7 +5736,7 @@
         {
           "name": "Trafalgar Law [Alternate Art] OP10-119",
           "number": "OP10-119",
-          "price": 38.3,
+          "price": 36.57,
           "grade9": 44.0,
           "psa10": 168.57,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/trafalgar-law-alternate-art-op10-119",
@@ -5730,15 +5770,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/fyk2ziok2wx3tuc6/60.jpg"
         },
         {
-          "name": "Donquixote Rosinante [Alternate Art] OP10-072",
-          "number": "OP10-072",
-          "price": 28.25,
-          "grade9": 23.0,
-          "psa10": 37.0,
-          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/donquixote-rosinante-alternate-art-op10-072",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/zirkc5ba2xhmyb43/60.jpg"
-        },
-        {
           "name": "Trafalgar Law [Alternate Art] OP10-022",
           "number": "OP10-022",
           "price": 27.5,
@@ -5746,6 +5777,15 @@
           "psa10": 70.33,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/trafalgar-law-alternate-art-op10-022",
           "img": "https://storage.googleapis.com/images.pricecharting.com/nprxvmz6uqfrqcze/60.jpg"
+        },
+        {
+          "name": "Donquixote Rosinante [Alternate Art] OP10-072",
+          "number": "OP10-072",
+          "price": 27.49,
+          "grade9": 23.0,
+          "psa10": 37.0,
+          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/donquixote-rosinante-alternate-art-op10-072",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/zirkc5ba2xhmyb43/60.jpg"
         },
         {
           "name": "Donquixote Doflamingo [Alternate Art] OP10-071",
@@ -5768,7 +5808,7 @@
         {
           "name": "EustassCaptainKid [Alternate Art] OP10-112",
           "number": "OP10-112",
-          "price": 22.33,
+          "price": 22.73,
           "grade9": null,
           "psa10": 40.5,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/eustasscaptainkid-alternate-art-op10-112",
@@ -5786,38 +5826,20 @@
         {
           "name": "Sugar [Alternate Art] OP10-003",
           "number": "OP10-003",
-          "price": 19.38,
+          "price": 19.99,
           "grade9": 16.5,
-          "psa10": 183.3,
+          "psa10": 202.5,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/sugar-alternate-art-op10-003",
           "img": "https://storage.googleapis.com/images.pricecharting.com/adjfvgubzpbddwyv/60.jpg"
         },
         {
           "name": "Kuzan [Alternate Art] OP10-082",
           "number": "OP10-082",
-          "price": 18.25,
+          "price": 18.44,
           "grade9": 37.5,
-          "psa10": 111.95,
+          "psa10": 119.87,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/kuzan-alternate-art-op10-082",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ayejca7d52gskxay/60.jpg"
-        },
-        {
-          "name": "Rebecca [Alternate Art] OP10-058",
-          "number": "OP10-058",
-          "price": 18.01,
-          "grade9": 34.5,
-          "psa10": 74.85,
-          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/rebecca-alternate-art-op10-058",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/7zs5wzu2rqoervk7/60.jpg"
-        },
-        {
-          "name": "Tashigi [Alternate Art] OP10-032",
-          "number": "OP10-032",
-          "price": 18.0,
-          "grade9": 22.5,
-          "psa10": 34.5,
-          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/tashigi-alternate-art-op10-032",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/rmxuukxxx4nvhq5f/60.jpg"
         },
         {
           "name": "Sanji [Alternate Art] OP10-005",
@@ -5829,11 +5851,29 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/u772n6wpfareqhr6/60.jpg"
         },
         {
+          "name": "Tashigi [Alternate Art] OP10-032",
+          "number": "OP10-032",
+          "price": 16.6,
+          "grade9": 22.5,
+          "psa10": 34.5,
+          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/tashigi-alternate-art-op10-032",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/rmxuukxxx4nvhq5f/60.jpg"
+        },
+        {
+          "name": "Rebecca [Alternate Art] OP10-058",
+          "number": "OP10-058",
+          "price": 15.9,
+          "grade9": 34.5,
+          "psa10": 74.85,
+          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/rebecca-alternate-art-op10-058",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/7zs5wzu2rqoervk7/60.jpg"
+        },
+        {
           "name": "Smoker [Alternate Art] OP10-030",
           "number": "OP10-030",
-          "price": 13.59,
-          "grade9": 21.79,
-          "psa10": 62.45,
+          "price": 13.89,
+          "grade9": 22.53,
+          "psa10": 62.42,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/smoker-alternate-art-op10-030",
           "img": "https://storage.googleapis.com/images.pricecharting.com/rmrfbhyskydb3nv7/60.jpg"
         },
@@ -5867,7 +5907,7 @@
         {
           "name": "Perona OP10-092",
           "number": "OP10-092",
-          "price": 7.28,
+          "price": 7.15,
           "grade9": 790.0,
           "psa10": 948.0,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/perona-op10-092",
@@ -5919,18 +5959,9 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/u7zfwvxa7in4t22r/60.jpg"
         },
         {
-          "name": "Tashigi OP10-032",
-          "number": "OP10-032",
-          "price": 3.89,
-          "grade9": 7.5,
-          "psa10": 29.71,
-          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/tashigi-op10-032",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/hkibd5xbbwqpgtmv/60.jpg"
-        },
-        {
           "name": "Trafalgar Law OP10-119",
           "number": "OP10-119",
-          "price": 3.65,
+          "price": 4.25,
           "grade9": 13.0,
           "psa10": 45.47,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/trafalgar-law-op10-119",
@@ -5955,6 +5986,24 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/ouzbpanfzntygnup/60.jpg"
         },
         {
+          "name": "Tashigi OP10-032",
+          "number": "OP10-032",
+          "price": 3.1,
+          "grade9": 7.5,
+          "psa10": 29.71,
+          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/tashigi-op10-032",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/hkibd5xbbwqpgtmv/60.jpg"
+        },
+        {
+          "name": "EustassCaptainKid OP10-112",
+          "number": "OP10-112",
+          "price": 2.41,
+          "grade9": null,
+          "psa10": 32.47,
+          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/eustasscaptainkid-op10-112",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/gtbncnnutvbhfaxd/60.jpg"
+        },
+        {
           "name": "Kuzan OP10-082",
           "number": "OP10-082",
           "price": 2.33,
@@ -5964,15 +6013,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/lzmqyvvzspjdatep/60.jpg"
         },
         {
-          "name": "EustassCaptainKid OP10-112",
-          "number": "OP10-112",
-          "price": 2.0,
-          "grade9": null,
-          "psa10": 32.86,
-          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/eustasscaptainkid-op10-112",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/gtbncnnutvbhfaxd/60.jpg"
-        },
-        {
           "name": "Nami OP10-033",
           "number": "OP10-033",
           "price": 1.6,
@@ -5980,6 +6020,15 @@
           "psa10": 2851.0,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/nami-op10-033",
           "img": "https://storage.googleapis.com/images.pricecharting.com/bae3qgtwrtngk63f/60.jpg"
+        },
+        {
+          "name": "Rebecca OP10-058",
+          "number": "OP10-058",
+          "price": 1.51,
+          "grade9": 25.0,
+          "psa10": 60.65,
+          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/rebecca-op10-058",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/3eo53y4agovvvxph/60.jpg"
         },
         {
           "name": "Smoker OP10-030",
@@ -5993,20 +6042,11 @@
         {
           "name": "Enel OP10-025",
           "number": "OP10-025",
-          "price": 1.19,
+          "price": 1.22,
           "grade9": null,
-          "psa10": 18.84,
+          "psa10": 18.88,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/enel-op10-025",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ofkgjigqhkxmkowp/60.jpg"
-        },
-        {
-          "name": "Rebecca OP10-058",
-          "number": "OP10-058",
-          "price": 1.0,
-          "grade9": 25.0,
-          "psa10": 65.0,
-          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/rebecca-op10-058",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/3eo53y4agovvvxph/60.jpg"
         },
         {
           "name": "Basil Hawkins OP10-109",
@@ -6036,15 +6076,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/x6cspcqf56b443lk/60.jpg"
         },
         {
-          "name": "Kyros OP10-046",
-          "number": "OP10-046",
-          "price": 0.6,
-          "grade9": 9.5,
-          "psa10": 30.0,
-          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/kyros-op10-046",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/yxtlejp7ypb4rvo7/60.jpg"
-        },
-        {
           "name": "Monkey.D.Luffy OP10-111",
           "number": "OP10-111",
           "price": 0.57,
@@ -6052,6 +6083,15 @@
           "psa10": 148.5,
           "url": "https://www.pricecharting.com/game/one-piece-royal-blood/monkeydluffy-op10-111",
           "img": "https://storage.googleapis.com/images.pricecharting.com/dlemgrxyk3ahutmm/60.jpg"
+        },
+        {
+          "name": "Kyros OP10-046",
+          "number": "OP10-046",
+          "price": 0.57,
+          "grade9": 9.5,
+          "psa10": 30.0,
+          "url": "https://www.pricecharting.com/game/one-piece-royal-blood/kyros-op10-046",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/yxtlejp7ypb4rvo7/60.jpg"
         },
         {
           "name": "DON!! Card [Alternate Art]",
@@ -6173,10 +6213,19 @@
         [
           1773100378388,
           37800
+        ],
+        [
+          1773186769524,
+          37800
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-03-10",
+          "price": 519.41,
+          "title": "One Piece TCG Sealed Booster Box A Fist Of Divine Speed OP-11 Bandai Ultra Rare\n"
+        },
         {
           "date": "2026-03-09",
           "price": 812.98,
@@ -6196,11 +6245,6 @@
           "date": "2026-03-07",
           "price": 347.38,
           "title": "One piece - A Fist of Divine Speed Booster Box one piece OP11 - English\n        "
-        },
-        {
-          "date": "2026-03-07",
-          "price": 300.0,
-          "title": "One Piece Card Game OP-11 A Fist of Divine Speed English Sealed Booster Box\n    "
         }
       ],
       "ebay_query": "One Piece Fist of Divine Speed Booster Box english sealed",
@@ -6334,7 +6378,7 @@
         {
           "name": "Gum-Gum Fire-Fist Pistol Red Hawk [Alternate Art] OP11-114",
           "number": "OP11-114",
-          "price": 56.94,
+          "price": 55.0,
           "grade9": null,
           "psa10": 200.0,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/gum-gum-fire-fist-pistol-red-hawk-alternate-art-op11-114",
@@ -6368,13 +6412,13 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/g2rv5zj5c75pvhun/60.jpg"
         },
         {
-          "name": "Lucky.Roux OP09-015",
-          "number": "OP09-015",
-          "price": 31.5,
+          "name": "Koby OP11-001",
+          "number": "OP11-001",
+          "price": 34.73,
           "grade9": null,
-          "psa10": 112.5,
-          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/luckyroux-op09-015",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/z6ht5j4wzmzocezx/60.jpg"
+          "psa10": 50.0,
+          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/koby-op11-001",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/h6q5zz5qlx6ih5is/60.jpg"
         },
         {
           "name": "Shirahoshi [Alternate Art] OP11-022",
@@ -6386,22 +6430,13 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/rkkg4bavmu2fpsyg/60.jpg"
         },
         {
-          "name": "Koby OP11-001",
-          "number": "OP11-001",
-          "price": 28.93,
+          "name": "Lucky.Roux OP09-015",
+          "number": "OP09-015",
+          "price": 28.16,
           "grade9": null,
-          "psa10": 50.0,
-          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/koby-op11-001",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/h6q5zz5qlx6ih5is/60.jpg"
-        },
-        {
-          "name": "Monkey.D.Luffy [Alternate Art] OP11-118",
-          "number": "OP11-118",
-          "price": 26.59,
-          "grade9": 55.0,
-          "psa10": 179.24,
-          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/monkeydluffy-alternate-art-op11-118",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/ka3nty6qbktzut2l/60.jpg"
+          "psa10": 112.5,
+          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/luckyroux-op09-015",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/z6ht5j4wzmzocezx/60.jpg"
         },
         {
           "name": "Zeus [Alternate Art] OP11-106",
@@ -6413,11 +6448,20 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/ocujq7ug77camvhw/60.jpg"
         },
         {
+          "name": "Monkey.D.Luffy [Alternate Art] OP11-118",
+          "number": "OP11-118",
+          "price": 25.51,
+          "grade9": 55.0,
+          "psa10": 179.24,
+          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/monkeydluffy-alternate-art-op11-118",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/ka3nty6qbktzut2l/60.jpg"
+        },
+        {
           "name": "Charlotte Katakuri [Alternate Art] OP11-067",
           "number": "OP11-067",
-          "price": 25.0,
+          "price": 24.0,
           "grade9": 19.95,
-          "psa10": 49.56,
+          "psa10": 46.79,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/charlotte-katakuri-alternate-art-op11-067",
           "img": "https://storage.googleapis.com/images.pricecharting.com/tdmzrpr5kvgo6xdi/60.jpg"
         },
@@ -6451,7 +6495,7 @@
         {
           "name": "Jinbe [Alternate Art] OP11-021",
           "number": "OP11-021",
-          "price": 11.99,
+          "price": 11.65,
           "grade9": 12.5,
           "psa10": 58.0,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/jinbe-alternate-art-op11-021",
@@ -6460,7 +6504,7 @@
         {
           "name": "Charlotte Pudding [Alternate Art] OP11-070",
           "number": "OP11-070",
-          "price": 10.3,
+          "price": 11.13,
           "grade9": null,
           "psa10": 60.0,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/charlotte-pudding-alternate-art-op11-070",
@@ -6469,9 +6513,9 @@
         {
           "name": "Sanji [Alternate Art] OP11-051",
           "number": "OP11-051",
-          "price": 8.79,
+          "price": 8.82,
           "grade9": 5.0,
-          "psa10": 62.46,
+          "psa10": 63.55,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/sanji-alternate-art-op11-051",
           "img": "https://storage.googleapis.com/images.pricecharting.com/vxf6prsjuxdiong6/60.jpg"
         },
@@ -6487,9 +6531,9 @@
         {
           "name": "Monkey.D.Garp [Alternate Art] OP11-095",
           "number": "OP11-095",
-          "price": 6.65,
+          "price": 6.63,
           "grade9": null,
-          "psa10": 79.99,
+          "psa10": 80.0,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/monkeydgarp-alternate-art-op11-095",
           "img": "https://storage.googleapis.com/images.pricecharting.com/iohmps3abnieafjy/60.jpg"
         },
@@ -6505,20 +6549,11 @@
         {
           "name": "Monkey.D.Luffy OP11-118",
           "number": "OP11-118",
-          "price": 5.93,
+          "price": 4.99,
           "grade9": null,
-          "psa10": 99.17,
+          "psa10": 88.5,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/monkeydluffy-op11-118",
           "img": "https://storage.googleapis.com/images.pricecharting.com/pgwiocxvlsfkxcnz/60.jpg"
-        },
-        {
-          "name": "Nami OP11-041",
-          "number": "OP11-041",
-          "price": 4.06,
-          "grade9": null,
-          "psa10": 123.15,
-          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/nami-op11-041",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/anybweblstjoexid/60.jpg"
         },
         {
           "name": "Nami OP11-054",
@@ -6532,9 +6567,9 @@
         {
           "name": "Charlotte Katakuri OP11-067",
           "number": "OP11-067",
-          "price": 3.23,
+          "price": 3.18,
           "grade9": null,
-          "psa10": 46.73,
+          "psa10": 46.63,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/charlotte-katakuri-op11-067",
           "img": "https://storage.googleapis.com/images.pricecharting.com/mpx6ccvw7yn7a5bo/60.jpg"
         },
@@ -6557,6 +6592,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/uliqjophqaxesccx/60.jpg"
         },
         {
+          "name": "Nami OP11-041",
+          "number": "OP11-041",
+          "price": 1.39,
+          "grade9": null,
+          "psa10": 123.15,
+          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/nami-op11-041",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/anybweblstjoexid/60.jpg"
+        },
+        {
           "name": "Zeus OP11-106",
           "number": "OP11-106",
           "price": 1.1,
@@ -6570,27 +6614,9 @@
           "number": "OP11-070",
           "price": 0.99,
           "grade9": null,
-          "psa10": 49.95,
+          "psa10": 48.71,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/charlotte-pudding-op11-070",
           "img": "https://storage.googleapis.com/images.pricecharting.com/nsdq3h43s4e3tfqy/60.jpg"
-        },
-        {
-          "name": "Monkey.D.Garp OP11-095",
-          "number": "OP11-095",
-          "price": 0.97,
-          "grade9": null,
-          "psa10": 18.95,
-          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/monkeydgarp-op11-095",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/rf7xixeqieu4i23m/60.jpg"
-        },
-        {
-          "name": "Sanji OP11-051",
-          "number": "OP11-051",
-          "price": 0.94,
-          "grade9": 39.9,
-          "psa10": 48.0,
-          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/sanji-op11-051",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/fieeqebkkcg2gzb3/60.jpg"
         },
         {
           "name": "Kujyaku OP11-004",
@@ -6600,6 +6626,24 @@
           "psa10": 34.99,
           "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/kujyaku-op11-004",
           "img": "https://storage.googleapis.com/images.pricecharting.com/kryd67vh4pkk5j77/60.jpg"
+        },
+        {
+          "name": "Monkey.D.Garp OP11-095",
+          "number": "OP11-095",
+          "price": 0.66,
+          "grade9": null,
+          "psa10": 18.95,
+          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/monkeydgarp-op11-095",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/rf7xixeqieu4i23m/60.jpg"
+        },
+        {
+          "name": "Sanji OP11-051",
+          "number": "OP11-051",
+          "price": 0.62,
+          "grade9": 39.9,
+          "psa10": 48.0,
+          "url": "https://www.pricecharting.com/game/one-piece-fist-of-divine-speed/sanji-op11-051",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/fieeqebkkcg2gzb3/60.jpg"
         },
         {
           "name": "Gum-Gum Fire-Fist Pistol Red Hawk OP11-114",
@@ -6722,10 +6766,24 @@
         [
           1773100378388,
           22420
+        ],
+        [
+          1773186769524,
+          21595
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-03-10",
+          "price": 251.2,
+          "title": "One Piece TCG Sealed Booster Box Legacy Of The Master OP-12 Bandai Ultra Rare\n  "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 217.5,
+          "title": "One Piece TCG: Legacy of The Master (OP-12) Booster Box Factory Sealed English\n "
+        },
         {
           "date": "2026-03-08",
           "price": 221.31,
@@ -6740,16 +6798,6 @@
           "date": "2026-03-08",
           "price": 191.96,
           "title": "ONE PIECE LEGACY OF THE MASTER BOOSTER BOX OP12 24 Packs English Sealed\n        "
-        },
-        {
-          "date": "2026-03-08",
-          "price": 224.79,
-          "title": "ONE PIECE OP12 LEGACY OF THE MASTER BOOSTER BOX SEALED\n                        \n"
-        },
-        {
-          "date": "2026-03-08",
-          "price": 210.05,
-          "title": "ONE PIECE OP12 LEGACY OF THE MASTER BOOSTER BOX SEALED\n                        \n"
         }
       ],
       "ebay_query": "One Piece Legacy of the Master Booster Box english sealed",
@@ -6775,7 +6823,7 @@
         {
           "name": "Jewelry Bonney [Manga] OP12-118",
           "number": "OP12-118",
-          "price": 819.32,
+          "price": 818.16,
           "grade9": 757.0,
           "psa10": 999.44,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/jewelry-bonney-manga-op12-118",
@@ -6802,9 +6850,9 @@
         {
           "name": "Demon Aura Nine Sword Style Asura Blades Drawn Dead Man's Game [Alternate Art] OP12-037",
           "number": "OP12-037",
-          "price": 135.5,
+          "price": 142.19,
           "grade9": 182.0,
-          "psa10": 277.56,
+          "psa10": 291.61,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/demon-aura-nine-sword-style-asura-blades-drawn-dead-man%27s-game-alternate-art-op12-037",
           "img": "https://storage.googleapis.com/images.pricecharting.com/sydznylosbjueivb/60.jpg"
         },
@@ -6838,25 +6886,25 @@
         {
           "name": "Bartholomew Kuma [Alternate Art] OP12-119",
           "number": "OP12-119",
-          "price": 63.0,
+          "price": 69.99,
           "grade9": 49.99,
-          "psa10": 153.69,
+          "psa10": 155.56,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/bartholomew-kuma-alternate-art-op12-119",
           "img": "https://storage.googleapis.com/images.pricecharting.com/qa7uhft2p3ethmij/60.jpg"
         },
         {
           "name": "Roronoa Zoro [Alternate Art] OP12-020",
           "number": "OP12-020",
-          "price": 61.27,
+          "price": 63.39,
           "grade9": 80.0,
-          "psa10": 196.4,
+          "psa10": 188.0,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/roronoa-zoro-alternate-art-op12-020",
           "img": "https://storage.googleapis.com/images.pricecharting.com/52wclciknr5xgsh3/60.jpg"
         },
         {
           "name": "Yasopp [SP] OP09-013",
           "number": "OP09-013",
-          "price": 52.27,
+          "price": 50.0,
           "grade9": 60.0,
           "psa10": 177.99,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/yasopp-sp-op09-013",
@@ -6865,18 +6913,27 @@
         {
           "name": "Vinsmoke Sanji [TR] OP10-063",
           "number": "OP10-063",
-          "price": 46.98,
+          "price": 47.58,
           "grade9": 62.7,
           "psa10": 274.1,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/vinsmoke-sanji-tr-op10-063",
           "img": "https://storage.googleapis.com/images.pricecharting.com/l32c5n7mboe7payu/60.jpg"
         },
         {
+          "name": "Donquixote Rosinante [Alternate Art] OP12-061",
+          "number": "OP12-061",
+          "price": 45.26,
+          "grade9": 56.0,
+          "psa10": 91.28,
+          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/donquixote-rosinante-alternate-art-op12-061",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/ywkdtzgrilsz4d5v/60.jpg"
+        },
+        {
           "name": "Lim [SP] OP09-037",
           "number": "OP09-037",
           "price": 45.21,
           "grade9": null,
-          "psa10": 200.0,
+          "psa10": 171.63,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/lim-sp-op09-037",
           "img": "https://storage.googleapis.com/images.pricecharting.com/3uwj4bmmd4aoao4r/60.jpg"
         },
@@ -6885,7 +6942,7 @@
           "number": "OP12-041",
           "price": 43.99,
           "grade9": 26.99,
-          "psa10": 96.75,
+          "psa10": 90.5,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/sanji-alternate-art-op12-041",
           "img": "https://storage.googleapis.com/images.pricecharting.com/tilobqnbyjrw4nj6/60.jpg"
         },
@@ -6899,18 +6956,9 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/kbgaoa5cvnzu72uh/60.jpg"
         },
         {
-          "name": "Donquixote Rosinante [Alternate Art] OP12-061",
-          "number": "OP12-061",
-          "price": 42.52,
-          "grade9": 56.0,
-          "psa10": 85.1,
-          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/donquixote-rosinante-alternate-art-op12-061",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/ywkdtzgrilsz4d5v/60.jpg"
-        },
-        {
           "name": "Perona [Alternate Art] OP12-034",
           "number": "OP12-034",
-          "price": 40.17,
+          "price": 40.42,
           "grade9": 43.5,
           "psa10": 76.31,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/perona-alternate-art-op12-034",
@@ -6919,20 +6967,11 @@
         {
           "name": "Nico Robin [Alternate Art] OP12-087",
           "number": "OP12-087",
-          "price": 35.0,
+          "price": 35.65,
           "grade9": 100.0,
-          "psa10": 176.23,
+          "psa10": 174.95,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/nico-robin-alternate-art-op12-087",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ybtpssrkx7z5jrr7/60.jpg"
-        },
-        {
-          "name": "Trafalgar Law [Alternate Art] OP12-073",
-          "number": "OP12-073",
-          "price": 27.5,
-          "grade9": 15.75,
-          "psa10": 73.24,
-          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/trafalgar-law-alternate-art-op12-073",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/du3czvei26xgre45/60.jpg"
         },
         {
           "name": "Tashigi OP12-031",
@@ -6942,6 +6981,15 @@
           "psa10": 89.0,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/tashigi-op12-031",
           "img": "https://storage.googleapis.com/images.pricecharting.com/yjjxivf2empoqpi3/60.jpg"
+        },
+        {
+          "name": "Trafalgar Law [Alternate Art] OP12-073",
+          "number": "OP12-073",
+          "price": 23.78,
+          "grade9": 11.5,
+          "psa10": 71.5,
+          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/trafalgar-law-alternate-art-op12-073",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/du3czvei26xgre45/60.jpg"
         },
         {
           "name": "Kuzan [Alternate Art] OP12-040",
@@ -6971,15 +7019,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/v6afauhzp6fpon6a/60.jpg"
         },
         {
-          "name": "Sanji [Alternate Art] OP12-070",
-          "number": "OP12-070",
-          "price": 20.64,
-          "grade9": 7.5,
-          "psa10": 50.0,
-          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/sanji-alternate-art-op12-070",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/fqrd7qs6kwb6g6sh/60.jpg"
-        },
-        {
           "name": "Silvers Rayleigh [Alternate Art] OP12-001",
           "number": "OP12-001",
           "price": 20.35,
@@ -6987,6 +7026,15 @@
           "psa10": 100.0,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/silvers-rayleigh-alternate-art-op12-001",
           "img": "https://storage.googleapis.com/images.pricecharting.com/fib6n4gq7wtzqy2m/60.jpg"
+        },
+        {
+          "name": "Sanji [Alternate Art] OP12-070",
+          "number": "OP12-070",
+          "price": 19.58,
+          "grade9": 7.5,
+          "psa10": 50.0,
+          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/sanji-alternate-art-op12-070",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/fqrd7qs6kwb6g6sh/60.jpg"
         },
         {
           "name": "Tashigi [Alternate Art] OP12-031",
@@ -7018,34 +7066,34 @@
         {
           "name": "Kuzan [Alternate Art] OP12-043",
           "number": "OP12-043",
-          "price": 14.99,
+          "price": 14.69,
           "grade9": 36.0,
-          "psa10": 60.0,
+          "psa10": 55.4,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/kuzan-alternate-art-op12-043",
           "img": "https://storage.googleapis.com/images.pricecharting.com/p7ampinqlq2xx7if/60.jpg"
         },
         {
-          "name": "Monkey.D.Luffy [Alternate Art] OP12-015",
-          "number": "OP12-015",
-          "price": 13.24,
-          "grade9": null,
-          "psa10": 59.99,
-          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/monkeydluffy-alternate-art-op12-015",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/dziriddvkpnj5dr5/60.jpg"
-        },
-        {
           "name": "Dracule Mihawk [Alternate Art] OP12-030",
           "number": "OP12-030",
-          "price": 12.5,
+          "price": 11.77,
           "grade9": null,
-          "psa10": 70.72,
+          "psa10": 70.0,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/dracule-mihawk-alternate-art-op12-030",
           "img": "https://storage.googleapis.com/images.pricecharting.com/qp6i2im2cnxahb4g/60.jpg"
         },
         {
+          "name": "Monkey.D.Luffy [Alternate Art] OP12-015",
+          "number": "OP12-015",
+          "price": 11.41,
+          "grade9": null,
+          "psa10": 55.0,
+          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/monkeydluffy-alternate-art-op12-015",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/dziriddvkpnj5dr5/60.jpg"
+        },
+        {
           "name": "Jewelry Bonney OP12-118",
           "number": "OP12-118",
-          "price": 12.0,
+          "price": 11.11,
           "grade9": 38.5,
           "psa10": 81.71,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/jewelry-bonney-op12-118",
@@ -7054,16 +7102,16 @@
         {
           "name": "Shanks [Alternate Art] OP12-008",
           "number": "OP12-008",
-          "price": 8.52,
+          "price": 8.45,
           "grade9": 16.0,
-          "psa10": 53.9,
+          "psa10": 54.2,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/shanks-alternate-art-op12-008",
           "img": "https://storage.googleapis.com/images.pricecharting.com/mnmfx57qhssovk5r/60.jpg"
         },
         {
           "name": "Perona OP12-034",
           "number": "OP12-034",
-          "price": 6.99,
+          "price": 6.87,
           "grade9": null,
           "psa10": 32.0,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/perona-op12-034",
@@ -7072,7 +7120,7 @@
         {
           "name": "Roronoa Zoro OP12-020",
           "number": "OP12-020",
-          "price": 4.7,
+          "price": 6.04,
           "grade9": null,
           "psa10": 23.5,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/roronoa-zoro-op12-020",
@@ -7081,7 +7129,7 @@
         {
           "name": "Donquixote Rosinante [Alternate Art] OP12-108",
           "number": "OP12-108",
-          "price": 4.07,
+          "price": 5.29,
           "grade9": null,
           "psa10": 76.86,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/donquixote-rosinante-alternate-art-op12-108",
@@ -7133,11 +7181,20 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/cuuicnoejymeo4s4/60.jpg"
         },
         {
+          "name": "Donquixote Rosinante OP12-108",
+          "number": "OP12-108",
+          "price": 1.75,
+          "grade9": null,
+          "psa10": null,
+          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/donquixote-rosinante-op12-108",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/6tfwdlxw3ksfgzeh/60.jpg"
+        },
+        {
           "name": "Shirahoshi OP12-102",
           "number": "OP12-102",
-          "price": 1.57,
+          "price": 1.47,
           "grade9": null,
-          "psa10": 37.5,
+          "psa10": 45.0,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/shirahoshi-op12-102",
           "img": "https://storage.googleapis.com/images.pricecharting.com/tu42osjta5epywr7/60.jpg"
         },
@@ -7169,18 +7226,9 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/mmxnbsyevve3fdmw/60.jpg"
         },
         {
-          "name": "Donquixote Rosinante OP12-108",
-          "number": "OP12-108",
-          "price": 1.17,
-          "grade9": null,
-          "psa10": null,
-          "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/donquixote-rosinante-op12-108",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/6tfwdlxw3ksfgzeh/60.jpg"
-        },
-        {
           "name": "Monkey.D.Garp OP12-056",
           "number": "OP12-056",
-          "price": 0.71,
+          "price": 0.7,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-legacy-of-the-master/monkeydgarp-op12-056",
@@ -7263,34 +7311,38 @@
         [
           1773100378388,
           52387
+        ],
+        [
+          1773186769524,
+          52441
         ]
       ],
       "available": true,
       "recent_sales": [
         {
-          "date": "2026-03-08",
-          "price": 483.31,
-          "title": "One Piece OP13 Card Game Carrying On His Will OP-13 Booster Box English Sealed\n "
+          "date": "2026-03-10",
+          "price": 465.44,
+          "title": "One piece TCG OP-13 ENG Carrying On His Will Booster Box SEALED 1st Print\n      "
         },
         {
-          "date": "2026-03-08",
-          "price": 484.95,
-          "title": "One Piece OP-13 Booster Box Sealed - 24 Packs English Carrying On His Will OP13\n"
+          "date": "2026-03-10",
+          "price": 574.57,
+          "title": "One Piece TCG Sealed Booster Box Carrying On His Will OP-13 Bandai Ultra Rare\n  "
         },
         {
-          "date": "2026-03-08",
-          "price": 523.29,
-          "title": "ONE PIECE CARRYING ON HIS WILL OP-13 ENGLISH SEALED BOOSTER BOX\n                "
+          "date": "2026-03-10",
+          "price": 636.84,
+          "title": "One Piece TCG OP-13 Carrying on His Will Booster Box Sealed\n                    "
         },
         {
-          "date": "2026-03-08",
-          "price": 519.6,
-          "title": "ONE PIECE CARRYING ON HIS WILL OP-13 ENGLISH SEALED BOOSTER BOX\n                "
+          "date": "2026-03-10",
+          "price": 450.14,
+          "title": "One Piece TCG: OP13 Carrying On His Will Booster Box Sealed English UK\n         "
         },
         {
-          "date": "2026-03-06",
-          "price": 540.0,
-          "title": "One Piece OP-13 Carrying On His Will Booster Box Factory Sealed 24 Packs\n       "
+          "date": "2026-03-10",
+          "price": 599.99,
+          "title": "One Piece Card Game Carrying On His Will OP-13 Booster Box English W/acrylic Cse"
         }
       ],
       "ebay_query": "One Piece Carrying On His Will Booster Box english sealed",
@@ -7334,9 +7386,9 @@
         {
           "name": "Shanks [Gold] OP09-004",
           "number": "OP09-004",
-          "price": 1833.42,
+          "price": 1860.35,
           "grade9": 2000.0,
-          "psa10": 3600.0,
+          "psa10": 3855.0,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/shanks-gold-op09-004",
           "img": "https://storage.googleapis.com/images.pricecharting.com/x6yc3tccwglfzisp/60.jpg"
         },
@@ -7361,7 +7413,7 @@
         {
           "name": "Shanks [Silver] OP09-004",
           "number": "OP09-004",
-          "price": 741.68,
+          "price": 738.94,
           "grade9": null,
           "psa10": 981.25,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/shanks-silver-op09-004",
@@ -7370,16 +7422,16 @@
         {
           "name": "Portgas.D.Ace [Wanted] OP13-119",
           "number": "OP13-119",
-          "price": 651.99,
+          "price": 641.97,
           "grade9": null,
-          "psa10": 1584.38,
+          "psa10": 968.95,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/portgasdace-wanted-op13-119",
           "img": "https://storage.googleapis.com/images.pricecharting.com/fgwvauezxvus5klh/60.jpg"
         },
         {
           "name": "St. Ethanbaron V. Nusjuro [Red Alternate Art] OP13-080",
           "number": "OP13-080",
-          "price": 628.63,
+          "price": 581.4,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/st-ethanbaron-v-nusjuro-red-alternate-art-op13-080",
@@ -7449,22 +7501,22 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/gmo77umkwshogeth/60.jpg"
         },
         {
-          "name": "Monkey.D.Luffy [Alternate Art] OP13-118",
-          "number": "OP13-118",
-          "price": 100.63,
-          "grade9": null,
-          "psa10": 447.89,
-          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-alternate-art-op13-118",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/6btk3h4h7ovobsgh/60.jpg"
-        },
-        {
           "name": "Benn.Beckman [SP] OP09-009",
           "number": "OP09-009",
-          "price": 92.09,
+          "price": 88.89,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/bennbeckman-sp-op09-009",
           "img": "https://storage.googleapis.com/images.pricecharting.com/juem5nfteeg46rfn/60.jpg"
+        },
+        {
+          "name": "Monkey.D.Luffy [Alternate Art] OP13-118",
+          "number": "OP13-118",
+          "price": 82.88,
+          "grade9": null,
+          "psa10": 499.95,
+          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-alternate-art-op13-118",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/6btk3h4h7ovobsgh/60.jpg"
         },
         {
           "name": "Lilith [SP] OP07-111",
@@ -7487,7 +7539,7 @@
         {
           "name": "Monkey.D.Luffy [Alternate Art] OP13-001",
           "number": "OP13-001",
-          "price": 57.02,
+          "price": 54.12,
           "grade9": null,
           "psa10": 349.95,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-alternate-art-op13-001",
@@ -7496,29 +7548,29 @@
         {
           "name": "Portgas.D.Ace [Alternate Art] OP13-002",
           "number": "OP13-002",
-          "price": 42.7,
+          "price": 41.91,
           "grade9": 58.0,
           "psa10": 137.5,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/portgasdace-alternate-art-op13-002",
           "img": "https://storage.googleapis.com/images.pricecharting.com/stol7wj4hs57lk5g/60.jpg"
         },
         {
-          "name": "Gol.D.Roger [Alternate Art] OP13-003",
-          "number": "OP13-003",
-          "price": 38.02,
-          "grade9": 34.5,
-          "psa10": 109.68,
-          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/goldroger-alternate-art-op13-003",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/yg3huhjqynkvc5v6/60.jpg"
-        },
-        {
           "name": "Imu [Alternate Art] OP13-079",
           "number": "OP13-079",
-          "price": 37.71,
+          "price": 37.25,
           "grade9": 50.94,
-          "psa10": 250.8,
+          "psa10": 231.86,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/imu-alternate-art-op13-079",
           "img": "https://storage.googleapis.com/images.pricecharting.com/eyct2ppjhireogrd/60.jpg"
+        },
+        {
+          "name": "Gol.D.Roger [Alternate Art] OP13-003",
+          "number": "OP13-003",
+          "price": 36.48,
+          "grade9": 36.0,
+          "psa10": 103.77,
+          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/goldroger-alternate-art-op13-003",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/yg3huhjqynkvc5v6/60.jpg"
         },
         {
           "name": "Jewelry Bonney [Alternate Art] OP13-108",
@@ -7548,15 +7600,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/mt52rym5i5f5d3a4/60.jpg"
         },
         {
-          "name": "Gol.D.Roger [Alternate Art] OP13-064",
-          "number": "OP13-064",
-          "price": 26.76,
-          "grade9": null,
-          "psa10": 243.08,
-          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/goldroger-alternate-art-op13-064",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/sk2wqcm6oztkepp5/60.jpg"
-        },
-        {
           "name": "Ace & Sabo & Luffy [Alternate Art] OP13-007",
           "number": "OP13-007",
           "price": 26.0,
@@ -7577,29 +7620,29 @@
         {
           "name": "St. Ethanbaron V. Nusjuro [Alternate Art] OP13-080",
           "number": "OP13-080",
-          "price": 22.67,
+          "price": 21.89,
           "grade9": null,
           "psa10": 200.0,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/st-ethanbaron-v-nusjuro-alternate-art-op13-080",
           "img": "https://storage.googleapis.com/images.pricecharting.com/fom772q33nookj7b/60.jpg"
         },
         {
+          "name": "Gol.D.Roger [Alternate Art] OP13-064",
+          "number": "OP13-064",
+          "price": 21.75,
+          "grade9": null,
+          "psa10": 186.14,
+          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/goldroger-alternate-art-op13-064",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/sk2wqcm6oztkepp5/60.jpg"
+        },
+        {
           "name": "St. Topman Warcury [Alternate Art] OP13-089",
           "number": "OP13-089",
-          "price": 20.8,
+          "price": 20.75,
           "grade9": null,
           "psa10": 61.0,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/st-topman-warcury-alternate-art-op13-089",
           "img": "https://storage.googleapis.com/images.pricecharting.com/mbxuwlibk5ynvupt/60.jpg"
-        },
-        {
-          "name": "Monkey.D.Luffy OP13-118",
-          "number": "OP13-118",
-          "price": 19.99,
-          "grade9": null,
-          "psa10": 150.0,
-          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-op13-118",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/bwiu7rstxg5dweoj/60.jpg"
         },
         {
           "name": "Stussy [Alternate Art] OP13-110",
@@ -7613,29 +7656,38 @@
         {
           "name": "St. Marcus Mars [Alternate Art] OP13-091",
           "number": "OP13-091",
-          "price": 19.61,
+          "price": 19.76,
           "grade9": 320.0,
-          "psa10": 377.5,
+          "psa10": 350.0,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/st-marcus-mars-alternate-art-op13-091",
           "img": "https://storage.googleapis.com/images.pricecharting.com/wr7ncpgsdf4h4plc/60.jpg"
         },
         {
+          "name": "Boa Hancock [Alternate Art] OP13-051",
+          "number": "OP13-051",
+          "price": 18.18,
+          "grade9": 47.0,
+          "psa10": 126.5,
+          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/boa-hancock-alternate-art-op13-051",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/47gp3pwkl72zrr7t/60.jpg"
+        },
+        {
+          "name": "Monkey.D.Luffy OP13-118",
+          "number": "OP13-118",
+          "price": 17.7,
+          "grade9": null,
+          "psa10": 171.25,
+          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-op13-118",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/bwiu7rstxg5dweoj/60.jpg"
+        },
+        {
           "name": "Jewelry Bonney [Alternate Art] OP13-100",
           "number": "OP13-100",
-          "price": 18.61,
+          "price": 17.36,
           "grade9": 30.0,
           "psa10": 152.25,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/jewelry-bonney-alternate-art-op13-100",
           "img": "https://storage.googleapis.com/images.pricecharting.com/c6w5kcvnuhltcnce/60.jpg"
-        },
-        {
-          "name": "Boa Hancock [Alternate Art] OP13-051",
-          "number": "OP13-051",
-          "price": 17.75,
-          "grade9": 47.0,
-          "psa10": 126.23,
-          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/boa-hancock-alternate-art-op13-051",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/47gp3pwkl72zrr7t/60.jpg"
         },
         {
           "name": "DON!! Card [Gold Alternate Art]",
@@ -7658,7 +7710,7 @@
         {
           "name": "Sabo OP13-120",
           "number": "OP13-120",
-          "price": 6.5,
+          "price": 7.09,
           "grade9": 650.0,
           "psa10": 799.95,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/sabo-op13-120",
@@ -7667,7 +7719,7 @@
         {
           "name": "Portgas.D.Ace OP13-119",
           "number": "OP13-119",
-          "price": 3.42,
+          "price": 3.3,
           "grade9": null,
           "psa10": 70.0,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/portgasdace-op13-119",
@@ -7676,7 +7728,7 @@
         {
           "name": "Jewelry Bonney OP13-108",
           "number": "OP13-108",
-          "price": 2.98,
+          "price": 2.99,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/jewelry-bonney-op13-108",
@@ -7685,7 +7737,7 @@
         {
           "name": "Five Elders OP13-082",
           "number": "OP13-082",
-          "price": 2.61,
+          "price": 2.85,
           "grade9": null,
           "psa10": 36.55,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/five-elders-op13-082",
@@ -7701,6 +7753,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/k356n6jrctn2pibk/60.jpg"
         },
         {
+          "name": "Yamato OP13-054",
+          "number": "OP13-054",
+          "price": 1.71,
+          "grade9": null,
+          "psa10": 73.54,
+          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/yamato-op13-054",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/mxgqqa5hpid4lhrz/60.jpg"
+        },
+        {
           "name": "Edward.Newgate OP13-042",
           "number": "OP13-042",
           "price": 1.65,
@@ -7710,20 +7771,11 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/ceah5w6dg4a2mdt7/60.jpg"
         },
         {
-          "name": "Yamato OP13-054",
-          "number": "OP13-054",
-          "price": 1.59,
-          "grade9": null,
-          "psa10": 73.71,
-          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/yamato-op13-054",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/mxgqqa5hpid4lhrz/60.jpg"
-        },
-        {
           "name": "Uta OP13-023",
           "number": "OP13-023",
-          "price": 1.16,
+          "price": 1.29,
           "grade9": null,
-          "psa10": 77.45,
+          "psa10": 78.19,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/uta-op13-023",
           "img": "https://storage.googleapis.com/images.pricecharting.com/2zx2udorpdomspyq/60.jpg"
         },
@@ -7792,34 +7844,38 @@
         [
           1773100378388,
           22908
+        ],
+        [
+          1773186769524,
+          22908
         ]
       ],
       "available": true,
       "recent_sales": [
         {
+          "date": "2026-03-10",
+          "price": 255.44,
+          "title": "One Piece TCG Sealed Booster Box The Azure Sea's Seven OP14-EB04 Bandai\n        "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 250.5,
+          "title": "Seal Booster Box English One Piece OP-14 EB04 The Azure Sea's Seven\n            "
+        },
+        {
+          "date": "2026-03-10",
+          "price": 246.5,
+          "title": "One Piece English OP14-EB04 The Azure Sea's Seven Booster Box Sealed\n           "
+        },
+        {
+          "date": "2026-03-09",
+          "price": 327.0,
+          "title": "One Piece The Azure Sea’s Seven TCG OP14-EB04 English Booster Box New Sealed\n   "
+        },
+        {
           "date": "2026-03-09",
           "price": 254.94,
           "title": "One Piece TCG The Azure Sea's Seven Booster Box Sealed New\n                     "
-        },
-        {
-          "date": "2026-03-09",
-          "price": 206.48,
-          "title": "One Piece TCG Booster Box OP14 OP-14 EB04 - ENG ENG ENG ENGLISH The Azure Sea's "
-        },
-        {
-          "date": "2026-03-09",
-          "price": 205.43,
-          "title": "One Piece OP-14 | The azure sea’s seven | ENG | Booster Box NEW & FACTORY SEALED"
-        },
-        {
-          "date": "2026-03-09",
-          "price": 250.0,
-          "title": "Bandai Namco One Piece Card Game Azure Sea's Seven Set 9 Booster Box English\n   "
-        },
-        {
-          "date": "2026-03-09",
-          "price": 249.98,
-          "title": "One Piece OP-14 The Azure Sea’s Seven ENG Booster Box W/ Dash Pack New Sealed\n  "
         }
       ],
       "ebay_query": "One Piece Azure Sea Seven OP-14 Booster Box english sealed",
@@ -7827,7 +7883,7 @@
         {
           "name": "Buggy [SP Gold] OP09-051",
           "number": "OP09-051",
-          "price": 2553.54,
+          "price": 2349.03,
           "grade9": null,
           "psa10": 4850.0,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/buggy-sp-gold-op09-051",
@@ -7854,9 +7910,9 @@
         {
           "name": "Dracule Mihawk [Manga] OP14-119",
           "number": "OP14-119",
-          "price": 958.44,
+          "price": 1000.27,
           "grade9": null,
-          "psa10": 2999.0,
+          "psa10": 2025.0,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/dracule-mihawk-manga-op14-119",
           "img": "https://storage.googleapis.com/images.pricecharting.com/h6yuqjfcet5ytylh/60.jpg"
         },
@@ -7872,7 +7928,7 @@
         {
           "name": "Dracule Mihawk [SP] OP12-030",
           "number": "OP12-030",
-          "price": 201.43,
+          "price": 199.42,
           "grade9": null,
           "psa10": 671.0,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/dracule-mihawk-sp-op12-030",
@@ -7899,7 +7955,7 @@
         {
           "name": "Sugar [SP] OP10-065",
           "number": "OP10-065",
-          "price": 158.75,
+          "price": 159.7,
           "grade9": null,
           "psa10": 286.0,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/sugar-sp-op10-065",
@@ -7917,20 +7973,11 @@
         {
           "name": "Kid & Killer [SP] EB01-003",
           "number": "EB01-003",
-          "price": 99.66,
+          "price": 97.2,
           "grade9": null,
           "psa10": 300.0,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/kid-&-killer-sp-eb01-003",
           "img": "https://storage.googleapis.com/images.pricecharting.com/q5z53trysp2iu33t/60.jpg"
-        },
-        {
-          "name": "Boa Hancock [Alternate Art] OP14-112",
-          "number": "OP14-112",
-          "price": 98.45,
-          "grade9": 825.0,
-          "psa10": 990.0,
-          "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/boa-hancock-alternate-art-op14-112",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/pivhrass6jcg6hlh/60.jpg"
         },
         {
           "name": "Ground Death [Alternate Art] OP14-096",
@@ -7940,6 +7987,15 @@
           "psa10": 322.5,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/ground-death-alternate-art-op14-096",
           "img": "https://storage.googleapis.com/images.pricecharting.com/jmpcagqqoaa73kul/60.jpg"
+        },
+        {
+          "name": "Boa Hancock [Alternate Art] OP14-112",
+          "number": "OP14-112",
+          "price": 88.72,
+          "grade9": 825.0,
+          "psa10": 990.0,
+          "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/boa-hancock-alternate-art-op14-112",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/pivhrass6jcg6hlh/60.jpg"
         },
         {
           "name": "Sengoku [SP] OP07-046",
@@ -7953,18 +8009,18 @@
         {
           "name": "Nami [Alternate Art] OP14-031",
           "number": "OP14-031",
-          "price": 63.22,
+          "price": 64.71,
           "grade9": 82.0,
-          "psa10": 292.84,
+          "psa10": 291.5,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/nami-alternate-art-op14-031",
           "img": "https://storage.googleapis.com/images.pricecharting.com/2zqxzlqcahzpd3cq/60.jpg"
         },
         {
           "name": "Edward Weevil [SP] EB01-023",
           "number": "EB01-023",
-          "price": 56.94,
+          "price": 52.25,
           "grade9": 68.0,
-          "psa10": null,
+          "psa10": 199.99,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/edward-weevil-sp-eb01-023",
           "img": "https://storage.googleapis.com/images.pricecharting.com/gtgdbs5jzhfouts4/60.jpg"
         },
@@ -7998,7 +8054,7 @@
         {
           "name": "Donquixote Doflamingo [Alternate Art] OP14-060",
           "number": "OP14-060",
-          "price": 38.8,
+          "price": 38.11,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/donquixote-doflamingo-alternate-art-op14-060",
@@ -8007,25 +8063,16 @@
         {
           "name": "Gecko Moria [Alternate Art] OP14-104",
           "number": "OP14-104",
-          "price": 35.0,
+          "price": 36.6,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/gecko-moria-alternate-art-op14-104",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/corrq3iovgodrar7p4te/60.jpg"
-        },
-        {
-          "name": "Crocodile [Alternate Art] OP14-120",
-          "number": "OP14-120",
-          "price": 33.99,
-          "grade9": null,
-          "psa10": null,
-          "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/crocodile-alternate-art-op14-120",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/cjiarlgqjlri5ath/60.jpg"
+          "img": "https://storage.googleapis.com/images.pricecharting.com/anuycds7oqnttjl4/60.jpg"
         },
         {
           "name": "Perona [Alternate Art] OP14-033",
           "number": "OP14-033",
-          "price": 32.53,
+          "price": 32.49,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/perona-alternate-art-op14-033",
@@ -8034,7 +8081,7 @@
         {
           "name": "Crocodile [Alternate Art] OP14-079",
           "number": "OP14-079",
-          "price": 31.71,
+          "price": 30.02,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/crocodile-alternate-art-op14-079",
@@ -8068,6 +8115,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/fxzwwrgjesr6s5pp/60.jpg"
         },
         {
+          "name": "Crocodile [Alternate Art] OP14-120",
+          "number": "OP14-120",
+          "price": 24.31,
+          "grade9": null,
+          "psa10": null,
+          "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/crocodile-alternate-art-op14-120",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/cjiarlgqjlri5ath/60.jpg"
+        },
+        {
           "name": "Shanks [Alternate Art] OP14-027",
           "number": "OP14-027",
           "price": 20.24,
@@ -8075,15 +8131,6 @@
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/shanks-alternate-art-op14-027",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ms3legh4pqebd2bz/60.jpg"
-        },
-        {
-          "name": "Jinbe [Alternate Art] OP14-040",
-          "number": "OP14-040",
-          "price": 18.44,
-          "grade9": null,
-          "psa10": null,
-          "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/jinbe-alternate-art-op14-040",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/voh2uqfpy47ri3tz/60.jpg"
         },
         {
           "name": "Monkey.D.Luffy [Alternate Art] OP14-013",
@@ -8111,6 +8158,15 @@
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/don-card-gold",
           "img": "https://storage.googleapis.com/images.pricecharting.com/corrs474brpv6jvtr2ik/60.jpg"
+        },
+        {
+          "name": "Jinbe [Alternate Art] OP14-040",
+          "number": "OP14-040",
+          "price": 17.01,
+          "grade9": null,
+          "psa10": null,
+          "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/jinbe-alternate-art-op14-040",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/voh2uqfpy47ri3tz/60.jpg"
         },
         {
           "name": "Don Card [Egghead Gold]",
@@ -8151,7 +8207,7 @@
         {
           "name": "Jinbe [Alternate Art] OP14-049",
           "number": "OP14-049",
-          "price": 9.97,
+          "price": 9.99,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/jinbe-alternate-art-op14-049",
@@ -8185,6 +8241,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/n4le2xpxdxpdzd6e/60.jpg"
         },
         {
+          "name": "Dracule Mihawk OP14-119",
+          "number": "OP14-119",
+          "price": 3.88,
+          "grade9": null,
+          "psa10": null,
+          "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/dracule-mihawk-op14-119",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/k57aunmigzg3qjzf/60.jpg"
+        },
+        {
           "name": "Nami OP14-031",
           "number": "OP14-031",
           "price": 3.83,
@@ -8203,15 +8268,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/epn5xhot53nobhkd/60.jpg"
         },
         {
-          "name": "Dracule Mihawk OP14-119",
-          "number": "OP14-119",
-          "price": 3.44,
-          "grade9": null,
-          "psa10": null,
-          "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/dracule-mihawk-op14-119",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/k57aunmigzg3qjzf/60.jpg"
-        },
-        {
           "name": "Perona OP14-033",
           "number": "OP14-033",
           "price": 3.44,
@@ -8223,7 +8279,7 @@
         {
           "name": "Ms. All Sunday OP14-084",
           "number": "OP14-084",
-          "price": 2.99,
+          "price": 3.13,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/ms-all-sunday-op14-084",
@@ -8232,7 +8288,7 @@
         {
           "name": "Donquixote Doflamingo OP14-069",
           "number": "OP14-069",
-          "price": 2.38,
+          "price": 2.5,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-azure-sea%27s-seven/donquixote-doflamingo-op14-069",
@@ -8269,5 +8325,5 @@
       "box_img": "https://storage.googleapis.com/images.pricecharting.com/rg66owsenjkqfblu/60.jpg"
     }
   },
-  "last_updated": "2026-03-09T23:53:49.479323"
+  "last_updated": "2026-03-10T23:53:40.078411"
 }
