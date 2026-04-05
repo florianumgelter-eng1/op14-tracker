@@ -261,10 +261,19 @@
         [
           1775345182960,
           155253
+        ],
+        [
+          1775431748449,
+          155253
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-04-05",
+          "price": 1500.0,
+          "title": "One Piece Romance Dawn OP-01 ENGLISH Booster Box Sealed (White Bottom)[eBay]"
+        },
         {
           "date": "2026-04-04",
           "price": 1555.05,
@@ -284,11 +293,6 @@
           "date": "2026-04-01",
           "price": 1515.0,
           "title": "One Piece Romance Dawn Booster Box English OP-01 White Bottom Sealed[eBay]"
-        },
-        {
-          "date": "2026-04-01",
-          "price": 1799.99,
-          "title": "Bandai One Piece Romance Dawn OP-01 Booster Box New Sealed[eBay]"
         }
       ],
       "ebay_query": "One Piece Romance Dawn Booster Box english sealed",
@@ -357,6 +361,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/tfwzce3gqyxmyzw6/60.jpg"
         },
         {
+          "name": "Boa Hancock [SP] OP01-078",
+          "number": "OP01-078",
+          "price": 774.99,
+          "grade9": 180.0,
+          "psa10": 1597.58,
+          "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/boa-hancock-sp-op01-078",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/5mtknh64lleczvdi/60.jpg"
+        },
+        {
           "name": "Monkey.D.Luffy [Alt Art] OP01-003",
           "number": "OP01-003",
           "price": 759.06,
@@ -364,15 +377,6 @@
           "psa10": 7112.5,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/monkeydluffy-alt-art-op01-003",
           "img": "https://storage.googleapis.com/images.pricecharting.com/117c558d1021344c1ef1e9c3d011ceba258ca4be5b2827b715e5f60e34cfbd6d/60.jpg"
-        },
-        {
-          "name": "Boa Hancock [SP] OP01-078",
-          "number": "OP01-078",
-          "price": 739.14,
-          "grade9": 164.38,
-          "psa10": 1400.0,
-          "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/boa-hancock-sp-op01-078",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/5mtknh64lleczvdi/60.jpg"
         },
         {
           "name": "Nami [Special Alternate Art] OP01-016",
@@ -386,9 +390,9 @@
         {
           "name": "Roronoa Zoro [Alternate Art] OP01-001",
           "number": "OP01-001",
-          "price": 549.99,
-          "grade9": 343.84,
-          "psa10": 865.22,
+          "price": 512.61,
+          "grade9": 390.0,
+          "psa10": 842.0,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/roronoa-zoro-alternate-art-op01-001",
           "img": "https://storage.googleapis.com/images.pricecharting.com/1769e8327ab684ea8ace5b9b81f45c1894f32da81668a9e029709e7f4918272b/60.jpg"
         },
@@ -541,7 +545,7 @@
           "number": "OP01-001",
           "price": 75.41,
           "grade9": 71.95,
-          "psa10": 95.0,
+          "psa10": 120.0,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/roronoa-zoro-25th-anniversary-op01-001",
           "img": "https://storage.googleapis.com/images.pricecharting.com/c5f517d3d96ff3ec1006b28af411e00e4ca41006ac4eb4105c1bd3c45fa0cc0a/60.jpg"
         },
@@ -575,9 +579,9 @@
         {
           "name": "Monkey.D.Luffy [Alternate Art PRB01] OP01-024",
           "number": "OP01-024",
-          "price": 29.44,
+          "price": 29.49,
           "grade9": null,
-          "psa10": 120.48,
+          "psa10": 120.56,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/monkeydluffy-alternate-art-prb01-op01-024",
           "img": "https://storage.googleapis.com/images.pricecharting.com/xspcxet7v3n5c3fn/60.jpg"
         },
@@ -591,15 +595,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/6e38c2ba63c574863e34f93e1e925c611817f39fbace716381b2c083269ebec6/60.jpg"
         },
         {
-          "name": "Monkey.D.Luffy [Errata] OP01-003",
-          "number": "OP01-003",
-          "price": 22.25,
-          "grade9": 1500.0,
-          "psa10": 1800.0,
-          "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/monkeydluffy-errata-op01-003",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/wpzc6k7w6t77uswv/60.jpg"
-        },
-        {
           "name": "Shanks [PRB01] OP01-120",
           "number": "OP01-120",
           "price": 20.26,
@@ -607,6 +602,15 @@
           "psa10": 49.56,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/shanks-prb01-op01-120",
           "img": "https://storage.googleapis.com/images.pricecharting.com/ilrq565wssh6uwp2/60.jpg"
+        },
+        {
+          "name": "Monkey.D.Luffy [Errata] OP01-003",
+          "number": "OP01-003",
+          "price": 20.0,
+          "grade9": 1500.0,
+          "psa10": 1800.0,
+          "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/monkeydluffy-errata-op01-003",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/wpzc6k7w6t77uswv/60.jpg"
         },
         {
           "name": "Sanji [Alternate Art] OP01-013",
@@ -620,9 +624,9 @@
         {
           "name": "DON!! Card [Alternate Art]",
           "number": "",
-          "price": 12.13,
+          "price": 11.78,
           "grade9": 7.0,
-          "psa10": 160.96,
+          "psa10": 161.08,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/don-card-alternate-art",
           "img": "https://storage.googleapis.com/images.pricecharting.com/9ff48f893cc4efe605ce41a6549a934aad5ef98f9fdb78e65dba23601dd3c4cb/60.jpg"
         },
@@ -638,9 +642,9 @@
         {
           "name": "Shanks OP01-120",
           "number": "OP01-120",
-          "price": 7.48,
+          "price": 7.36,
           "grade9": 30.0,
-          "psa10": 110.0,
+          "psa10": 105.0,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/shanks-op01-120",
           "img": "https://storage.googleapis.com/images.pricecharting.com/jymtjpifyhcwepv3/60.jpg"
         },
@@ -692,9 +696,9 @@
         {
           "name": "Boa Hancock OP01-078",
           "number": "OP01-078",
-          "price": 1.8,
+          "price": 1.87,
           "grade9": 12.99,
-          "psa10": 78.75,
+          "psa10": 78.16,
           "url": "https://www.pricecharting.com/game/one-piece-romance-dawn/boa-hancock-op01-078",
           "img": "https://storage.googleapis.com/images.pricecharting.com/6ef1be78fd0d4ce73f4b4b81050a225c90d39daf1c2dd683a59ef99c51e6aca9/60.jpg"
         },
@@ -980,6 +984,10 @@
         [
           1775345182960,
           49750
+        ],
+        [
+          1775431748449,
+          49599
         ]
       ],
       "available": true,
@@ -1006,8 +1014,8 @@
         },
         {
           "date": "2026-04-03",
-          "price": 559.99,
-          "title": "Paramount War Booster Box OP-02 One Piece TCG Sealed[eBay]"
+          "price": 493.0,
+          "title": "Paramount War - Booster Box Unopened English[TCGPlayer]"
         }
       ],
       "ebay_query": "One Piece Paramount War Booster Box english sealed",
@@ -1195,8 +1203,8 @@
         {
           "name": "Portgas.D.Ace [Alternate Art] OP02-013",
           "number": "OP02-013",
-          "price": 52.52,
-          "grade9": 263.16,
+          "price": 54.61,
+          "grade9": 263.17,
           "psa10": 316.0,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/portgasdace-alternate-art-op02-013",
           "img": "https://storage.googleapis.com/images.pricecharting.com/6eaa6117c6f5fb138bc0e1780e54b6198e4f762b70f285380cceeec384d0e743/60.jpg"
@@ -1223,8 +1231,8 @@
           "name": "Monkey.D.Luffy [Alternate Art] OP02-041",
           "number": "OP02-041",
           "price": 27.86,
-          "grade9": 46.47,
-          "psa10": 140.0,
+          "grade9": 46.43,
+          "psa10": 145.0,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/monkeydluffy-alternate-art-op02-041",
           "img": "https://storage.googleapis.com/images.pricecharting.com/77c7468c0eaa4d8f9ebe56e572d13ce8e5f73f39565667fae91d2ed9f4a78dae/60.jpg"
         },
@@ -1339,7 +1347,7 @@
         {
           "name": "Kuzan OP02-121",
           "number": "OP02-121",
-          "price": 3.36,
+          "price": 3.89,
           "grade9": 38.0,
           "psa10": 38.55,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/kuzan-op02-121",
@@ -1348,25 +1356,34 @@
         {
           "name": "Portgas.D.Ace OP02-013",
           "number": "OP02-013",
-          "price": 3.24,
+          "price": 3.55,
           "grade9": null,
-          "psa10": 58.44,
+          "psa10": 58.97,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/portgasdace-op02-013",
           "img": "https://storage.googleapis.com/images.pricecharting.com/c89fb0f8ca17ebc10e934a0ce3178945183192d29b1a1a4258db351883b2206c/60.jpg"
         },
         {
           "name": "Monkey.D.Luffy OP02-062",
           "number": "OP02-062",
-          "price": 1.88,
+          "price": 2.0,
           "grade9": 12.75,
-          "psa10": 37.3,
+          "psa10": 37.24,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/monkeydluffy-op02-062",
           "img": "https://storage.googleapis.com/images.pricecharting.com/chnylgr432iizjnf/60.jpg"
         },
         {
+          "name": "Kouzuki Oden OP02-030",
+          "number": "OP02-030",
+          "price": 1.52,
+          "grade9": 6.5,
+          "psa10": 40.0,
+          "url": "https://www.pricecharting.com/game/one-piece-paramount-war/kouzuki-oden-op02-030",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/6e3933d746f025370a9e762234ffdfbb579514bd3feaeb0b0053bbe3edcbbb66/60.jpg"
+        },
+        {
           "name": "Edward.Newgate OP02-004",
           "number": "OP02-004",
-          "price": 1.52,
+          "price": 1.5,
           "grade9": 15.5,
           "psa10": 64.23,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/edwardnewgate-op02-004",
@@ -1382,15 +1399,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/ixvtwtzluafpqgp6/60.jpg"
         },
         {
-          "name": "Kouzuki Oden OP02-030",
-          "number": "OP02-030",
-          "price": 1.28,
-          "grade9": 6.5,
-          "psa10": 40.0,
-          "url": "https://www.pricecharting.com/game/one-piece-paramount-war/kouzuki-oden-op02-030",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/6e3933d746f025370a9e762234ffdfbb579514bd3feaeb0b0053bbe3edcbbb66/60.jpg"
-        },
-        {
           "name": "Gum-Gum Rain OP02-068",
           "number": "OP02-068",
           "price": 0.99,
@@ -1402,7 +1410,7 @@
         {
           "name": "Kuzan OP02-096",
           "number": "OP02-096",
-          "price": 0.7,
+          "price": 0.99,
           "grade9": 11.12,
           "psa10": 53.85,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/kuzan-op02-096",
@@ -1411,7 +1419,7 @@
         {
           "name": "Judgment of Hell OP02-089",
           "number": "OP02-089",
-          "price": 0.54,
+          "price": 0.55,
           "grade9": 7.11,
           "psa10": 48.0,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/judgment-of-hell-op02-089",
@@ -1449,7 +1457,7 @@
           "number": "",
           "price": 0.11,
           "grade9": 20.39,
-          "psa10": 46.53,
+          "psa10": 48.08,
           "url": "https://www.pricecharting.com/game/one-piece-paramount-war/don-card",
           "img": "https://storage.googleapis.com/images.pricecharting.com/e457b72fe15365925c9f235ef7d5e9c129b36b60564dda976262fa267e4ba5bd/60.jpg"
         }
@@ -1717,6 +1725,10 @@
         [
           1775345182960,
           54698
+        ],
+        [
+          1775431748449,
+          54698
         ]
       ],
       "available": true,
@@ -1738,13 +1750,13 @@
         },
         {
           "date": "2026-04-01",
-          "price": 585.2,
-          "title": "One Piece TCG OP-03 Pillars Of Strength Booster Box SEALED ENGLISH[eBay]"
+          "price": 523.0,
+          "title": "Pillars of Strength - Booster Box Unopened English[TCGPlayer]"
         },
         {
-          "date": "2026-03-30",
-          "price": 490.0,
-          "title": "Bandai One Piece CCG Pillars of Strength Booster Box - 24 Packs[eBay]"
+          "date": "2026-04-01",
+          "price": 585.2,
+          "title": "One Piece TCG OP-03 Pillars Of Strength Booster Box SEALED ENGLISH[eBay]"
         }
       ],
       "ebay_query": "One Piece Pillars of Strength Booster Box english sealed",
@@ -2454,6 +2466,10 @@
         [
           1775345182960,
           47036
+        ],
+        [
+          1775431748449,
+          49394
         ]
       ],
       "available": true,
@@ -2465,23 +2481,23 @@
         },
         {
           "date": "2026-04-03",
+          "price": 519.9,
+          "title": "Kingdoms of Intrigue - Booster Box Unopened English[TCGPlayer]"
+        },
+        {
+          "date": "2026-04-03",
           "price": 550.0,
           "title": "One Piece Card Game Kingdoms of Intrigue OP-04 Booster Box English[eBay]"
+        },
+        {
+          "date": "2026-04-01",
+          "price": 524.98,
+          "title": "Kingdoms of Intrigue - Booster Box Unopened English[TCGPlayer]"
         },
         {
           "date": "2026-03-31",
           "price": 456.0,
           "title": "One Piece TCG: Kingdoms Of Intrigue Booster Box OP-04 (Factory Sealed) ENGLISH[e"
-        },
-        {
-          "date": "2026-03-30",
-          "price": 435.0,
-          "title": "Bandai One Piece Card Game Kingdoms of Intrigue Booster Box English OP-04[eBay]"
-        },
-        {
-          "date": "2026-03-30",
-          "price": 499.0,
-          "title": "One Piece OP-04 Kingdoms Of Intrigue Booster Box Sealed[eBay]"
         }
       ],
       "ebay_query": "One Piece Kingdoms of Intrigue Booster Box english sealed",
@@ -3191,10 +3207,29 @@
         [
           1775345182960,
           95600
+        ],
+        [
+          1775431748449,
+          95600
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-04-05",
+          "price": 965.3,
+          "title": "ONE PIECE TCG: OP-05 AWAKENING OF THE NEW ERA Booster Box Sealed English[eBay]"
+        },
+        {
+          "date": "2026-04-04",
+          "price": 1084.0,
+          "title": "Bandai Namco One Piece Card Game Awakening of the New Era OP-05 Booster Box Eng…"
+        },
+        {
+          "date": "2026-04-04",
+          "price": 982.0,
+          "title": "Awakening of the New Era - Booster Box Unopened English[TCGPlayer]"
+        },
         {
           "date": "2026-04-03",
           "price": 835.0,
@@ -3204,21 +3239,6 @@
           "date": "2026-04-03",
           "price": 1009.0,
           "title": "One Piece CG OP-05 Awakening of the New Era Booster Box ENGLISH BRAND NEW SEALED"
-        },
-        {
-          "date": "2026-04-02",
-          "price": 960.0,
-          "title": "One Piece TCG (OP-05) Awakening of the New Era - Booster Box (SEALED)[eBay]"
-        },
-        {
-          "date": "2026-04-02",
-          "price": 920.0,
-          "title": "Bandai One Piece CCG Awakening of the New Era Booster Box - 24 Packs[eBay]"
-        },
-        {
-          "date": "2026-04-02",
-          "price": 870.0,
-          "title": "Bandai One Piece Card Game Awakening of the New Era Booster Box English OP-05[eB"
         }
       ],
       "ebay_query": "One Piece Awakening New Era Booster Box english sealed",
@@ -3916,6 +3936,10 @@
         [
           1775345182960,
           30500
+        ],
+        [
+          1775431748449,
+          30500
         ]
       ],
       "available": true,
@@ -3942,8 +3966,8 @@
         },
         {
           "date": "2026-04-02",
-          "price": 338.88,
-          "title": "One Piece TCG: Wings of the Captain (OP-06) Booster Box Sealed English[eBay]"
+          "price": 347.5,
+          "title": "Wings of the Captain - Booster Box Unopened English[TCGPlayer]"
         }
       ],
       "ebay_query": "One Piece Wings of the Captain Booster Box english sealed",
@@ -4629,6 +4653,10 @@
         [
           1775345182960,
           24428
+        ],
+        [
+          1775431748449,
+          24428
         ]
       ],
       "available": true,
@@ -4710,7 +4738,7 @@
           "name": "Monkey.D.Dragon [SP Foil] OP07-015",
           "number": "OP07-015",
           "price": 199.99,
-          "grade9": 144.67,
+          "grade9": 144.31,
           "psa10": 332.16,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/monkeyddragon-sp-foil-op07-015",
           "img": "https://storage.googleapis.com/images.pricecharting.com/gzikgxfba2sgejzm/60.jpg"
@@ -4727,11 +4755,20 @@
         {
           "name": "Roronoa Zoro [One Piece Day Dallas] OP07-113",
           "number": "OP07-113",
-          "price": 176.9,
+          "price": 173.6,
           "grade9": 140.0,
           "psa10": 427.02,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/roronoa-zoro-one-piece-day-dallas-op07-113",
           "img": "https://storage.googleapis.com/images.pricecharting.com/uifoq3cxbznqtr3s/60.jpg"
+        },
+        {
+          "name": "Monkey.D.Luffy [Treasure Rare] OP07-109",
+          "number": "OP07-109",
+          "price": 166.72,
+          "grade9": 250.0,
+          "psa10": 782.2,
+          "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/monkeydluffy-treasure-rare-op07-109",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/xx3vvlvq7qaj5ocx/60.jpg"
         },
         {
           "name": "Sanji [2nd Anniversary] OP07-064",
@@ -4741,15 +4778,6 @@
           "psa10": 134.17,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/sanji-2nd-anniversary-op07-064",
           "img": "https://storage.googleapis.com/images.pricecharting.com/jqgxpleo3y55gyda/60.jpg"
-        },
-        {
-          "name": "Monkey.D.Luffy [Treasure Rare] OP07-109",
-          "number": "OP07-109",
-          "price": 147.73,
-          "grade9": 250.0,
-          "psa10": 779.52,
-          "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/monkeydluffy-treasure-rare-op07-109",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/xx3vvlvq7qaj5ocx/60.jpg"
         },
         {
           "name": "Boa Hancock [Magazine] OP07-038",
@@ -4844,9 +4872,9 @@
         {
           "name": "Sanji [Alternate Art] OP07-064",
           "number": "OP07-064",
-          "price": 33.13,
+          "price": 32.62,
           "grade9": 23.75,
-          "psa10": 89.18,
+          "psa10": 89.1,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/sanji-alternate-art-op07-064",
           "img": "https://storage.googleapis.com/images.pricecharting.com/df45caf0b0d9e01b222cbff882a0adc45ebc8a2e0d79f720e5a07f0d6988ab3d/60.jpg"
         },
@@ -5062,7 +5090,7 @@
           "number": "OP07-015",
           "price": 1.95,
           "grade9": null,
-          "psa10": 47.5,
+          "psa10": 47.38,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/monkeyddragon-op07-015",
           "img": "https://storage.googleapis.com/images.pricecharting.com/529b074f8a91d34a69da68ad1895aa2f4b0c39e20616627560ec67ee8712b9c8/60.jpg"
         },
@@ -5087,7 +5115,7 @@
         {
           "name": "Monkey.D.Luffy OP07-073",
           "number": "OP07-073",
-          "price": 1.5,
+          "price": 1.45,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-500-years-in-the-future/monkeydluffy-op07-073",
@@ -5330,34 +5358,38 @@
         [
           1775345182960,
           20988
+        ],
+        [
+          1775431748449,
+          20988
         ]
       ],
       "available": true,
       "recent_sales": [
         {
-          "date": "2026-04-02",
-          "price": 208.5,
-          "title": "One Piece TCG (OP-08) Two Legends Booster Box (SEALED)[eBay]"
-        },
-        {
-          "date": "2026-03-31",
-          "price": 211.26,
+          "date": "2026-04-05",
+          "price": 219.45,
           "title": "Two Legends - Booster Box Unopened English[TCGPlayer]"
         },
         {
-          "date": "2026-03-30",
-          "price": 200.0,
-          "title": "Two Legends - Booster Box Unopened English[TCGPlayer]"
+          "date": "2026-04-05",
+          "price": 247.5,
+          "title": "One Piece Card Game EN - Two Legends (OP-08) Sealed Booster Box[eBay]"
         },
         {
-          "date": "2026-03-28",
-          "price": 177.59,
-          "title": "One Piece OP-08 Two Legends Booster Box 24 Packs English Sealed[eBay]"
+          "date": "2026-04-04",
+          "price": 184.83,
+          "title": "One Piece TCG – Two Legends Booster Box – OP-08 – Factory Sealed[eBay]"
         },
         {
-          "date": "2026-03-28",
-          "price": 239.0,
-          "title": "One Piece TCG: Two Legends Booster Box OP-08[eBay]"
+          "date": "2026-04-04",
+          "price": 234.99,
+          "title": "Two Legends  OP-08 One Piece TCG Eng Booster Box Factory Sealed New[eBay]"
+        },
+        {
+          "date": "2026-04-04",
+          "price": 229.99,
+          "title": "One Piece TCG OP-08 Two Legends Booster Box English Sealed[eBay]"
         }
       ],
       "ebay_query": "One Piece Two Legends Booster Box english sealed",
@@ -6019,34 +6051,38 @@
         [
           1775345182960,
           54975
+        ],
+        [
+          1775431748449,
+          54975
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-04-05",
+          "price": 509.14,
+          "title": "ONE PIECE EMPERORS IN THE NEW WORLD OP-09 ENGLISH SEALED BOOSTER BOX[eBay]"
+        },
+        {
+          "date": "2026-04-05",
+          "price": 516.31,
+          "title": "ONE PIECE EMPERORS IN THE NEW WORLD OP-09 ENGLISH SEALED BOOSTER BOX[eBay]"
+        },
+        {
+          "date": "2026-04-04",
+          "price": 55.0,
+          "title": "5 Booster Pack BUNDLE- OP-10-11-EB03-14 & PRB2 ENGLISH SEALED Unopened English[T"
+        },
         {
           "date": "2026-04-04",
           "price": 629.99,
           "title": "One Piece Emperors in the New World Booster Box OP-09 English Sealed Dblbox Ship"
         },
         {
-          "date": "2026-04-02",
-          "price": 599.99,
-          "title": "Emperors in the New World Booster Box OP09 Sealed One Piece Bandai TCG[eBay]"
-        },
-        {
-          "date": "2026-04-02",
-          "price": 599.99,
-          "title": "One Piece TCG Emperors in the New World OP-09 Sealed Booster Box English[eBay]"
-        },
-        {
-          "date": "2026-04-02",
-          "price": 423.26,
-          "title": "One Piece Card Game OP-09 Emperors in the New World Booster Box English | SEALED"
-        },
-        {
-          "date": "2026-04-02",
-          "price": 610.0,
-          "title": "One Piece TCG OP-09 Emperors In The New World Booster Box SEALED ENGLISH[eBay]"
+          "date": "2026-04-03",
+          "price": 599.94,
+          "title": "Emperors in the New World - Booster Box Unopened English[TCGPlayer]"
         }
       ],
       "ebay_query": "One Piece Emperors in the New World Booster Box english sealed",
@@ -6696,34 +6732,38 @@
         [
           1775345182960,
           21595
+        ],
+        [
+          1775431748449,
+          22057
         ]
       ],
       "available": true,
       "recent_sales": [
         {
+          "date": "2026-04-04",
+          "price": 239.99,
+          "title": "One Piece TCG: Royal Blood Booster Box [OP-10] - 24 Packs[eBay]"
+        },
+        {
+          "date": "2026-04-04",
+          "price": 200.0,
+          "title": "One Piece TCG Sealed Booster BOX [OP-10] Royal Blood[eBay]"
+        },
+        {
+          "date": "2026-04-04",
+          "price": 249.99,
+          "title": "One Piece Card Game - Royal Blood (OP-10) - Sealed Booster Box - English[eBay]"
+        },
+        {
+          "date": "2026-04-03",
+          "price": 224.73,
+          "title": "Royal Blood Booster Box Unopened English[TCGPlayer]"
+        },
+        {
           "date": "2026-04-03",
           "price": 230.0,
           "title": "One Piece TCG Royal Blood OP-10 Booster Box ENGLISH - SEALED[eBay]"
-        },
-        {
-          "date": "2026-04-01",
-          "price": 244.99,
-          "title": "One Piece OP10 Royal Blood Booster Box Factory Sealed English Edition[eBay]"
-        },
-        {
-          "date": "2026-04-01",
-          "price": 225.5,
-          "title": "One Piece TCG Royal Blood OP-10 Booster Box ENGLISH - SEALED[eBay]"
-        },
-        {
-          "date": "2026-03-31",
-          "price": 199.99,
-          "title": "Bandai Namco One Piece Royal Blood Booster Box OP-10 English Card Game[eBay]"
-        },
-        {
-          "date": "2026-03-31",
-          "price": 221.0,
-          "title": "One Piece OP-10 Royal Blood Booster Box Factory Sealed[eBay]"
         }
       ],
       "ebay_query": "One Piece Royal Blood Booster Box english sealed",
@@ -7361,10 +7401,29 @@
         [
           1775345182960,
           41000
+        ],
+        [
+          1775431748449,
+          38144
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-04-05",
+          "price": 344.93,
+          "title": "ONE PIECE A FIST OF DIVINE SPEED OP-11 ENGLISH SEALED BOOSTER BOX[eBay]"
+        },
+        {
+          "date": "2026-04-05",
+          "price": 326.28,
+          "title": "ONE PIECE A FIST OF DIVINE SPEED OP-11 ENGLISH SEALED BOOSTER BOX[eBay]"
+        },
+        {
+          "date": "2026-04-05",
+          "price": 395.0,
+          "title": "⚡️One Piece OP-11 A Fist of Divine Speed English Sealed Booster Box W Case[eBay]"
+        },
         {
           "date": "2026-04-03",
           "price": 332.0,
@@ -7374,21 +7433,6 @@
           "date": "2026-04-01",
           "price": 376.0,
           "title": "One Piece TCG: OP-11 A Fist of Divine Speed Booster Box Sealed W/ PLASTIC CASE[e"
-        },
-        {
-          "date": "2026-04-01",
-          "price": 425.0,
-          "title": "One Piece TCG OP-11 A Fist Of Divine Speed Booster Box SEALED ENGLISH[eBay]"
-        },
-        {
-          "date": "2026-03-31",
-          "price": 459.99,
-          "title": "One Piece: A FIST OF DIVINE SPEED OP-11 Booster Box English SEALED[eBay]"
-        },
-        {
-          "date": "2026-03-31",
-          "price": 425.0,
-          "title": "One Piece Card Game - A Fist Of Divine Speed (OP11) SEALED Booster Box - English"
         }
       ],
       "ebay_query": "One Piece Fist of Divine Speed Booster Box english sealed",
@@ -8018,10 +8062,29 @@
         [
           1775345182960,
           22623
+        ],
+        [
+          1775431748449,
+          22623
         ]
       ],
       "available": true,
       "recent_sales": [
+        {
+          "date": "2026-04-05",
+          "price": 61.05,
+          "title": "One Piece Card Game OP-12 Legacy of the Master Booster Box OP12 JAP SEALED[eBay]"
+        },
+        {
+          "date": "2026-04-05",
+          "price": 249.93,
+          "title": "Legacy of the Master Booster Box Unopened English[TCGPlayer]"
+        },
+        {
+          "date": "2026-04-04",
+          "price": 225.01,
+          "title": "Legacy of the Master Booster Box Unopened English[TCGPlayer]"
+        },
         {
           "date": "2026-04-03",
           "price": 114.99,
@@ -8031,21 +8094,6 @@
           "date": "2026-04-03",
           "price": 225.0,
           "title": "One Piece: Legacy of the Master (OP-12) Booster Box Factory Sealed[eBay]"
-        },
-        {
-          "date": "2026-04-02",
-          "price": 230.0,
-          "title": "One Piece Card Game Legacy of the Master OP-12 Booster Box English[eBay]"
-        },
-        {
-          "date": "2026-04-02",
-          "price": 239.99,
-          "title": "One Piece TCG Legacy of the Master OP-12 Booster Box English Sealed 24 Packs[eBa"
-        },
-        {
-          "date": "2026-04-01",
-          "price": 396.81,
-          "title": "One Piece - OP-12 Booster Box Legacy of the Master English Sealed x2[eBay]"
         }
       ],
       "ebay_query": "One Piece Legacy of the Master Booster Box english sealed",
@@ -8667,34 +8715,38 @@
         [
           1775345182960,
           53573
+        ],
+        [
+          1775431748449,
+          53573
         ]
       ],
       "available": true,
       "recent_sales": [
         {
-          "date": "2026-04-03",
-          "price": 600.0,
-          "title": "One Piece TCG: Carrying on His Will Booster Box [OP-13] - 24 Packs USA SELLER[eB"
+          "date": "2026-04-05",
+          "price": 588.97,
+          "title": "Carrying On His Will Booster Box Unopened English[TCGPlayer]"
         },
         {
-          "date": "2026-04-03",
-          "price": 570.0,
-          "title": "Auction #8 One Piece English OP-13 Carrying On His Will Booster Box Sealed[eBay]"
+          "date": "2026-04-05",
+          "price": 609.54,
+          "title": "ONE PIECE CARRYING ON HIS WILL OP-13 ENGLISH SEALED BOOSTER BOX[eBay]"
         },
         {
-          "date": "2026-04-03",
-          "price": 610.0,
-          "title": "Auction #5 One Piece English OP-13 Carrying On His Will Booster Box Sealed[eBay]"
+          "date": "2026-04-05",
+          "price": 552.17,
+          "title": "ONE PIECE CARRYING ON HIS WILL OP-13 ENGLISH SEALED BOOSTER BOX[eBay]"
         },
         {
-          "date": "2026-04-03",
-          "price": 596.0,
-          "title": "Auction #10 One Piece English OP-13 Carrying On His Will Booster Box Sealed[eBay"
+          "date": "2026-04-04",
+          "price": 586.83,
+          "title": "Carrying On His Will Booster Box Unopened English[TCGPlayer]"
         },
         {
-          "date": "2026-04-03",
-          "price": 590.0,
-          "title": "Auction #9 One Piece English OP-13 Carrying On His Will Booster Box Sealed[eBay]"
+          "date": "2026-04-04",
+          "price": 559.0,
+          "title": "One Piece OP-13 Carrying On His Will Booster Box Factory Sealed 24 Packs[eBay]"
         }
       ],
       "ebay_query": "One Piece Carrying On His Will Booster Box english sealed",
@@ -8729,7 +8781,7 @@
         {
           "name": "Monkey.D.Luffy [Manga] OP13-118",
           "number": "OP13-118",
-          "price": 1778.95,
+          "price": 1750.0,
           "grade9": 2102.4,
           "psa10": 2975.0,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-manga-op13-118",
@@ -8765,7 +8817,7 @@
         {
           "name": "Shanks [Silver] OP09-004",
           "number": "OP09-004",
-          "price": 735.0,
+          "price": 723.73,
           "grade9": null,
           "psa10": 2649.99,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/shanks-silver-op09-004",
@@ -8790,15 +8842,6 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/tp764bsheslcecpb/60.jpg"
         },
         {
-          "name": "Monkey.D.Luffy [SP] OP09-119",
-          "number": "OP09-119",
-          "price": 390.5,
-          "grade9": null,
-          "psa10": 853.33,
-          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-sp-op09-119",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/ae76xi4baz5ufcly/60.jpg"
-        },
-        {
           "name": "Monkey.D.Luffy [Wanted] OP13-118",
           "number": "OP13-118",
           "price": 360.6,
@@ -8806,6 +8849,15 @@
           "psa10": 596.27,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-wanted-op13-118",
           "img": "https://storage.googleapis.com/images.pricecharting.com/2wvn2xm4ufkvmdnj/60.jpg"
+        },
+        {
+          "name": "Monkey.D.Luffy [SP] OP09-119",
+          "number": "OP09-119",
+          "price": 358.64,
+          "grade9": null,
+          "psa10": 853.33,
+          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-sp-op09-119",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/ae76xi4baz5ufcly/60.jpg"
         },
         {
           "name": "Gol.D.Roger [Wanted] OP09-118",
@@ -8828,7 +8880,7 @@
         {
           "name": "Sabo [Wanted] OP13-120",
           "number": "OP13-120",
-          "price": 142.05,
+          "price": 145.0,
           "grade9": null,
           "psa10": 357.27,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/sabo-wanted-op13-120",
@@ -8846,9 +8898,9 @@
         {
           "name": "Sabo [SP] OP07-118",
           "number": "OP07-118",
-          "price": 100.83,
+          "price": 95.27,
           "grade9": 118.4,
-          "psa10": 332.5,
+          "psa10": 325.0,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/sabo-sp-op07-118",
           "img": "https://storage.googleapis.com/images.pricecharting.com/gmo77umkwshogeth/60.jpg"
         },
@@ -8873,7 +8925,7 @@
         {
           "name": "Lilith [SP] OP07-111",
           "number": "OP07-111",
-          "price": 67.86,
+          "price": 68.27,
           "grade9": null,
           "psa10": 322.83,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/lilith-sp-op07-111",
@@ -8891,7 +8943,7 @@
         {
           "name": "Monkey.D.Luffy [TR] OP11-058",
           "number": "OP11-058",
-          "price": 42.93,
+          "price": 42.94,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/monkeydluffy-tr-op11-058",
@@ -8925,6 +8977,15 @@
           "img": "https://storage.googleapis.com/images.pricecharting.com/eyct2ppjhireogrd/60.jpg"
         },
         {
+          "name": "Ace & Sabo & Luffy [Alternate Art] OP13-007",
+          "number": "OP13-007",
+          "price": 33.52,
+          "grade9": 49.98,
+          "psa10": 298.57,
+          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/ace-&-sabo-&-luffy-alternate-art-op13-007",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/ncwzsez34cl7ahkc/60.jpg"
+        },
+        {
           "name": "Gol.D.Roger [Alternate Art] OP13-003",
           "number": "OP13-003",
           "price": 31.89,
@@ -8936,38 +8997,29 @@
         {
           "name": "Five Elders [Alternate Art] OP13-082",
           "number": "OP13-082",
-          "price": 30.31,
+          "price": 30.52,
           "grade9": null,
-          "psa10": 118.92,
+          "psa10": 118.96,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/five-elders-alternate-art-op13-082",
           "img": "https://storage.googleapis.com/images.pricecharting.com/gd5ihdxrtifzodyn/60.jpg"
         },
         {
-          "name": "Ace & Sabo & Luffy [Alternate Art] OP13-007",
-          "number": "OP13-007",
-          "price": 29.68,
-          "grade9": null,
-          "psa10": 299.95,
-          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/ace-&-sabo-&-luffy-alternate-art-op13-007",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/ncwzsez34cl7ahkc/60.jpg"
-        },
-        {
-          "name": "Portgas.D.Ace [Alternate Art] OP13-119",
-          "number": "OP13-119",
-          "price": 28.07,
-          "grade9": 72.5,
-          "psa10": 200.7,
-          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/portgasdace-alternate-art-op13-119",
-          "img": "https://storage.googleapis.com/images.pricecharting.com/mt52rym5i5f5d3a4/60.jpg"
-        },
-        {
           "name": "Sabo [Alternate Art] OP13-120",
           "number": "OP13-120",
-          "price": 24.0,
+          "price": 27.7,
           "grade9": 750.0,
           "psa10": 900.0,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/sabo-alternate-art-op13-120",
           "img": "https://storage.googleapis.com/images.pricecharting.com/cwof7dht62jrq2xy/60.jpg"
+        },
+        {
+          "name": "Portgas.D.Ace [Alternate Art] OP13-119",
+          "number": "OP13-119",
+          "price": 25.67,
+          "grade9": 72.5,
+          "psa10": 200.63,
+          "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/portgasdace-alternate-art-op13-119",
+          "img": "https://storage.googleapis.com/images.pricecharting.com/mt52rym5i5f5d3a4/60.jpg"
         },
         {
           "name": "Monkey.D.Luffy OP13-118",
@@ -9053,7 +9105,7 @@
         {
           "name": "Uta [Alternate Art] OP13-023",
           "number": "OP13-023",
-          "price": 7.39,
+          "price": 7.66,
           "grade9": 53.0,
           "psa10": 87.85,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/uta-alternate-art-op13-023",
@@ -9107,7 +9159,7 @@
         {
           "name": "Edward.Newgate OP13-042",
           "number": "OP13-042",
-          "price": 1.81,
+          "price": 1.79,
           "grade9": null,
           "psa10": null,
           "url": "https://www.pricecharting.com/game/one-piece-carrying-on-his-will/edwardnewgate-op13-042",
@@ -9303,6 +9355,10 @@
         ],
         [
           1775345182960,
+          22999
+        ],
+        [
+          1775431748449,
           22999
         ]
       ],
@@ -9824,6 +9880,10 @@
         [
           1775345182960,
           23554
+        ],
+        [
+          1775431748449,
+          23554
         ]
       ],
       "available": true,
@@ -9831,29 +9891,29 @@
       "box_img": "https://storage.googleapis.com/images.pricecharting.com/36jshkfqgug4rzyg/240.jpg",
       "recent_sales": [
         {
-          "date": "2026-04-03",
-          "price": 211.63,
-          "title": "One Piece Card Game OP15 Adventure on Kami’s Island Booster Box English SEALED!["
+          "date": "2026-04-05",
+          "price": 233.95,
+          "title": "One Piece Card Game OP15 Adventure on Kami’s Island Booster Box English SEALED✅["
         },
         {
-          "date": "2026-04-03",
-          "price": 215.0,
-          "title": "Adventure on Kami's Island Booster Box Unopened English[TCGPlayer]"
+          "date": "2026-04-05",
+          "price": 177.28,
+          "title": "OP15 | EB04 One Piece Card Game Adventure on KAMI’s Island Booster Box ENG[eBay]"
         },
         {
-          "date": "2026-04-02",
-          "price": 244.95,
-          "title": "One Piece Card Game OP15 Adventure on Kami’s Island Booster Box English + PACK[e"
+          "date": "2026-04-05",
+          "price": 219.99,
+          "title": "One Piece TCG OP15-EB04 Adventure on Kami's Island Booster Box English UNSEALED["
         },
         {
-          "date": "2026-04-02",
-          "price": 227.01,
-          "title": "One Piece OP-15 Adventure on Kami's Island Booster Box - English - Sealed - 4/03"
+          "date": "2026-04-05",
+          "price": 259.99,
+          "title": "One Piece OP15-EB04 Adventure on Kami’s Island English Booster Box NEW SEALED[eB"
         },
         {
-          "date": "2026-04-02",
-          "price": 253.78,
-          "title": "One Piece Adventure on Kami's Island Booster Box OP15-EB04 English NEW Sealed[eB"
+          "date": "2026-04-05",
+          "price": 230.0,
+          "title": "One Piece: Adventure on Kami's Island (OP15-EB04) Booster Box PRESALE Ships 4/3["
         }
       ],
       "cards": [
@@ -10112,5 +10172,5 @@
       ]
     }
   },
-  "last_updated": "2026-04-04T23:27:17.511861"
+  "last_updated": "2026-04-05T23:30:07.291882"
 }
